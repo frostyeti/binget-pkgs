@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.58.0/lazygit_0.58.0_darwin_x86_64.tar.gz",
+      "bin": [
+        "lazygit"
+      ]
+    }
+  }
+}

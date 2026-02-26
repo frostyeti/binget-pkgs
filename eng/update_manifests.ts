@@ -555,11 +555,11 @@ ghApp.binName = { "windows-x86_64": "bin/gh.exe", "default": "bin/gh" };
 
 const lazygitApp = APPS.find(a => a.id === "lazygit")!;
 lazygitApp.assetMap = {
-    "linux-x86_64": ["Linux", "x86_64", "tar.gz"],
-    "linux-aarch64": ["Linux", "arm64", "tar.gz"],
-    "macos-x86_64": ["Darwin", "x86_64", "tar.gz"],
-    "macos-aarch64": ["Darwin", "arm64", "tar.gz"],
-    "windows-x86_64": ["Windows", "x86_64", "zip"]
+    "linux-x86_64": ["linux", "x86_64", "tar.gz"],
+    "linux-aarch64": ["linux", "arm64", "tar.gz"],
+    "macos-x86_64": ["darwin", "x86_64", "tar.gz"],
+    "macos-aarch64": ["darwin", "arm64", "tar.gz"],
+    "windows-x86_64": ["windows", "x86_64", "zip"]
 };
 
 const lazydockerApp = APPS.find(a => a.id === "lazydocker")!;
@@ -593,6 +593,16 @@ helixApp.assetMap = {
 };
 helixApp.extractDir = "helix-{{version}}-{{target}}";
 helixApp.binName = { "windows-x86_64": "hx.exe", "default": "hx" };
+
+const weztermApp = APPS.find(a => a.id === "wezterm")!;
+weztermApp.assetMap = {
+    "linux-x86_64": ["Ubuntu20.04.AppImage"],
+    "macos-x86_64": ["macos", "zip"],
+    "macos-aarch64": ["macos", "zip"],
+    "windows-x86_64": ["windows", "zip"]
+};
+weztermApp.extractDir = "";
+weztermApp.binName = { "windows-x86_64": "wezterm.exe", "default": "wezterm" };
 
 const k9sApp = APPS.find(a => a.id === "k9s")!;
 k9sApp.assetMap = {

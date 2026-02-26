@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.59.0/lazygit_0.59.0_windows_x86_64.zip",
+      "bin": [
+        "lazygit.exe"
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/wezterm/wezterm/releases/download/20230326-111934-3666303c/WezTerm-macos-20230326-111934-3666303c.zip",
+      "bin": [
+        "wezterm"
+      ]
+    }
+  }
+}

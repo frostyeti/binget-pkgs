@@ -1,0 +1,45 @@
+{
+  "latest": "20240203-110809-5046fc22",
+  "versions": [
+    {
+      "version": "20240203-110809-5046fc22",
+      "status": "active"
+    },
+    {
+      "version": "20240128-202157-1e552d76",
+      "status": "active"
+    },
+    {
+      "version": "20240127-113634-bbcac864",
+      "status": "active"
+    },
+    {
+      "version": "20230712-072601-f4abf8fd",
+      "status": "active"
+    },
+    {
+      "version": "20230408-112425-69ae8472",
+      "status": "active"
+    },
+    {
+      "version": "20230326-111934-3666303c",
+      "status": "active"
+    },
+    {
+      "version": "20230320-124340-559cb7b0",
+      "status": "active"
+    },
+    {
+      "version": "20221119-145034-49b9839f",
+      "status": "active"
+    },
+    {
+      "version": "20220905-102802-7d4b8249",
+      "status": "active"
+    },
+    {
+      "version": "20220904-064125-9a6cee2b",
+      "status": "active"
+    }
+  ]
+}

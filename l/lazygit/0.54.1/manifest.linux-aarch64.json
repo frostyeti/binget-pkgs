@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.54.1/lazygit_0.54.1_linux_arm64.tar.gz",
+      "bin": [
+        "lazygit"
+      ]
+    }
+  }
+}

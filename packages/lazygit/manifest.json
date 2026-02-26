@@ -1,0 +1,607 @@
+{
+  "$schema": "../../schema.json",
+  "name": "lazygit",
+  "description": "simple terminal UI for git commands",
+  "versions": [
+    {
+      "version": "0.59.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.59.0/lazygit_0.59.0_linux_x86_64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.59.0/lazygit_0.59.0_linux_arm64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.59.0/lazygit_0.59.0_darwin_x86_64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.59.0/lazygit_0.59.0_darwin_arm64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.59.0/lazygit_0.59.0_windows_x86_64.zip",
+              "bin": [
+                "lazygit.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.58.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.58.1/lazygit_0.58.1_linux_x86_64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.58.1/lazygit_0.58.1_linux_arm64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.58.1/lazygit_0.58.1_darwin_x86_64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.58.1/lazygit_0.58.1_darwin_arm64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.58.1/lazygit_0.58.1_windows_x86_64.zip",
+              "bin": [
+                "lazygit.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.58.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.58.0/lazygit_0.58.0_linux_x86_64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.58.0/lazygit_0.58.0_linux_arm64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.58.0/lazygit_0.58.0_darwin_x86_64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.58.0/lazygit_0.58.0_darwin_arm64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.58.0/lazygit_0.58.0_windows_x86_64.zip",
+              "bin": [
+                "lazygit.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.57.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.57.0/lazygit_0.57.0_linux_x86_64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.57.0/lazygit_0.57.0_linux_arm64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.57.0/lazygit_0.57.0_darwin_x86_64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.57.0/lazygit_0.57.0_darwin_arm64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.57.0/lazygit_0.57.0_windows_x86_64.zip",
+              "bin": [
+                "lazygit.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.56.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.56.0/lazygit_0.56.0_linux_x86_64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.56.0/lazygit_0.56.0_linux_arm64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.56.0/lazygit_0.56.0_darwin_x86_64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.56.0/lazygit_0.56.0_darwin_arm64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.56.0/lazygit_0.56.0_windows_x86_64.zip",
+              "bin": [
+                "lazygit.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.55.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.55.1/lazygit_0.55.1_linux_x86_64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.55.1/lazygit_0.55.1_linux_arm64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.55.1/lazygit_0.55.1_darwin_x86_64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.55.1/lazygit_0.55.1_darwin_arm64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.55.1/lazygit_0.55.1_windows_x86_64.zip",
+              "bin": [
+                "lazygit.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.55.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.55.0/lazygit_0.55.0_linux_x86_64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.55.0/lazygit_0.55.0_linux_arm64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.55.0/lazygit_0.55.0_darwin_x86_64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.55.0/lazygit_0.55.0_darwin_arm64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.55.0/lazygit_0.55.0_windows_x86_64.zip",
+              "bin": [
+                "lazygit.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.54.2",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.54.2/lazygit_0.54.2_linux_x86_64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.54.2/lazygit_0.54.2_linux_arm64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.54.2/lazygit_0.54.2_darwin_x86_64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.54.2/lazygit_0.54.2_darwin_arm64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.54.2/lazygit_0.54.2_windows_x86_64.zip",
+              "bin": [
+                "lazygit.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.54.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.54.1/lazygit_0.54.1_linux_x86_64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.54.1/lazygit_0.54.1_linux_arm64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.54.1/lazygit_0.54.1_darwin_x86_64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.54.1/lazygit_0.54.1_darwin_arm64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.54.1/lazygit_0.54.1_windows_x86_64.zip",
+              "bin": [
+                "lazygit.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.54.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.54.0/lazygit_0.54.0_linux_x86_64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.54.0/lazygit_0.54.0_linux_arm64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.54.0/lazygit_0.54.0_darwin_x86_64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.54.0/lazygit_0.54.0_darwin_arm64.tar.gz",
+              "bin": [
+                "lazygit"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.54.0/lazygit_0.54.0_windows_x86_64.zip",
+              "bin": [
+                "lazygit.exe"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

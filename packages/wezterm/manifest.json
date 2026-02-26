@@ -1,0 +1,464 @@
+{
+  "$schema": "../../schema.json",
+  "name": "wezterm",
+  "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez",
+  "versions": [
+    {
+      "version": "20240203-110809-5046fc22",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20240203-110809-5046fc22/WezTerm-20240203-110809-5046fc22-Ubuntu20.04.AppImage",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20240203-110809-5046fc22/WezTerm-macos-20240203-110809-5046fc22.zip",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20240203-110809-5046fc22/WezTerm-macos-20240203-110809-5046fc22.zip",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20240203-110809-5046fc22/WezTerm-windows-20240203-110809-5046fc22.zip",
+              "bin": [
+                "wezterm.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "20240128-202157-1e552d76",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20240128-202157-1e552d76/WezTerm-20240128-202157-1e552d76-Ubuntu20.04.AppImage",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20240128-202157-1e552d76/WezTerm-macos-20240128-202157-1e552d76.zip",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20240128-202157-1e552d76/WezTerm-macos-20240128-202157-1e552d76.zip",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20240128-202157-1e552d76/WezTerm-windows-20240128-202157-1e552d76.zip",
+              "bin": [
+                "wezterm.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "20240127-113634-bbcac864",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20240127-113634-bbcac864/WezTerm-20240127-113634-bbcac864-Ubuntu20.04.AppImage",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20240127-113634-bbcac864/WezTerm-macos-20240127-113634-bbcac864.zip",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20240127-113634-bbcac864/WezTerm-macos-20240127-113634-bbcac864.zip",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20240127-113634-bbcac864/WezTerm-windows-20240127-113634-bbcac864.zip",
+              "bin": [
+                "wezterm.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "20230712-072601-f4abf8fd",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20230712-072601-f4abf8fd/WezTerm-20230712-072601-f4abf8fd-Ubuntu20.04.AppImage",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20230712-072601-f4abf8fd/WezTerm-macos-20230712-072601-f4abf8fd.zip",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20230712-072601-f4abf8fd/WezTerm-macos-20230712-072601-f4abf8fd.zip",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20230712-072601-f4abf8fd/WezTerm-windows-20230712-072601-f4abf8fd.zip",
+              "bin": [
+                "wezterm.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "20230408-112425-69ae8472",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20230408-112425-69ae8472/WezTerm-20230408-112425-69ae8472-Ubuntu20.04.AppImage",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20230408-112425-69ae8472/WezTerm-macos-20230408-112425-69ae8472.zip",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20230408-112425-69ae8472/WezTerm-macos-20230408-112425-69ae8472.zip",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20230408-112425-69ae8472/WezTerm-windows-20230408-112425-69ae8472.zip",
+              "bin": [
+                "wezterm.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "20230326-111934-3666303c",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20230326-111934-3666303c/WezTerm-20230326-111934-3666303c-Ubuntu20.04.AppImage",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20230326-111934-3666303c/WezTerm-macos-20230326-111934-3666303c.zip",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20230326-111934-3666303c/WezTerm-macos-20230326-111934-3666303c.zip",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20230326-111934-3666303c/WezTerm-windows-20230326-111934-3666303c.zip",
+              "bin": [
+                "wezterm.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "20230320-124340-559cb7b0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20230320-124340-559cb7b0/WezTerm-20230320-124340-559cb7b0-Ubuntu20.04.AppImage",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20230320-124340-559cb7b0/WezTerm-macos-20230320-124340-559cb7b0.zip",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20230320-124340-559cb7b0/WezTerm-macos-20230320-124340-559cb7b0.zip",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20230320-124340-559cb7b0/WezTerm-windows-20230320-124340-559cb7b0.zip",
+              "bin": [
+                "wezterm.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "20221119-145034-49b9839f",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20221119-145034-49b9839f/WezTerm-macos-20221119-145034-49b9839f.zip",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20221119-145034-49b9839f/WezTerm-macos-20221119-145034-49b9839f.zip",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20221119-145034-49b9839f/WezTerm-windows-20221119-145034-49b9839f.zip",
+              "bin": [
+                "wezterm.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "20220905-102802-7d4b8249",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20220905-102802-7d4b8249/WezTerm-macos-20220905-102802-7d4b8249.zip",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20220905-102802-7d4b8249/WezTerm-macos-20220905-102802-7d4b8249.zip",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20220905-102802-7d4b8249/WezTerm-windows-20220905-102802-7d4b8249.zip",
+              "bin": [
+                "wezterm.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "20220904-064125-9a6cee2b",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20220904-064125-9a6cee2b/WezTerm-macos-20220904-064125-9a6cee2b.zip",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20220904-064125-9a6cee2b/WezTerm-macos-20220904-064125-9a6cee2b.zip",
+              "bin": [
+                "wezterm"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/wezterm/wezterm/releases/download/20220904-064125-9a6cee2b/WezTerm-windows-20220904-064125-9a6cee2b.zip",
+              "bin": [
+                "wezterm.exe"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

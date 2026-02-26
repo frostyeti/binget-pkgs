@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/wezterm/wezterm/releases/download/20220905-102802-7d4b8249/WezTerm-macos-20220905-102802-7d4b8249.zip",
+      "bin": [
+        "wezterm"
+      ]
+    }
+  }
+}

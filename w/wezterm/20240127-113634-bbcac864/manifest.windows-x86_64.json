@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/wezterm/wezterm/releases/download/20240127-113634-bbcac864/WezTerm-windows-20240127-113634-bbcac864.zip",
+      "bin": [
+        "wezterm.exe"
+      ]
+    }
+  }
+}
