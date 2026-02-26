@@ -1,0 +1,24 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "raw",
+      "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-windows-amd64.exe",
+      "checksum": "sha256:f12a2df14ee47c9451000cfad1f253ffb24345d3c8cde4f738f61536b043b44b",
+      "bin": [
+        "jq.exe"
+      ]
+    },
+    "user": {
+      "type": "raw",
+      "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-windows-amd64.exe",
+      "checksum": "sha256:f12a2df14ee47c9451000cfad1f253ffb24345d3c8cde4f738f61536b043b44b",
+      "bin": [
+        "jq.exe"
+      ]
+    },
+    "global": {
+      "type": "winget",
+      "package": "jqlang.jq"
+    }
+  }
+}

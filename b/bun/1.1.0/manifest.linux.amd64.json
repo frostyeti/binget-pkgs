@@ -1,0 +1,31 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "format": "zip",
+      "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.1.0/bun-linux-x64.zip",
+      "extract_dir": "bun-linux-x64",
+      "bin": [
+        "bun"
+      ]
+    },
+    "user": {
+      "type": "archive",
+      "format": "zip",
+      "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.1.0/bun-linux-x64.zip",
+      "extract_dir": "bun-linux-x64",
+      "bin": [
+        "bun"
+      ]
+    },
+    "global": {
+      "type": "archive",
+      "format": "zip",
+      "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.1.0/bun-linux-x64.zip",
+      "extract_dir": "bun-linux-x64",
+      "bin": [
+        "bun"
+      ]
+    }
+  }
+}
