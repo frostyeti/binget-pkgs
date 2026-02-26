@@ -1,0 +1,13 @@
+id: jq
+name: jq
+version: 1.7.1
+author: jqlang
+homepage: https://jqlang.github.io/jq/
+license: MIT
+description: Lightweight and flexible command-line JSON processor.
+platforms:
+  - linux.amd64
+  - linux.aarch64
+  - darwin.amd64
+  - darwin.aarch64
+  - windows.amd64
