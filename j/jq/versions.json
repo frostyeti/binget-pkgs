@@ -1,0 +1,24 @@
+{
+  "latest": "1.7.1",
+  "versions": [
+    {
+      "version": "1.7.1",
+      "status": "stable"
+    },
+    {
+      "version": "1.7",
+      "status": "stable"
+    },
+    {
+      "version": "1.6",
+      "status": "stable",
+      "cves": [
+        {
+          "id": "CVE-2023-50246",
+          "score": 7.5,
+          "description": "Heap-based buffer overflow in jv_dump_term"
+        }
+      ]
+    }
+  ]
+}
