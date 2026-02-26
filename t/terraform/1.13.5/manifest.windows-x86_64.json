@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://releases.hashicorp.com/terraform/1.13.5/terraform_1.13.5_windows_amd64.zip",
+      "extract_dir": "",
+      "bin": [
+        "terraform.exe"
+      ]
+    }
+  }
+}

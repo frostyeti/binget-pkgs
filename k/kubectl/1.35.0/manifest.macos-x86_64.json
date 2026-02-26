@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "raw",
+      "url": "https://dl.k8s.io/release/v1.35.0/bin/darwin/amd64/kubectl",
+      "bin": [
+        "kubectl"
+      ]
+    }
+  }
+}

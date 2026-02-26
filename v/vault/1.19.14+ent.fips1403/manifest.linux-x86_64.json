@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://releases.hashicorp.com/vault/1.19.14+ent.fips1403/vault_1.19.14+ent.fips1403_linux_amd64.zip",
+      "extract_dir": "",
+      "bin": [
+        "vault"
+      ]
+    }
+  }
+}

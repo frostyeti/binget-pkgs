@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://releases.hashicorp.com/consul/1.21.9+ent.fips1402/consul_1.21.9+ent.fips1402_linux_amd64.zip",
+      "extract_dir": "",
+      "bin": [
+        "consul"
+      ]
+    }
+  }
+}

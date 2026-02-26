@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "raw",
+      "url": "https://github.com/helix-editor/helix/releases/download/24.07/helix-24.07-aarch64-linux.tar.xz",
+      "extract_dir": "helix-24.07-aarch64-unknown-linux-musl",
+      "bin": [
+        "hx"
+      ]
+    }
+  }
+}

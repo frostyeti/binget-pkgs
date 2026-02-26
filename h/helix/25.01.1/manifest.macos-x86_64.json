@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "raw",
+      "url": "https://github.com/helix-editor/helix/releases/download/25.01.1/helix-25.01.1-x86_64-macos.tar.xz",
+      "extract_dir": "helix-25.01.1-x86_64-apple-darwin",
+      "bin": [
+        "hx"
+      ]
+    }
+  }
+}

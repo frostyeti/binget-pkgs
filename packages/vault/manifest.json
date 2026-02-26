@@ -1,0 +1,550 @@
+{
+  "$schema": "../../schema.json",
+  "name": "vault",
+  "description": "A tool for secrets management, encryption as a service, and privileged access management",
+  "versions": [
+    {
+      "version": "1.21.3+ent.hsm.fips1403",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.21.3+ent.hsm.fips1403/vault_1.21.3+ent.hsm.fips1403_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.21.3+ent.hsm.fips1403/vault_1.21.3+ent.hsm.fips1403_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.21.3+ent.hsm",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.21.3+ent.hsm/vault_1.21.3+ent.hsm_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.21.3+ent.hsm/vault_1.21.3+ent.hsm_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.21.3+ent.fips1403",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.21.3+ent.fips1403/vault_1.21.3+ent.fips1403_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.21.3+ent.fips1403/vault_1.21.3+ent.fips1403_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.21.3+ent",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.21.3+ent/vault_1.21.3+ent_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.21.3+ent/vault_1.21.3+ent_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.21.3+ent/vault_1.21.3+ent_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.21.3+ent/vault_1.21.3+ent_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.21.3+ent/vault_1.21.3+ent_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.21.3",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.21.3/vault_1.21.3_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.21.3/vault_1.21.3_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.21.3/vault_1.21.3_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.21.3/vault_1.21.3_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.21.3/vault_1.21.3_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.20.8+ent.hsm.fips1403",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.20.8+ent.hsm.fips1403/vault_1.20.8+ent.hsm.fips1403_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.20.8+ent.hsm.fips1403/vault_1.20.8+ent.hsm.fips1403_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.20.8+ent.hsm",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.20.8+ent.hsm/vault_1.20.8+ent.hsm_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.20.8+ent.hsm/vault_1.20.8+ent.hsm_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.20.8+ent.fips1403",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.20.8+ent.fips1403/vault_1.20.8+ent.fips1403_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.20.8+ent.fips1403/vault_1.20.8+ent.fips1403_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.19.14+ent.hsm.fips1403",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.19.14+ent.hsm.fips1403/vault_1.19.14+ent.hsm.fips1403_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.19.14+ent.hsm.fips1403/vault_1.19.14+ent.hsm.fips1403_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.19.14+ent.hsm",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.19.14+ent.hsm/vault_1.19.14+ent.hsm_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.19.14+ent.hsm/vault_1.19.14+ent.hsm_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.19.14+ent.fips1403",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.19.14+ent.fips1403/vault_1.19.14+ent.fips1403_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.19.14+ent.fips1403/vault_1.19.14+ent.fips1403_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.19.14+ent",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.19.14+ent/vault_1.19.14+ent_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.19.14+ent/vault_1.19.14+ent_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.19.14+ent/vault_1.19.14+ent_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.19.14+ent/vault_1.19.14+ent_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.19.14+ent/vault_1.19.14+ent_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.16.30+ent.hsm.fips1403",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.16.30+ent.hsm.fips1403/vault_1.16.30+ent.hsm.fips1403_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.16.30+ent.hsm.fips1403/vault_1.16.30+ent.hsm.fips1403_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.16.30+ent.hsm",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.16.30+ent.hsm/vault_1.16.30+ent.hsm_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.16.30+ent.hsm/vault_1.16.30+ent.hsm_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.16.30+ent.fips1403",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.16.30+ent.fips1403/vault_1.16.30+ent.fips1403_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/vault/1.16.30+ent.fips1403/vault_1.16.30+ent.fips1403_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "vault"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

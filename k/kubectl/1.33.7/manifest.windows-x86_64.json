@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "raw",
+      "url": "https://dl.k8s.io/release/v1.33.7/bin/windows/amd64/kubectl.exe",
+      "bin": [
+        "kubectl.exe"
+      ]
+    }
+  }
+}

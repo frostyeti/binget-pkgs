@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/neovim/neovim/releases/download/stable/nvim-linux-arm64.tar.gz",
+      "extract_dir": "nvim-linux-arm64",
+      "bin": [
+        "bin/nvim"
+      ]
+    }
+  }
+}

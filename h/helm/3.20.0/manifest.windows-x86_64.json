@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://get.helm.sh/helm-v3.20.0-windows-amd64.zip",
+      "extract_dir": "windows-amd64",
+      "bin": [
+        "helm.exe"
+      ]
+    }
+  }
+}

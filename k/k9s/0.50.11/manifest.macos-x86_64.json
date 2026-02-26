@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/derailed/k9s/releases/download/v0.50.11/k9s_Darwin_amd64.tar.gz",
+      "bin": [
+        "k9s"
+      ]
+    }
+  }
+}

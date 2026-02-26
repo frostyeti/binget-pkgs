@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://releases.hashicorp.com/consul/1.18.19+ent.fips1402/consul_1.18.19+ent.fips1402_windows_amd64.zip",
+      "extract_dir": "",
+      "bin": [
+        "consul.exe"
+      ]
+    }
+  }
+}

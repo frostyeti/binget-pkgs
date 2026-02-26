@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/neovim/neovim/releases/download/v0.11.1/nvim-win64.zip",
+      "extract_dir": "nvim-windows-amd64",
+      "bin": [
+        "bin/nvim.exe"
+      ]
+    }
+  }
+}

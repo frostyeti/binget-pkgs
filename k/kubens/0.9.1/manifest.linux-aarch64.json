@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/ahmetb/kubectx/releases/download/v0.9.1/kubens_v0.9.1_linux_arm64.tar.gz",
+      "bin": [
+        "kubens"
+      ]
+    }
+  }
+}

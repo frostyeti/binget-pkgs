@@ -1,0 +1,37 @@
+{
+  "latest": "1.22.3+ent.fips1402",
+  "versions": [
+    {
+      "version": "1.22.3+ent.fips1402",
+      "status": "active"
+    },
+    {
+      "version": "1.22.3+ent",
+      "status": "active"
+    },
+    {
+      "version": "1.22.3",
+      "status": "active"
+    },
+    {
+      "version": "1.22.2",
+      "status": "active"
+    },
+    {
+      "version": "1.21.9+ent.fips1402",
+      "status": "active"
+    },
+    {
+      "version": "1.21.9+ent",
+      "status": "active"
+    },
+    {
+      "version": "1.18.19+ent.fips1402",
+      "status": "active"
+    },
+    {
+      "version": "1.18.19+ent",
+      "status": "active"
+    }
+  ]
+}

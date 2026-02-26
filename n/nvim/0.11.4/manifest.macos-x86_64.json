@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/neovim/neovim/releases/download/v0.11.4/nvim-macos-x86_64.tar.gz",
+      "extract_dir": "nvim-macOS-amd64",
+      "bin": [
+        "bin/nvim"
+      ]
+    }
+  }
+}

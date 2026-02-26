@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://releases.hashicorp.com/consul/1.22.3+ent/consul_1.22.3+ent_darwin_amd64.zip",
+      "extract_dir": "",
+      "bin": [
+        "consul"
+      ]
+    }
+  }
+}

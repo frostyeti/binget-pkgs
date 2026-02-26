@@ -1,0 +1,607 @@
+{
+  "$schema": "../../schema.json",
+  "name": "k9s",
+  "description": "Kubernetes CLI To Manage Your Clusters In Style!",
+  "versions": [
+    {
+      "version": "0.50.18",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.18/k9s_Linux_amd64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.18/k9s_Linux_arm64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.18/k9s_Darwin_amd64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.18/k9s_Darwin_arm64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.18/k9s_Windows_amd64.zip",
+              "bin": [
+                "k9s.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.50.17",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.17/k9s_Linux_amd64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.17/k9s_Linux_arm64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.17/k9s_Darwin_amd64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.17/k9s_Darwin_arm64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.17/k9s_Windows_amd64.zip",
+              "bin": [
+                "k9s.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.50.16",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.16/k9s_Linux_amd64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.16/k9s_Linux_arm64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.16/k9s_Darwin_amd64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.16/k9s_Darwin_arm64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.16/k9s_Windows_amd64.zip",
+              "bin": [
+                "k9s.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.50.15",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.15/k9s_Linux_amd64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.15/k9s_Linux_arm64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.15/k9s_Darwin_amd64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.15/k9s_Darwin_arm64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.15/k9s_Windows_amd64.zip",
+              "bin": [
+                "k9s.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.50.14",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.14/k9s_Linux_amd64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.14/k9s_Linux_arm64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.14/k9s_Darwin_amd64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.14/k9s_Darwin_arm64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.14/k9s_Windows_amd64.zip",
+              "bin": [
+                "k9s.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.50.13",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.13/k9s_Linux_amd64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.13/k9s_Linux_arm64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.13/k9s_Darwin_amd64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.13/k9s_Darwin_arm64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.13/k9s_Windows_amd64.zip",
+              "bin": [
+                "k9s.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.50.12",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.12/k9s_Linux_amd64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.12/k9s_Linux_arm64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.12/k9s_Darwin_amd64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.12/k9s_Darwin_arm64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.12/k9s_Windows_amd64.zip",
+              "bin": [
+                "k9s.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.50.11",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.11/k9s_Linux_amd64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.11/k9s_Linux_arm64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.11/k9s_Darwin_amd64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.11/k9s_Darwin_arm64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.11/k9s_Windows_amd64.zip",
+              "bin": [
+                "k9s.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.50.10",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.10/k9s_Linux_amd64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.10/k9s_Linux_arm64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.10/k9s_Darwin_amd64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.10/k9s_Darwin_arm64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.10/k9s_Windows_amd64.zip",
+              "bin": [
+                "k9s.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.50.9",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.9/k9s_Linux_amd64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.9/k9s_Linux_arm64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.9/k9s_Darwin_amd64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.9/k9s_Darwin_arm64.tar.gz",
+              "bin": [
+                "k9s"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/derailed/k9s/releases/download/v0.50.9/k9s_Windows_amd64.zip",
+              "bin": [
+                "k9s.exe"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

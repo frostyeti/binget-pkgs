@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://releases.hashicorp.com/terraform/1.14.0/terraform_1.14.0_darwin_amd64.zip",
+      "extract_dir": "",
+      "bin": [
+        "terraform"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "raw",
+      "url": "https://github.com/helix-editor/helix/releases/download/25.07/helix-25.07-aarch64-macos.tar.xz",
+      "extract_dir": "helix-25.07-aarch64-apple-darwin",
+      "bin": [
+        "hx"
+      ]
+    }
+  }
+}

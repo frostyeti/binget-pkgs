@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/pulumi/pulumi/releases/download/v3.222.0/pulumi-v3.222.0-windows-x64.zip",
+      "extract_dir": "pulumi",
+      "bin": [
+        "pulumi.exe"
+      ]
+    }
+  }
+}

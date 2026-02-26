@@ -1,0 +1,607 @@
+{
+  "$schema": "../../schema.json",
+  "name": "kind",
+  "description": "Kubernetes IN Docker - local clusters for testing Kubernetes",
+  "versions": [
+    {
+      "version": "0.31.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.31.0/kind-linux-amd64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.31.0/kind-linux-arm64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.31.0/kind-darwin-amd64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.31.0/kind-darwin-arm64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.31.0/kind-windows-amd64",
+              "bin": [
+                "kind.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.30.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-linux-amd64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-linux-arm64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-darwin-amd64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-darwin-arm64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.30.0/kind-windows-amd64",
+              "bin": [
+                "kind.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.29.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.29.0/kind-linux-amd64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.29.0/kind-linux-arm64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.29.0/kind-darwin-amd64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.29.0/kind-darwin-arm64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.29.0/kind-windows-amd64",
+              "bin": [
+                "kind.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.28.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.28.0/kind-linux-amd64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.28.0/kind-linux-arm64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.28.0/kind-darwin-amd64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.28.0/kind-darwin-arm64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.28.0/kind-windows-amd64",
+              "bin": [
+                "kind.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.27.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.27.0/kind-linux-amd64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.27.0/kind-linux-arm64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.27.0/kind-darwin-amd64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.27.0/kind-darwin-arm64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.27.0/kind-windows-amd64",
+              "bin": [
+                "kind.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.26.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.26.0/kind-linux-amd64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.26.0/kind-linux-arm64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.26.0/kind-darwin-amd64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.26.0/kind-darwin-arm64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.26.0/kind-windows-amd64",
+              "bin": [
+                "kind.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.25.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-linux-amd64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-linux-arm64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-darwin-amd64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-darwin-arm64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.25.0/kind-windows-amd64",
+              "bin": [
+                "kind.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.24.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.24.0/kind-linux-amd64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.24.0/kind-linux-arm64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.24.0/kind-darwin-amd64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.24.0/kind-darwin-arm64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.24.0/kind-windows-amd64",
+              "bin": [
+                "kind.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.23.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.23.0/kind-linux-amd64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.23.0/kind-linux-arm64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.23.0/kind-darwin-amd64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.23.0/kind-darwin-arm64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.23.0/kind-windows-amd64",
+              "bin": [
+                "kind.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.22.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.22.0/kind-linux-amd64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.22.0/kind-linux-arm64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.22.0/kind-darwin-amd64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.22.0/kind-darwin-arm64",
+              "bin": [
+                "kind"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.22.0/kind-windows-amd64",
+              "bin": [
+                "kind.exe"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -67,6 +67,85 @@ function goApp(id: string, githubRepo: string, description: string): AppDef {
     };
 }
 
+function hashicorpApp(id: string, description: string): AppDef {
+    return {
+        id,
+        description,
+        customHandler: async () => {
+            const url = `https://api.releases.hashicorp.com/v1/releases/${id}?limit=15`;
+            const res = await fetch(url);
+            if (!res.ok) throw new Error(`Failed to fetch Hashicorp releases for ${id}`);
+            const data = await res.json();
+            
+            const versions = [];
+            for (const release of data) {
+                if (release.is_prerelease || !release.builds) continue;
+                const version = release.version;
+                
+                const platforms: Record<string, any> = {};
+                
+                for (const build of release.builds) {
+                    let platKey = "";
+                    if (build.os === "linux" && build.arch === "amd64") platKey = "linux-x86_64";
+                    else if (build.os === "linux" && build.arch === "arm64") platKey = "linux-aarch64";
+                    else if (build.os === "darwin" && build.arch === "amd64") platKey = "macos-x86_64";
+                    else if (build.os === "darwin" && build.arch === "arm64") platKey = "macos-aarch64";
+                    else if (build.os === "windows" && build.arch === "amd64") platKey = "windows-x86_64";
+                    
+                    if (platKey) {
+                        const bin = build.os === "windows" ? `${id}.exe` : id;
+                        platforms[platKey] = {
+                            install_modes: {
+                                shim: {
+                                    type: "archive",
+                                    url: build.url,
+                                    extract_dir: "",
+                                    bin: [bin]
+                                }
+                            }
+                        };
+                    }
+                }
+                
+                if (Object.keys(platforms).length > 0) {
+                    versions.push({ version, platforms });
+                    try { db.query("INSERT OR IGNORE INTO package_versions (id, version, tag_name, published_at) VALUES (?, ?, ?, ?)", [id, version, version, release.timestamp_created]); } catch (e) {}
+                }
+            }
+            
+            if (versions.length > 0) {
+                const c = id.charAt(0).toLowerCase();
+                const appDir = join(c, id);
+                await ensureDir(appDir);
+
+                versions.sort((a, b) => b.version.localeCompare(a.version, undefined, { numeric: true, sensitivity: 'base' }));
+                const latestVersion = versions[0].version;
+
+                const versionsJson = {
+                    latest: latestVersion,
+                    versions: versions.map(v => ({ version: v.version, status: "active" }))
+                };
+                await Deno.writeTextFile(join(appDir, "versions.json"), JSON.stringify(versionsJson, null, 2));
+
+                for (const v of versions) {
+                    const verDir = join(appDir, v.version);
+                    await ensureDir(verDir);
+                    for (const [plat, platformData] of Object.entries(v.platforms)) {
+                        const manifestPath = join(verDir, `manifest.${plat}.json`);
+                        await Deno.writeTextFile(manifestPath, JSON.stringify(platformData, null, 2));
+                    }
+                }
+                
+                const pkgDir = join("packages", id);
+                await ensureDir(pkgDir);
+                await Deno.writeTextFile(join(pkgDir, "manifest.json"), JSON.stringify({ $schema: "../../schema.json", name: id, description, versions }, null, 2));
+                
+                console.log(`Wrote manifests for ${id} with ${versions.length} versions`);
+            }
+        }
+    };
+}
+
 const APPS: AppDef[] = [
     rustApp("just", "casey/just", "just a command runner"),
     rustApp("bat", "sharkdp/bat", "A cat(1) clone with wings"),
@@ -92,7 +171,323 @@ const APPS: AppDef[] = [
     goApp("sopsv", "frostyeti/sopsv", "SOPS Vault"),
     goApp("akv", "frostyeti/akv", "Azure Key Vault CLI"),
     goApp("dn", "frostyeti/dn", "Dotnet CLI helper"),
+
+    {
+        id: "kubectx",
+        description: "Switch faster between clusters and namespaces in kubectl",
+        githubRepo: "ahmetb/kubectx",
+        assetMap: {
+            "linux-x86_64": ["kubectx", "linux", "x86_64", "tar.gz"],
+            "linux-aarch64": ["kubectx", "linux", "arm64", "tar.gz"],
+            "macos-x86_64": ["kubectx", "darwin", "x86_64", "tar.gz"],
+            "macos-aarch64": ["kubectx", "darwin", "arm64", "tar.gz"],
+            "windows-x86_64": ["kubectx", "windows", "x86_64", "zip"]
+        },
+        extractDir: "",
+        binName: { "windows-x86_64": "kubectx.exe", "default": "kubectx" }
+    },
+    {
+        id: "kubens",
+        description: "Switch faster between clusters and namespaces in kubectl",
+        githubRepo: "ahmetb/kubectx",
+        assetMap: {
+            "linux-x86_64": ["kubens", "linux", "x86_64", "tar.gz"],
+            "linux-aarch64": ["kubens", "linux", "arm64", "tar.gz"],
+            "macos-x86_64": ["kubens", "darwin", "x86_64", "tar.gz"],
+            "macos-aarch64": ["kubens", "darwin", "arm64", "tar.gz"],
+            "windows-x86_64": ["kubens", "windows", "x86_64", "zip"]
+        },
+        extractDir: "",
+        binName: { "windows-x86_64": "kubens.exe", "default": "kubens" }
+    },
+    {
+        id: "kind",
+        description: "Kubernetes IN Docker - local clusters for testing Kubernetes",
+        githubRepo: "kubernetes-sigs/kind",
+        assetMap: {
+            "linux-x86_64": ["kind-linux-amd64"],
+            "linux-aarch64": ["kind-linux-arm64"],
+            "macos-x86_64": ["kind-darwin-amd64"],
+            "macos-aarch64": ["kind-darwin-arm64"],
+            "windows-x86_64": ["kind-windows-amd64"]
+        },
+        extractDir: "",
+        binName: { "windows-x86_64": "kind.exe", "default": "kind" }
+    },
+    {
+        id: "minikube",
+        description: "Run Kubernetes locally",
+        githubRepo: "kubernetes/minikube",
+        assetMap: {
+            "linux-x86_64": ["minikube-linux-amd64.tar.gz"],
+            "linux-aarch64": ["minikube-linux-arm64.tar.gz"],
+            "macos-x86_64": ["minikube-darwin-amd64.tar.gz"],
+            "macos-aarch64": ["minikube-darwin-arm64.tar.gz"],
+            "windows-x86_64": ["minikube-windows-amd64.tar.gz"]
+        },
+        extractDir: "",
+        binName: { "windows-x86_64": "minikube.exe", "default": "minikube" }
+    },
+    {
+        id: "btop",
+        description: "A monitor of resources",
+        githubRepo: "aristocratos/btop",
+        assetMap: {
+            "linux-x86_64": ["btop-x86_64-unknown-linux-musl.tbz"],
+            "linux-aarch64": ["btop-aarch64-unknown-linux-musl.tbz"],
+            "macos-x86_64": ["btop-x86_64-apple-darwin.tbz"],
+            "macos-aarch64": ["btop-aarch64-apple-darwin.tbz"]
+        },
+        extractDir: "btop",
+        binName: "bin/btop"
+    },
+    {
+        id: "nvim",
+        description: "Vim-fork focused on extensibility and usability",
+        githubRepo: "neovim/neovim",
+        assetMap: {
+            "linux-x86_64": ["nvim-linux-x86_64.tar.gz", "nvim-linux64.tar.gz"],
+            "linux-aarch64": ["nvim-linux-arm64.tar.gz"],
+            "macos-x86_64": ["nvim-macos-x86_64.tar.gz"],
+            "macos-aarch64": ["nvim-macos-arm64.tar.gz"],
+            "windows-x86_64": ["nvim-win64.zip"]
+        },
+        extractDir: "nvim-{{os}}-{{arch}}",
+        binName: { "windows-x86_64": "bin/nvim.exe", "default": "bin/nvim" }
+    },
+    {
+        id: "docker-compose",
+        description: "Define and run multi-container applications with Docker",
+        githubRepo: "docker/compose",
+        assetMap: {
+            "linux-x86_64": ["docker-compose-linux-x86_64"],
+            "linux-aarch64": ["docker-compose-linux-aarch64"],
+            "macos-x86_64": ["docker-compose-darwin-x86_64"],
+            "macos-aarch64": ["docker-compose-darwin-aarch64"],
+            "windows-x86_64": ["docker-compose-windows-x86_64.exe"]
+        },
+        extractDir: "",
+        binName: { "windows-x86_64": "docker-compose.exe", "default": "docker-compose" }
+    },
+    {
+        id: "pulumi",
+        description: "Pulumi - Infrastructure as Code in any programming language",
+        githubRepo: "pulumi/pulumi",
+        assetMap: {
+            "linux-x86_64": ["linux-x64.tar.gz"],
+            "linux-aarch64": ["linux-arm64.tar.gz"],
+            "macos-x86_64": ["darwin-x64.tar.gz"],
+            "macos-aarch64": ["darwin-arm64.tar.gz"],
+            "windows-x86_64": ["windows-x64.zip"]
+        },
+        extractDir: "pulumi",
+        binName: { "windows-x86_64": "pulumi.exe", "default": "pulumi" }
+    },
+
     
+    hashicorpApp("terraform", "Terraform is an infrastructure as code tool"),
+    hashicorpApp("packer", "Packer is a tool for creating identical machine images for multiple platforms from a single source configuration"),
+    hashicorpApp("vault", "A tool for secrets management, encryption as a service, and privileged access management"),
+    hashicorpApp("consul", "Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure"),
+
+    {
+        id: "helm",
+        description: "The Kubernetes Package Manager",
+        githubRepo: "helm/helm",
+        customHandler: async () => {
+            const releases = await fetchGitHubReleases("helm/helm");
+            const versions = [];
+            for (const release of releases) {
+                if (release.draft || release.prerelease) continue;
+                let version = release.tag_name;
+                if (version.startsWith("v")) version = version.substring(1);
+                
+                const platforms: Record<string, any> = {
+                    "linux-x86_64": {
+                        install_modes: {
+                            shim: {
+                                type: "archive",
+                                url: `https://get.helm.sh/helm-v${version}-linux-amd64.tar.gz`,
+                                extract_dir: "linux-amd64",
+                                bin: ["helm"]
+                            }
+                        }
+                    },
+                    "linux-aarch64": {
+                        install_modes: {
+                            shim: {
+                                type: "archive",
+                                url: `https://get.helm.sh/helm-v${version}-linux-arm64.tar.gz`,
+                                extract_dir: "linux-arm64",
+                                bin: ["helm"]
+                            }
+                        }
+                    },
+                    "macos-x86_64": {
+                        install_modes: {
+                            shim: {
+                                type: "archive",
+                                url: `https://get.helm.sh/helm-v${version}-darwin-amd64.tar.gz`,
+                                extract_dir: "darwin-amd64",
+                                bin: ["helm"]
+                            }
+                        }
+                    },
+                    "macos-aarch64": {
+                        install_modes: {
+                            shim: {
+                                type: "archive",
+                                url: `https://get.helm.sh/helm-v${version}-darwin-arm64.tar.gz`,
+                                extract_dir: "darwin-arm64",
+                                bin: ["helm"]
+                            }
+                        }
+                    },
+                    "windows-x86_64": {
+                        install_modes: {
+                            shim: {
+                                type: "archive",
+                                url: `https://get.helm.sh/helm-v${version}-windows-amd64.zip`,
+                                extract_dir: "windows-amd64",
+                                bin: ["helm.exe"]
+                            }
+                        }
+                    }
+                };
+                versions.push({ version, platforms });
+                try { db.query("INSERT OR IGNORE INTO package_versions (id, version, tag_name, published_at) VALUES (?, ?, ?, ?)", ["helm", version, release.tag_name, release.published_at]); } catch (e) {}
+            }
+            if (versions.length > 0) {
+                const app = { id: "helm", description: "The Kubernetes Package Manager" };
+                const c = app.id.charAt(0).toLowerCase();
+                const appDir = join(c, app.id);
+                await ensureDir(appDir);
+
+                versions.sort((a, b) => b.version.localeCompare(a.version, undefined, { numeric: true, sensitivity: 'base' }));
+                const latestVersion = versions[0].version;
+
+                const versionsJson = {
+                    latest: latestVersion,
+                    versions: versions.map(v => ({ version: v.version, status: "active" }))
+                };
+                await Deno.writeTextFile(join(appDir, "versions.json"), JSON.stringify(versionsJson, null, 2));
+
+                for (const v of versions) {
+                    const verDir = join(appDir, v.version);
+                    await ensureDir(verDir);
+                    for (const [plat, platformData] of Object.entries(v.platforms)) {
+                        const manifestPath = join(verDir, `manifest.${plat}.json`);
+                        await Deno.writeTextFile(manifestPath, JSON.stringify(platformData, null, 2));
+                    }
+                }
+                
+                const pkgDir = join("packages", app.id);
+                await ensureDir(pkgDir);
+                await Deno.writeTextFile(join(pkgDir, "manifest.json"), JSON.stringify({ $schema: "../../schema.json", name: app.id, description: app.description, versions }, null, 2));
+                
+                console.log(`Wrote manifests for helm with ${versions.length} versions`);
+            }
+        }
+    },
+    {
+        id: "kubectl",
+        description: "Kubernetes cluster command line utility",
+        githubRepo: "kubernetes/kubernetes",
+        customHandler: async () => {
+            const releases = await fetchGitHubReleases("kubernetes/kubernetes");
+            const versions = [];
+            
+            for (const release of releases) {
+                if (release.draft || release.prerelease) continue;
+                let version = release.tag_name;
+                if (version.startsWith("v")) version = version.substring(1);
+                
+                const platforms: Record<string, any> = {
+                    "linux-x86_64": {
+                        install_modes: {
+                            shim: {
+                                type: "raw",
+                                url: `https://dl.k8s.io/release/v${version}/bin/linux/amd64/kubectl`,
+                                bin: ["kubectl"]
+                            }
+                        }
+                    },
+                    "linux-aarch64": {
+                        install_modes: {
+                            shim: {
+                                type: "raw",
+                                url: `https://dl.k8s.io/release/v${version}/bin/linux/arm64/kubectl`,
+                                bin: ["kubectl"]
+                            }
+                        }
+                    },
+                    "macos-x86_64": {
+                        install_modes: {
+                            shim: {
+                                type: "raw",
+                                url: `https://dl.k8s.io/release/v${version}/bin/darwin/amd64/kubectl`,
+                                bin: ["kubectl"]
+                            }
+                        }
+                    },
+                    "macos-aarch64": {
+                        install_modes: {
+                            shim: {
+                                type: "raw",
+                                url: `https://dl.k8s.io/release/v${version}/bin/darwin/arm64/kubectl`,
+                                bin: ["kubectl"]
+                            }
+                        }
+                    },
+                    "windows-x86_64": {
+                        install_modes: {
+                            shim: {
+                                type: "raw",
+                                url: `https://dl.k8s.io/release/v${version}/bin/windows/amd64/kubectl.exe`,
+                                bin: ["kubectl.exe"]
+                            }
+                        }
+                    }
+                };
+                
+                versions.push({ version, platforms });
+                try {
+                    db.query("INSERT OR IGNORE INTO package_versions (id, version, tag_name, published_at) VALUES (?, ?, ?, ?)", ["kubectl", version, release.tag_name, release.published_at]);
+                } catch (e) {}
+            }
+            
+            if (versions.length > 0) {
+                const app = { id: "kubectl", description: "Kubernetes cluster command line utility" };
+                const c = app.id.charAt(0).toLowerCase();
+                const appDir = join(c, app.id);
+                await ensureDir(appDir);
+
+                versions.sort((a, b) => b.version.localeCompare(a.version, undefined, { numeric: true, sensitivity: 'base' }));
+                const latestVersion = versions[0].version;
+
+                const versionsJson = {
+                    latest: latestVersion,
+                    versions: versions.map(v => ({ version: v.version, status: "active" }))
+                };
+                await Deno.writeTextFile(join(appDir, "versions.json"), JSON.stringify(versionsJson, null, 2));
+
+                for (const v of versions) {
+                    const verDir = join(appDir, v.version);
+                    await ensureDir(verDir);
+                    for (const [plat, platformData] of Object.entries(v.platforms)) {
+                        const manifestPath = join(verDir, `manifest.${plat}.json`);
+                        await Deno.writeTextFile(manifestPath, JSON.stringify(platformData, null, 2));
+                    }
+                }
+                
+                const pkgDir = join("packages", app.id);
+                await ensureDir(pkgDir);
+                await Deno.writeTextFile(join(pkgDir, "manifest.json"), JSON.stringify({ $schema: "../../schema.json", name: app.id, description: app.description, versions }, null, 2));
+                
+                console.log(`Wrote manifests for kubectl with ${versions.length} versions`);
+            }
+        }
+    },
     {
         id: "jq",
         description: "Command-line JSON processor",
@@ -178,6 +573,35 @@ lazydockerApp.assetMap = {
 
 const ezaApp = APPS.find(a => a.id === "eza")!;
 ezaApp.extractDir = "eza_{{target}}";
+
+const procsApp = APPS.find(a => a.id === "procs")!;
+procsApp.assetMap = {
+    "linux-x86_64": ["x86_64", "linux", "zip"],
+    "linux-aarch64": ["aarch64", "linux", "zip"],
+    "macos-x86_64": ["x86_64", "mac", "zip"],
+    "macos-aarch64": ["aarch64", "mac", "zip"],
+    "windows-x86_64": ["x86_64", "windows", "zip"]
+};
+
+const helixApp = APPS.find(a => a.id === "helix")!;
+helixApp.assetMap = {
+    "linux-x86_64": ["x86_64", "linux", "tar.xz"],
+    "linux-aarch64": ["aarch64", "linux", "tar.xz"],
+    "macos-x86_64": ["x86_64", "macos", "tar.xz"],
+    "macos-aarch64": ["aarch64", "macos", "tar.xz"],
+    "windows-x86_64": ["x86_64", "windows", "zip"]
+};
+helixApp.extractDir = "helix-{{version}}-{{target}}";
+helixApp.binName = { "windows-x86_64": "hx.exe", "default": "hx" };
+
+const k9sApp = APPS.find(a => a.id === "k9s")!;
+k9sApp.assetMap = {
+    "linux-x86_64": ["Linux", "amd64", "tar.gz"],
+    "linux-aarch64": ["Linux", "arm64", "tar.gz"],
+    "macos-x86_64": ["Darwin", "amd64", "tar.gz"],
+    "macos-aarch64": ["Darwin", "arm64", "tar.gz"],
+    "windows-x86_64": ["Windows", "amd64", "zip"]
+};
 
 async function fetchGitHubReleases(repo: string) {
     const url = `https://api.github.com/repos/${repo}/releases?per_page=10`;

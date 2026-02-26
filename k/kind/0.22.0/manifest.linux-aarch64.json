@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "raw",
+      "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.22.0/kind-linux-arm64",
+      "bin": [
+        "kind"
+      ]
+    }
+  }
+}

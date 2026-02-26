@@ -1,0 +1,455 @@
+{
+  "$schema": "../../schema.json",
+  "name": "consul",
+  "description": "Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure",
+  "versions": [
+    {
+      "version": "1.22.3+ent.fips1402",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.22.3+ent.fips1402/consul_1.22.3+ent.fips1402_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.22.3+ent.fips1402/consul_1.22.3+ent.fips1402_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.22.3+ent.fips1402/consul_1.22.3+ent.fips1402_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.22.3+ent",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.22.3+ent/consul_1.22.3+ent_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.22.3+ent/consul_1.22.3+ent_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.22.3+ent/consul_1.22.3+ent_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.22.3+ent/consul_1.22.3+ent_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.22.3+ent/consul_1.22.3+ent_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.22.3",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.22.3/consul_1.22.3_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.22.3/consul_1.22.3_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.22.3/consul_1.22.3_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.22.3/consul_1.22.3_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.22.3/consul_1.22.3_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.22.2",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.22.2/consul_1.22.2_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.22.2/consul_1.22.2_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.22.2/consul_1.22.2_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.22.2/consul_1.22.2_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.22.2/consul_1.22.2_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.21.9+ent.fips1402",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.21.9+ent.fips1402/consul_1.21.9+ent.fips1402_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.21.9+ent.fips1402/consul_1.21.9+ent.fips1402_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.21.9+ent.fips1402/consul_1.21.9+ent.fips1402_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.21.9+ent",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.21.9+ent/consul_1.21.9+ent_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.21.9+ent/consul_1.21.9+ent_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.21.9+ent/consul_1.21.9+ent_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.21.9+ent/consul_1.21.9+ent_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.21.9+ent/consul_1.21.9+ent_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.18.19+ent.fips1402",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.18.19+ent.fips1402/consul_1.18.19+ent.fips1402_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.18.19+ent.fips1402/consul_1.18.19+ent.fips1402_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.18.19+ent.fips1402/consul_1.18.19+ent.fips1402_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.18.19+ent",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.18.19+ent/consul_1.18.19+ent_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.18.19+ent/consul_1.18.19+ent_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.18.19+ent/consul_1.18.19+ent_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.18.19+ent/consul_1.18.19+ent_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/consul/1.18.19+ent/consul_1.18.19+ent_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "consul.exe"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

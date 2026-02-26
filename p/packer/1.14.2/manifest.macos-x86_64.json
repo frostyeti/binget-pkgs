@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://releases.hashicorp.com/packer/1.14.2/packer_1.14.2_darwin_amd64.zip",
+      "extract_dir": "",
+      "bin": [
+        "packer"
+      ]
+    }
+  }
+}

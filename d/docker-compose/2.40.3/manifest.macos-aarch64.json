@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "raw",
+      "url": "https://github.com/docker/compose/releases/download/v2.40.3/docker-compose-darwin-aarch64",
+      "bin": [
+        "docker-compose"
+      ]
+    }
+  }
+}

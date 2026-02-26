@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://get.helm.sh/helm-v4.1.1-windows-amd64.zip",
+      "extract_dir": "windows-amd64",
+      "bin": [
+        "helm.exe"
+      ]
+    }
+  }
+}

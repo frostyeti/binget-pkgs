@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://get.helm.sh/helm-v3.20.0-darwin-arm64.tar.gz",
+      "extract_dir": "darwin-arm64",
+      "bin": [
+        "helm"
+      ]
+    }
+  }
+}

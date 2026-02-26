@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://releases.hashicorp.com/vault/1.21.3+ent/vault_1.21.3+ent_linux_arm64.zip",
+      "extract_dir": "",
+      "bin": [
+        "vault"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/helix-editor/helix/releases/download/24.07/helix-24.07-x86_64-windows.zip",
+      "extract_dir": "helix-24.07-x86_64-pc-windows-msvc",
+      "bin": [
+        "hx.exe"
+      ]
+    }
+  }
+}

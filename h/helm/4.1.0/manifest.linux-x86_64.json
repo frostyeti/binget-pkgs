@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://get.helm.sh/helm-v4.1.0-linux-amd64.tar.gz",
+      "extract_dir": "linux-amd64",
+      "bin": [
+        "helm"
+      ]
+    }
+  }
+}

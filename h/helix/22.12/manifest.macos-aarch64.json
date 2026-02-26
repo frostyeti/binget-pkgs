@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "raw",
+      "url": "https://github.com/helix-editor/helix/releases/download/22.12/helix-22.12-aarch64-macos.tar.xz",
+      "extract_dir": "helix-22.12-aarch64-apple-darwin",
+      "bin": [
+        "hx"
+      ]
+    }
+  }
+}

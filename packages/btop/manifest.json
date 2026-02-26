@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schema.json",
+  "name": "btop",
+  "description": "A monitor of resources",
+  "versions": [
+    {
+      "version": "1.4.6",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/aristocratos/btop/releases/download/v1.4.6/btop-x86_64-unknown-linux-musl.tbz",
+              "extract_dir": "btop",
+              "bin": [
+                "bin/btop"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/aristocratos/btop/releases/download/v1.4.6/btop-aarch64-unknown-linux-musl.tbz",
+              "extract_dir": "btop",
+              "bin": [
+                "bin/btop"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

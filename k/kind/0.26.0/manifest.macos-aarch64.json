@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "raw",
+      "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.26.0/kind-darwin-arm64",
+      "bin": [
+        "kind"
+      ]
+    }
+  }
+}

@@ -1,0 +1,484 @@
+{
+  "$schema": "../../schema.json",
+  "name": "nvim",
+  "description": "Vim-fork focused on extensibility and usability",
+  "versions": [
+    {
+      "version": "stable",
+      "platforms": {
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/stable/nvim-linux-arm64.tar.gz",
+              "extract_dir": "nvim-linux-arm64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/stable/nvim-macos-x86_64.tar.gz",
+              "extract_dir": "nvim-macOS-amd64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/stable/nvim-macos-arm64.tar.gz",
+              "extract_dir": "nvim-macOS-arm64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/stable/nvim-win64.zip",
+              "extract_dir": "nvim-windows-amd64",
+              "bin": [
+                "bin/nvim.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.11.6",
+      "platforms": {
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.6/nvim-linux-arm64.tar.gz",
+              "extract_dir": "nvim-linux-arm64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.6/nvim-macos-x86_64.tar.gz",
+              "extract_dir": "nvim-macOS-amd64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.6/nvim-macos-arm64.tar.gz",
+              "extract_dir": "nvim-macOS-arm64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.6/nvim-win64.zip",
+              "extract_dir": "nvim-windows-amd64",
+              "bin": [
+                "bin/nvim.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.11.5",
+      "platforms": {
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.5/nvim-linux-arm64.tar.gz",
+              "extract_dir": "nvim-linux-arm64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.5/nvim-macos-x86_64.tar.gz",
+              "extract_dir": "nvim-macOS-amd64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.5/nvim-macos-arm64.tar.gz",
+              "extract_dir": "nvim-macOS-arm64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.5/nvim-win64.zip",
+              "extract_dir": "nvim-windows-amd64",
+              "bin": [
+                "bin/nvim.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.11.4",
+      "platforms": {
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.4/nvim-linux-arm64.tar.gz",
+              "extract_dir": "nvim-linux-arm64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.4/nvim-macos-x86_64.tar.gz",
+              "extract_dir": "nvim-macOS-amd64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.4/nvim-macos-arm64.tar.gz",
+              "extract_dir": "nvim-macOS-arm64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.4/nvim-win64.zip",
+              "extract_dir": "nvim-windows-amd64",
+              "bin": [
+                "bin/nvim.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.11.3",
+      "platforms": {
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.3/nvim-linux-arm64.tar.gz",
+              "extract_dir": "nvim-linux-arm64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.3/nvim-macos-x86_64.tar.gz",
+              "extract_dir": "nvim-macOS-amd64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.3/nvim-macos-arm64.tar.gz",
+              "extract_dir": "nvim-macOS-arm64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.3/nvim-win64.zip",
+              "extract_dir": "nvim-windows-amd64",
+              "bin": [
+                "bin/nvim.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.11.2",
+      "platforms": {
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.2/nvim-linux-arm64.tar.gz",
+              "extract_dir": "nvim-linux-arm64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.2/nvim-macos-x86_64.tar.gz",
+              "extract_dir": "nvim-macOS-amd64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.2/nvim-macos-arm64.tar.gz",
+              "extract_dir": "nvim-macOS-arm64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.2/nvim-win64.zip",
+              "extract_dir": "nvim-windows-amd64",
+              "bin": [
+                "bin/nvim.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.11.1",
+      "platforms": {
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.1/nvim-linux-arm64.tar.gz",
+              "extract_dir": "nvim-linux-arm64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.1/nvim-macos-x86_64.tar.gz",
+              "extract_dir": "nvim-macOS-amd64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.1/nvim-macos-arm64.tar.gz",
+              "extract_dir": "nvim-macOS-arm64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.1/nvim-win64.zip",
+              "extract_dir": "nvim-windows-amd64",
+              "bin": [
+                "bin/nvim.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.11.0",
+      "platforms": {
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.0/nvim-linux-arm64.tar.gz",
+              "extract_dir": "nvim-linux-arm64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.0/nvim-macos-x86_64.tar.gz",
+              "extract_dir": "nvim-macOS-amd64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.0/nvim-macos-arm64.tar.gz",
+              "extract_dir": "nvim-macOS-arm64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.11.0/nvim-win64.zip",
+              "extract_dir": "nvim-windows-amd64",
+              "bin": [
+                "bin/nvim.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.10.4",
+      "platforms": {
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.10.4/nvim-linux-arm64.tar.gz",
+              "extract_dir": "nvim-linux-arm64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.10.4/nvim-macos-x86_64.tar.gz",
+              "extract_dir": "nvim-macOS-amd64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.10.4/nvim-macos-arm64.tar.gz",
+              "extract_dir": "nvim-macOS-arm64",
+              "bin": [
+                "bin/nvim"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/neovim/neovim/releases/download/v0.10.4/nvim-win64.zip",
+              "extract_dir": "nvim-windows-amd64",
+              "bin": [
+                "bin/nvim.exe"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

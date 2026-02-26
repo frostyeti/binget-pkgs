@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "raw",
+      "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.28.0/kind-linux-amd64",
+      "bin": [
+        "kind"
+      ]
+    }
+  }
+}

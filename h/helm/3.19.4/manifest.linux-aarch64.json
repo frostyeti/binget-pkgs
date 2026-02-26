@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://get.helm.sh/helm-v3.19.4-linux-arm64.tar.gz",
+      "extract_dir": "linux-arm64",
+      "bin": [
+        "helm"
+      ]
+    }
+  }
+}

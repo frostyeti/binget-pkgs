@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/derailed/k9s/releases/download/v0.50.17/k9s_Windows_amd64.zip",
+      "bin": [
+        "k9s.exe"
+      ]
+    }
+  }
+}

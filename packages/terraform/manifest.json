@@ -1,0 +1,527 @@
+{
+  "$schema": "../../schema.json",
+  "name": "terraform",
+  "description": "Terraform is an infrastructure as code tool",
+  "versions": [
+    {
+      "version": "1.14.6",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.6/terraform_1.14.6_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.6/terraform_1.14.6_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.6/terraform_1.14.6_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.6/terraform_1.14.6_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.6/terraform_1.14.6_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.14.5",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.5/terraform_1.14.5_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.5/terraform_1.14.5_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.5/terraform_1.14.5_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.5/terraform_1.14.5_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.5/terraform_1.14.5_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.14.4",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.4/terraform_1.14.4_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.4/terraform_1.14.4_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.4/terraform_1.14.4_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.4/terraform_1.14.4_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.4/terraform_1.14.4_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.14.3",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.3/terraform_1.14.3_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.3/terraform_1.14.3_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.3/terraform_1.14.3_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.3/terraform_1.14.3_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.3/terraform_1.14.3_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.14.2",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.2/terraform_1.14.2_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.2/terraform_1.14.2_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.2/terraform_1.14.2_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.2/terraform_1.14.2_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.2/terraform_1.14.2_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.14.1",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.1/terraform_1.14.1_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.1/terraform_1.14.1_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.1/terraform_1.14.1_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.1/terraform_1.14.1_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.1/terraform_1.14.1_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.14.0",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.0/terraform_1.14.0_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.0/terraform_1.14.0_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.0/terraform_1.14.0_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.0/terraform_1.14.0_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.14.0/terraform_1.14.0_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.13.5",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.13.5/terraform_1.13.5_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.13.5/terraform_1.13.5_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.13.5/terraform_1.13.5_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.13.5/terraform_1.13.5_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/terraform/1.13.5/terraform_1.13.5_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "terraform.exe"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

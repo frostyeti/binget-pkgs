@@ -1,0 +1,787 @@
+{
+  "$schema": "../../schema.json",
+  "name": "packer",
+  "description": "Packer is a tool for creating identical machine images for multiple platforms from a single source configuration",
+  "versions": [
+    {
+      "version": "1.15.0",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.15.0/packer_1.15.0_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.15.0/packer_1.15.0_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.15.0/packer_1.15.0_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.15.0/packer_1.15.0_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.15.0/packer_1.15.0_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.14.3",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.14.3/packer_1.14.3_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.14.3/packer_1.14.3_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.14.3/packer_1.14.3_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.14.3/packer_1.14.3_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.14.3/packer_1.14.3_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.14.2",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.14.2/packer_1.14.2_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.14.2/packer_1.14.2_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.14.2/packer_1.14.2_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.14.2/packer_1.14.2_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.14.2/packer_1.14.2_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.14.1",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.14.1/packer_1.14.1_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.14.1/packer_1.14.1_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.14.1/packer_1.14.1_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.14.1/packer_1.14.1_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.14.1/packer_1.14.1_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.14.0",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.14.0/packer_1.14.0_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.14.0/packer_1.14.0_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.14.0/packer_1.14.0_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.14.0/packer_1.14.0_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.14.0/packer_1.14.0_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.13.1",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.13.1/packer_1.13.1_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.13.1/packer_1.13.1_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.13.1/packer_1.13.1_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.13.1/packer_1.13.1_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.13.1/packer_1.13.1_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.13.0",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.13.0/packer_1.13.0_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.13.0/packer_1.13.0_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.13.0/packer_1.13.0_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.13.0/packer_1.13.0_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.13.0/packer_1.13.0_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.12.0",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.12.0/packer_1.12.0_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.12.0/packer_1.12.0_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.12.0/packer_1.12.0_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.12.0/packer_1.12.0_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.12.0/packer_1.12.0_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.11.2",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.11.2/packer_1.11.2_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.11.2/packer_1.11.2_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.11.2/packer_1.11.2_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.11.2/packer_1.11.2_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.11.2/packer_1.11.2_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.11.1",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.11.1/packer_1.11.1_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.11.1/packer_1.11.1_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.11.1/packer_1.11.1_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.11.1/packer_1.11.1_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.11.1/packer_1.11.1_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.11.0",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.11.0/packer_1.11.0_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.11.0/packer_1.11.0_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.11.0/packer_1.11.0_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.11.0/packer_1.11.0_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.11.0/packer_1.11.0_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.10.3",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.10.3/packer_1.10.3_darwin_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.10.3/packer_1.10.3_darwin_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.10.3/packer_1.10.3_linux_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.10.3/packer_1.10.3_linux_arm64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://releases.hashicorp.com/packer/1.10.3/packer_1.10.3_windows_amd64.zip",
+              "extract_dir": "",
+              "bin": [
+                "packer.exe"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/pulumi/pulumi/releases/download/v3.217.0/pulumi-v3.217.0-darwin-arm64.tar.gz",
+      "extract_dir": "pulumi",
+      "bin": [
+        "pulumi"
+      ]
+    }
+  }
+}
