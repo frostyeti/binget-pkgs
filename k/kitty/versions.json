@@ -1,0 +1,41 @@
+{
+  "latest": "0.45.0",
+  "versions": [
+    {
+      "version": "0.45.0",
+      "status": "active"
+    },
+    {
+      "version": "0.44.0",
+      "status": "active"
+    },
+    {
+      "version": "0.43.1",
+      "status": "active"
+    },
+    {
+      "version": "0.43.0",
+      "status": "active"
+    },
+    {
+      "version": "0.42.2",
+      "status": "active"
+    },
+    {
+      "version": "0.42.1",
+      "status": "active"
+    },
+    {
+      "version": "0.42.0",
+      "status": "active"
+    },
+    {
+      "version": "0.41.1",
+      "status": "active"
+    },
+    {
+      "version": "0.41.0",
+      "status": "active"
+    }
+  ]
+}

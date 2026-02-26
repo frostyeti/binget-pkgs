@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.44.0/kitty-0.44.0-arm64.txz",
+      "bin": [
+        "bin/kitty"
+      ]
+    }
+  }
+}

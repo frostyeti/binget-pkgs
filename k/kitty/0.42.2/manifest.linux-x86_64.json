@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.42.2/kitty-0.42.2-x86_64.txz",
+      "bin": [
+        "bin/kitty"
+      ]
+    }
+  }
+}

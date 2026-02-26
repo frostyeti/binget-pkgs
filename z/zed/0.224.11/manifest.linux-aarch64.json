@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/zed-industries/zed/releases/download/v0.224.11/zed-linux-aarch64.tar.gz",
+      "bin": [
+        "zed.app/bin/zed"
+      ]
+    }
+  }
+}

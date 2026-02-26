@@ -1,0 +1,9 @@
+{
+  "install_modes": {
+    "user": {
+      "type": "installer",
+      "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.42.0/kitty-0.42.0.dmg",
+      "format": "dmg"
+    }
+  }
+}
