@@ -1,0 +1,657 @@
+{
+  "$schema": "../../schema.json",
+  "name": "gh",
+  "description": "GitHub CLI",
+  "versions": [
+    {
+      "version": "2.87.3",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.87.3/gh_2.87.3_linux_amd64.tar.gz",
+              "extract_dir": "gh_2.87.3_linux_amd64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.87.3/gh_2.87.3_linux_arm64.tar.gz",
+              "extract_dir": "gh_2.87.3_linux_arm64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.87.3/gh_2.87.3_macOS_amd64.zip",
+              "extract_dir": "gh_2.87.3_macOS_amd64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.87.3/gh_2.87.3_macOS_arm64.zip",
+              "extract_dir": "gh_2.87.3_macOS_arm64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.87.3/gh_2.87.3_windows_amd64.zip",
+              "extract_dir": "gh_2.87.3_windows_amd64",
+              "bin": [
+                "bin/gh.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "2.87.2",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.87.2/gh_2.87.2_linux_amd64.tar.gz",
+              "extract_dir": "gh_2.87.2_linux_amd64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.87.2/gh_2.87.2_linux_arm64.tar.gz",
+              "extract_dir": "gh_2.87.2_linux_arm64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.87.2/gh_2.87.2_macOS_amd64.zip",
+              "extract_dir": "gh_2.87.2_macOS_amd64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.87.2/gh_2.87.2_macOS_arm64.zip",
+              "extract_dir": "gh_2.87.2_macOS_arm64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.87.2/gh_2.87.2_windows_amd64.zip",
+              "extract_dir": "gh_2.87.2_windows_amd64",
+              "bin": [
+                "bin/gh.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "2.87.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.87.1/gh_2.87.1_linux_amd64.tar.gz",
+              "extract_dir": "gh_2.87.1_linux_amd64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.87.1/gh_2.87.1_linux_arm64.tar.gz",
+              "extract_dir": "gh_2.87.1_linux_arm64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.87.1/gh_2.87.1_macOS_amd64.zip",
+              "extract_dir": "gh_2.87.1_macOS_amd64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.87.1/gh_2.87.1_macOS_arm64.zip",
+              "extract_dir": "gh_2.87.1_macOS_arm64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.87.1/gh_2.87.1_windows_amd64.zip",
+              "extract_dir": "gh_2.87.1_windows_amd64",
+              "bin": [
+                "bin/gh.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "2.87.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.87.0/gh_2.87.0_linux_amd64.tar.gz",
+              "extract_dir": "gh_2.87.0_linux_amd64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.87.0/gh_2.87.0_linux_arm64.tar.gz",
+              "extract_dir": "gh_2.87.0_linux_arm64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.87.0/gh_2.87.0_macOS_amd64.zip",
+              "extract_dir": "gh_2.87.0_macOS_amd64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.87.0/gh_2.87.0_macOS_arm64.zip",
+              "extract_dir": "gh_2.87.0_macOS_arm64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.87.0/gh_2.87.0_windows_amd64.zip",
+              "extract_dir": "gh_2.87.0_windows_amd64",
+              "bin": [
+                "bin/gh.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "2.86.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.86.0/gh_2.86.0_linux_amd64.tar.gz",
+              "extract_dir": "gh_2.86.0_linux_amd64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.86.0/gh_2.86.0_linux_arm64.tar.gz",
+              "extract_dir": "gh_2.86.0_linux_arm64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.86.0/gh_2.86.0_macOS_amd64.zip",
+              "extract_dir": "gh_2.86.0_macOS_amd64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.86.0/gh_2.86.0_macOS_arm64.zip",
+              "extract_dir": "gh_2.86.0_macOS_arm64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.86.0/gh_2.86.0_windows_amd64.zip",
+              "extract_dir": "gh_2.86.0_windows_amd64",
+              "bin": [
+                "bin/gh.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "2.85.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.85.0/gh_2.85.0_linux_amd64.tar.gz",
+              "extract_dir": "gh_2.85.0_linux_amd64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.85.0/gh_2.85.0_linux_arm64.tar.gz",
+              "extract_dir": "gh_2.85.0_linux_arm64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.85.0/gh_2.85.0_macOS_amd64.zip",
+              "extract_dir": "gh_2.85.0_macOS_amd64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.85.0/gh_2.85.0_macOS_arm64.zip",
+              "extract_dir": "gh_2.85.0_macOS_arm64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.85.0/gh_2.85.0_windows_amd64.zip",
+              "extract_dir": "gh_2.85.0_windows_amd64",
+              "bin": [
+                "bin/gh.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "2.83.2",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.83.2/gh_2.83.2_linux_amd64.tar.gz",
+              "extract_dir": "gh_2.83.2_linux_amd64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.83.2/gh_2.83.2_linux_arm64.tar.gz",
+              "extract_dir": "gh_2.83.2_linux_arm64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.83.2/gh_2.83.2_macOS_amd64.zip",
+              "extract_dir": "gh_2.83.2_macOS_amd64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.83.2/gh_2.83.2_macOS_arm64.zip",
+              "extract_dir": "gh_2.83.2_macOS_arm64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.83.2/gh_2.83.2_windows_amd64.zip",
+              "extract_dir": "gh_2.83.2_windows_amd64",
+              "bin": [
+                "bin/gh.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "2.83.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.83.1/gh_2.83.1_linux_amd64.tar.gz",
+              "extract_dir": "gh_2.83.1_linux_amd64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.83.1/gh_2.83.1_linux_arm64.tar.gz",
+              "extract_dir": "gh_2.83.1_linux_arm64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.83.1/gh_2.83.1_macOS_amd64.zip",
+              "extract_dir": "gh_2.83.1_macOS_amd64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.83.1/gh_2.83.1_macOS_arm64.zip",
+              "extract_dir": "gh_2.83.1_macOS_arm64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.83.1/gh_2.83.1_windows_amd64.zip",
+              "extract_dir": "gh_2.83.1_windows_amd64",
+              "bin": [
+                "bin/gh.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "2.83.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.83.0/gh_2.83.0_linux_amd64.tar.gz",
+              "extract_dir": "gh_2.83.0_linux_amd64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.83.0/gh_2.83.0_linux_arm64.tar.gz",
+              "extract_dir": "gh_2.83.0_linux_arm64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.83.0/gh_2.83.0_macOS_amd64.zip",
+              "extract_dir": "gh_2.83.0_macOS_amd64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.83.0/gh_2.83.0_macOS_arm64.zip",
+              "extract_dir": "gh_2.83.0_macOS_arm64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.83.0/gh_2.83.0_windows_amd64.zip",
+              "extract_dir": "gh_2.83.0_windows_amd64",
+              "bin": [
+                "bin/gh.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "2.82.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.82.1/gh_2.82.1_linux_amd64.tar.gz",
+              "extract_dir": "gh_2.82.1_linux_amd64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.82.1/gh_2.82.1_linux_arm64.tar.gz",
+              "extract_dir": "gh_2.82.1_linux_arm64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.82.1/gh_2.82.1_macOS_amd64.zip",
+              "extract_dir": "gh_2.82.1_macOS_amd64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.82.1/gh_2.82.1_macOS_arm64.zip",
+              "extract_dir": "gh_2.82.1_macOS_arm64",
+              "bin": [
+                "bin/gh"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/cli/cli/releases/download/v2.82.1/gh_2.82.1_windows_amd64.zip",
+              "extract_dir": "gh_2.82.1_windows_amd64",
+              "bin": [
+                "bin/gh.exe"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

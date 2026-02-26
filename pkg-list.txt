@@ -1,0 +1,68 @@
+# Built-in runtimes (to add stubs for)
+1. node
+2. rust
+3. dotnet
+4. deno
+5. uv
+6. python
+7. ruby
+8. zig
+9. go
+
+# CLI Utilities (Requested & Common)
+10. make
+11. just
+12. nvim
+13. tmux
+14. psmux
+15. btop
+16. bottom
+17. bat
+18. eza
+19. zoxide
+20. procs
+21. ripgrep
+22. fd
+23. fzf
+24. jq
+25. yq
+26. starship
+27. zellij
+28. helix
+29. gh
+30. lazygit
+31. lazydocker
+
+# Containers & Kubernetes
+32. docker
+33. docker-compose
+34. kubectl
+35. kubectx
+36. kubens
+37. helm
+38. k9s
+39. kind
+40. minikube
+
+# Infrastructure
+41. terraform
+42. packer
+43. vault
+44. consul
+45. pulumi
+
+# Frost Yeti Apps
+46. cast
+47. kpv
+48. osv
+49. sopsv
+50. akv
+51. dn
+
+# GUI Apps
+52. vscode
+53. zed
+54. brave-browser
+55. wezterm
+56. alacritty
+57. kitty

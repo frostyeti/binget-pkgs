@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/zellij-org/zellij/releases/download/v0.43.1/zellij-no-web-x86_64-apple-darwin.tar.gz",
+      "extract_dir": "zellij-v0.43.1-x86_64-apple-darwin",
+      "bin": [
+        "zellij"
+      ]
+    }
+  }
+}

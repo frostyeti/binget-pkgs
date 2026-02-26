@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/sharkdp/fd/releases/download/v8.5.3/fd-v8.5.3-x86_64-pc-windows-msvc.zip",
+      "extract_dir": "fd-v8.5.3-x86_64-pc-windows-msvc",
+      "bin": [
+        "fd.exe"
+      ]
+    }
+  }
+}

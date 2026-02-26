@@ -1,0 +1,45 @@
+{
+  "latest": "0.24.4",
+  "versions": [
+    {
+      "version": "0.24.4",
+      "status": "active"
+    },
+    {
+      "version": "0.24.3",
+      "status": "active"
+    },
+    {
+      "version": "0.24.2",
+      "status": "active"
+    },
+    {
+      "version": "0.24.1",
+      "status": "active"
+    },
+    {
+      "version": "0.24.0",
+      "status": "active"
+    },
+    {
+      "version": "0.23.3",
+      "status": "active"
+    },
+    {
+      "version": "0.23.1",
+      "status": "active"
+    },
+    {
+      "version": "0.23.0",
+      "status": "active"
+    },
+    {
+      "version": "0.21.1",
+      "status": "active"
+    },
+    {
+      "version": "0.21.0",
+      "status": "active"
+    }
+  ]
+}

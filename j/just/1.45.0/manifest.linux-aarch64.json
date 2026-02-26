@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/casey/just/releases/download/1.45.0/just-1.45.0-aarch64-unknown-linux-musl.tar.gz",
+      "extract_dir": "just-v1.45.0-aarch64-unknown-linux-musl",
+      "bin": [
+        "just"
+      ]
+    }
+  }
+}

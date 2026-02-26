@@ -1,0 +1,607 @@
+{
+  "$schema": "../../schema.json",
+  "name": "yq",
+  "description": "yq is a portable command-line YAML processor",
+  "versions": [
+    {
+      "version": "4.52.4",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.52.4/yq_linux_amd64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.52.4/yq_linux_arm64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.52.4/yq_darwin_amd64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.52.4/yq_darwin_arm64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.52.4/yq_windows_amd64.zip",
+              "bin": [
+                "yq.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "4.52.2",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.52.2/yq_linux_amd64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.52.2/yq_linux_arm64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.52.2/yq_darwin_amd64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.52.2/yq_darwin_arm64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.52.2/yq_windows_amd64.zip",
+              "bin": [
+                "yq.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "4.52.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.52.1/yq_linux_amd64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.52.1/yq_linux_arm64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.52.1/yq_darwin_amd64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.52.1/yq_darwin_arm64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.52.1/yq_windows_amd64.zip",
+              "bin": [
+                "yq.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "4.50.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.50.1/yq_linux_amd64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.50.1/yq_linux_arm64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.50.1/yq_darwin_amd64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.50.1/yq_darwin_arm64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.50.1/yq_windows_amd64.zip",
+              "bin": [
+                "yq.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "4.49.2",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.49.2/yq_linux_amd64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.49.2/yq_linux_arm64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.49.2/yq_darwin_amd64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.49.2/yq_darwin_arm64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.49.2/yq_windows_amd64.zip",
+              "bin": [
+                "yq.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "4.49.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.49.1/yq_linux_amd64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.49.1/yq_linux_arm64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.49.1/yq_darwin_amd64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.49.1/yq_darwin_arm64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.49.1/yq_windows_amd64.zip",
+              "bin": [
+                "yq.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "4.48.2",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.48.2/yq_linux_amd64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.48.2/yq_linux_arm64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.48.2/yq_darwin_amd64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.48.2/yq_darwin_arm64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.48.2/yq_windows_amd64.zip",
+              "bin": [
+                "yq.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "4.48.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.48.1/yq_linux_amd64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.48.1/yq_linux_arm64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.48.1/yq_darwin_amd64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.48.1/yq_darwin_arm64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.48.1/yq_windows_amd64.zip",
+              "bin": [
+                "yq.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "4.47.2",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.47.2/yq_linux_amd64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.47.2/yq_linux_arm64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.47.2/yq_darwin_amd64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.47.2/yq_darwin_arm64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.47.2/yq_windows_amd64.zip",
+              "bin": [
+                "yq.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "4.47.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.47.1/yq_linux_amd64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.47.1/yq_linux_arm64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.47.1/yq_darwin_amd64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.47.1/yq_darwin_arm64.tar.gz",
+              "bin": [
+                "yq"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/mikefarah/yq/releases/download/v4.47.1/yq_windows_amd64.zip",
+              "bin": [
+                "yq.exe"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

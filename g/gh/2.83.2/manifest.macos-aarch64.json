@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/cli/cli/releases/download/v2.83.2/gh_2.83.2_macOS_arm64.zip",
+      "extract_dir": "gh_2.83.2_macOS_arm64",
+      "bin": [
+        "bin/gh"
+      ]
+    }
+  }
+}

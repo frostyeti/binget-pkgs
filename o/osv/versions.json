@@ -1,0 +1,17 @@
+{
+  "latest": "0.0.0-alpha.2",
+  "versions": [
+    {
+      "version": "0.0.0-alpha.2",
+      "status": "active"
+    },
+    {
+      "version": "0.0.0-alpha.1",
+      "status": "active"
+    },
+    {
+      "version": "0.0.0-alpha.0",
+      "status": "active"
+    }
+  ]
+}

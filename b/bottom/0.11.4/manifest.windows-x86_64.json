@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/ClementTsang/bottom/releases/download/0.11.4/bottom_x86_64-pc-windows-msvc.zip",
+      "extract_dir": "bottom-v0.11.4-x86_64-pc-windows-msvc",
+      "bin": [
+        "bottom.exe"
+      ]
+    }
+  }
+}

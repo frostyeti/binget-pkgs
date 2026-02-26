@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/mikefarah/yq/releases/download/v4.52.2/yq_darwin_arm64.tar.gz",
+      "bin": [
+        "yq"
+      ]
+    }
+  }
+}

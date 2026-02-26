@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/mikefarah/yq/releases/download/v4.49.2/yq_linux_amd64.tar.gz",
+      "bin": [
+        "yq"
+      ]
+    }
+  }
+}

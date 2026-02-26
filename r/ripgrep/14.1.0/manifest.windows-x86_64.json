@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.0/ripgrep-14.1.0-x86_64-pc-windows-msvc.zip",
+      "extract_dir": "ripgrep-v14.1.0-x86_64-pc-windows-msvc",
+      "bin": [
+        "ripgrep.exe"
+      ]
+    }
+  }
+}

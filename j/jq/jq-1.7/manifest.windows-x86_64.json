@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "raw",
+      "url": "https://github.com/jqlang/jq/releases/download/jq-1.7/jq-windows-amd64.exe",
+      "bin": [
+        "jq.exe"
+      ]
+    }
+  }
+}

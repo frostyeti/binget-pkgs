@@ -1,0 +1,247 @@
+{
+  "$schema": "../../schema.json",
+  "name": "jq",
+  "description": "Command-line JSON processor",
+  "versions": [
+    {
+      "version": "jq-1.8.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-amd64",
+              "bin": [
+                "jq"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-arm64",
+              "bin": [
+                "jq"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-macos-amd64",
+              "bin": [
+                "jq"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-macos-arm64",
+              "bin": [
+                "jq"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-windows-amd64.exe",
+              "bin": [
+                "jq.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "jq-1.8.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-amd64",
+              "bin": [
+                "jq"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-arm64",
+              "bin": [
+                "jq"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-macos-amd64",
+              "bin": [
+                "jq"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-macos-arm64",
+              "bin": [
+                "jq"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-windows-amd64.exe",
+              "bin": [
+                "jq.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "jq-1.7.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-amd64",
+              "bin": [
+                "jq"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-linux-arm64",
+              "bin": [
+                "jq"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-macos-amd64",
+              "bin": [
+                "jq"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-macos-arm64",
+              "bin": [
+                "jq"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-windows-amd64.exe",
+              "bin": [
+                "jq.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "jq-1.7",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/jqlang/jq/releases/download/jq-1.7/jq-linux-amd64",
+              "bin": [
+                "jq"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/jqlang/jq/releases/download/jq-1.7/jq-linux-arm64",
+              "bin": [
+                "jq"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/jqlang/jq/releases/download/jq-1.7/jq-macos-amd64",
+              "bin": [
+                "jq"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/jqlang/jq/releases/download/jq-1.7/jq-macos-arm64",
+              "bin": [
+                "jq"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/jqlang/jq/releases/download/jq-1.7/jq-windows-amd64.exe",
+              "bin": [
+                "jq.exe"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

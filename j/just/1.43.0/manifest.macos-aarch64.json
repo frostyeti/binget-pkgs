@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/casey/just/releases/download/1.43.0/just-1.43.0-aarch64-apple-darwin.tar.gz",
+      "extract_dir": "just-v1.43.0-aarch64-apple-darwin",
+      "bin": [
+        "just"
+      ]
+    }
+  }
+}

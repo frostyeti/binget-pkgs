@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/ClementTsang/bottom/releases/download/0.11.4/bottom_x86_64-unknown-linux-musl.tar.gz",
+      "extract_dir": "bottom-v0.11.4-x86_64-unknown-linux-musl",
+      "bin": [
+        "bottom"
+      ]
+    }
+  }
+}

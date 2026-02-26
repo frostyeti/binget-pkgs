@@ -1,0 +1,607 @@
+{
+  "$schema": "../../schema.json",
+  "name": "fzf",
+  "description": "A command-line fuzzy finder",
+  "versions": [
+    {
+      "version": "0.68.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.68.0/fzf-0.68.0-linux_amd64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.68.0/fzf-0.68.0-linux_arm64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.68.0/fzf-0.68.0-darwin_amd64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.68.0/fzf-0.68.0-darwin_arm64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.68.0/fzf-0.68.0-windows_amd64.zip",
+              "bin": [
+                "fzf.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.67.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.67.0/fzf-0.67.0-linux_amd64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.67.0/fzf-0.67.0-linux_arm64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.67.0/fzf-0.67.0-darwin_amd64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.67.0/fzf-0.67.0-darwin_arm64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.67.0/fzf-0.67.0-windows_amd64.zip",
+              "bin": [
+                "fzf.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.66.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.66.1/fzf-0.66.1-linux_amd64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.66.1/fzf-0.66.1-linux_arm64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.66.1/fzf-0.66.1-darwin_amd64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.66.1/fzf-0.66.1-darwin_arm64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.66.1/fzf-0.66.1-windows_amd64.zip",
+              "bin": [
+                "fzf.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.66.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.66.0/fzf-0.66.0-linux_amd64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.66.0/fzf-0.66.0-linux_arm64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.66.0/fzf-0.66.0-darwin_amd64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.66.0/fzf-0.66.0-darwin_arm64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.66.0/fzf-0.66.0-windows_amd64.zip",
+              "bin": [
+                "fzf.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.65.2",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.65.2/fzf-0.65.2-linux_amd64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.65.2/fzf-0.65.2-linux_arm64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.65.2/fzf-0.65.2-darwin_amd64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.65.2/fzf-0.65.2-darwin_arm64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.65.2/fzf-0.65.2-windows_amd64.zip",
+              "bin": [
+                "fzf.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.65.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.65.1/fzf-0.65.1-linux_amd64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.65.1/fzf-0.65.1-linux_arm64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.65.1/fzf-0.65.1-darwin_amd64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.65.1/fzf-0.65.1-darwin_arm64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.65.1/fzf-0.65.1-windows_amd64.zip",
+              "bin": [
+                "fzf.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.65.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.65.0/fzf-0.65.0-linux_amd64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.65.0/fzf-0.65.0-linux_arm64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.65.0/fzf-0.65.0-darwin_amd64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.65.0/fzf-0.65.0-darwin_arm64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.65.0/fzf-0.65.0-windows_amd64.zip",
+              "bin": [
+                "fzf.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.64.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.64.0/fzf-0.64.0-linux_amd64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.64.0/fzf-0.64.0-linux_arm64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.64.0/fzf-0.64.0-darwin_amd64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.64.0/fzf-0.64.0-darwin_arm64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.64.0/fzf-0.64.0-windows_amd64.zip",
+              "bin": [
+                "fzf.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.63.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.63.0/fzf-0.63.0-linux_amd64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.63.0/fzf-0.63.0-linux_arm64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.63.0/fzf-0.63.0-darwin_amd64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.63.0/fzf-0.63.0-darwin_arm64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.63.0/fzf-0.63.0-windows_amd64.zip",
+              "bin": [
+                "fzf.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.62.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.62.0/fzf-0.62.0-linux_amd64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.62.0/fzf-0.62.0-linux_arm64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.62.0/fzf-0.62.0-darwin_amd64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.62.0/fzf-0.62.0-darwin_arm64.tar.gz",
+              "bin": [
+                "fzf"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/junegunn/fzf/releases/download/v0.62.0/fzf-0.62.0-windows_amd64.zip",
+              "bin": [
+                "fzf.exe"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/sharkdp/fd/releases/download/v9.0.0/fd-v9.0.0-x86_64-apple-darwin.tar.gz",
+      "extract_dir": "fd-v9.0.0-x86_64-apple-darwin",
+      "bin": [
+        "fd"
+      ]
+    }
+  }
+}

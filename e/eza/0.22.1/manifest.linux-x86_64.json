@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/eza-community/eza/releases/download/v0.22.1/eza_x86_64-unknown-linux-musl.tar.gz",
+      "extract_dir": "eza_x86_64-unknown-linux-musl",
+      "bin": [
+        "eza"
+      ]
+    }
+  }
+}

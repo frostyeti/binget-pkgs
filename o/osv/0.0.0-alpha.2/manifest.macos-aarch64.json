@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/frostyeti/osv/releases/download/v0.0.0-alpha.2/osv_darwin_arm64.tar.gz",
+      "bin": [
+        "osv"
+      ]
+    }
+  }
+}

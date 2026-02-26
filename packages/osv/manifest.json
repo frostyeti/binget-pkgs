@@ -1,0 +1,88 @@
+{
+  "$schema": "../../schema.json",
+  "name": "osv",
+  "description": "OS Vault",
+  "versions": [
+    {
+      "version": "0.0.0-alpha.2",
+      "platforms": {
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/frostyeti/osv/releases/download/v0.0.0-alpha.2/osv_linux_arm64.tar.gz",
+              "bin": [
+                "osv"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/frostyeti/osv/releases/download/v0.0.0-alpha.2/osv_darwin_arm64.tar.gz",
+              "bin": [
+                "osv"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.0.0-alpha.1",
+      "platforms": {
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/frostyeti/osv/releases/download/v0.0.0-alpha.1/osv_linux_arm64.tar.gz",
+              "bin": [
+                "osv"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/frostyeti/osv/releases/download/v0.0.0-alpha.1/osv_darwin_arm64.tar.gz",
+              "bin": [
+                "osv"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.0.0-alpha.0",
+      "platforms": {
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/frostyeti/osv/releases/download/v0.0.0-alpha.0/osv_linux_arm64.tar.gz",
+              "bin": [
+                "osv"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/frostyeti/osv/releases/download/v0.0.0-alpha.0/osv_darwin_arm64.tar.gz",
+              "bin": [
+                "osv"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

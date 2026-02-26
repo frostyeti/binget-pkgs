@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/casey/just/releases/download/1.44.0/just-1.44.0-x86_64-pc-windows-msvc.zip",
+      "extract_dir": "just-v1.44.0-x86_64-pc-windows-msvc",
+      "bin": [
+        "just.exe"
+      ]
+    }
+  }
+}

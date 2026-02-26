@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "raw",
+      "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-arm64",
+      "bin": [
+        "jq"
+      ]
+    }
+  }
+}

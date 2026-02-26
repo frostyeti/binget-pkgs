@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/cli/cli/releases/download/v2.83.1/gh_2.83.1_windows_amd64.zip",
+      "extract_dir": "gh_2.83.1_windows_amd64",
+      "bin": [
+        "bin/gh.exe"
+      ]
+    }
+  }
+}

@@ -1,0 +1,462 @@
+{
+  "$schema": "../../schema.json",
+  "name": "bottom",
+  "description": "Yet another cross-platform graphical process/system monitor",
+  "versions": [
+    {
+      "version": "0.12.3",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.12.3/bottom_x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "bottom-v0.12.3-x86_64-unknown-linux-musl",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.12.3/bottom_aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "bottom-v0.12.3-aarch64-unknown-linux-musl",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.12.3/bottom_x86_64-apple-darwin.tar.gz",
+              "extract_dir": "bottom-v0.12.3-x86_64-apple-darwin",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.12.3/bottom_aarch64-apple-darwin.tar.gz",
+              "extract_dir": "bottom-v0.12.3-aarch64-apple-darwin",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.12.3/bottom_x86_64-pc-windows-msvc.zip",
+              "extract_dir": "bottom-v0.12.3-x86_64-pc-windows-msvc",
+              "bin": [
+                "bottom.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.12.2",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.12.2/bottom_x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "bottom-v0.12.2-x86_64-unknown-linux-musl",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.12.2/bottom_aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "bottom-v0.12.2-aarch64-unknown-linux-musl",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.12.2/bottom_x86_64-apple-darwin.tar.gz",
+              "extract_dir": "bottom-v0.12.2-x86_64-apple-darwin",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.12.2/bottom_aarch64-apple-darwin.tar.gz",
+              "extract_dir": "bottom-v0.12.2-aarch64-apple-darwin",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.12.2/bottom_x86_64-pc-windows-msvc.zip",
+              "extract_dir": "bottom-v0.12.2-x86_64-pc-windows-msvc",
+              "bin": [
+                "bottom.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.12.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.12.1/bottom_x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "bottom-v0.12.1-x86_64-unknown-linux-musl",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.12.1/bottom_aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "bottom-v0.12.1-aarch64-unknown-linux-musl",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.12.1/bottom_x86_64-apple-darwin.tar.gz",
+              "extract_dir": "bottom-v0.12.1-x86_64-apple-darwin",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.12.1/bottom_aarch64-apple-darwin.tar.gz",
+              "extract_dir": "bottom-v0.12.1-aarch64-apple-darwin",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.12.1/bottom_x86_64-pc-windows-msvc.zip",
+              "extract_dir": "bottom-v0.12.1-x86_64-pc-windows-msvc",
+              "bin": [
+                "bottom.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.12.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.12.0/bottom_x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "bottom-v0.12.0-x86_64-unknown-linux-musl",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.12.0/bottom_aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "bottom-v0.12.0-aarch64-unknown-linux-musl",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.12.0/bottom_x86_64-apple-darwin.tar.gz",
+              "extract_dir": "bottom-v0.12.0-x86_64-apple-darwin",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.12.0/bottom_aarch64-apple-darwin.tar.gz",
+              "extract_dir": "bottom-v0.12.0-aarch64-apple-darwin",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.12.0/bottom_x86_64-pc-windows-msvc.zip",
+              "extract_dir": "bottom-v0.12.0-x86_64-pc-windows-msvc",
+              "bin": [
+                "bottom.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.11.4",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.11.4/bottom_x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "bottom-v0.11.4-x86_64-unknown-linux-musl",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.11.4/bottom_aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "bottom-v0.11.4-aarch64-unknown-linux-musl",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.11.4/bottom_x86_64-apple-darwin.tar.gz",
+              "extract_dir": "bottom-v0.11.4-x86_64-apple-darwin",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.11.4/bottom_aarch64-apple-darwin.tar.gz",
+              "extract_dir": "bottom-v0.11.4-aarch64-apple-darwin",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.11.4/bottom_x86_64-pc-windows-msvc.zip",
+              "extract_dir": "bottom-v0.11.4-x86_64-pc-windows-msvc",
+              "bin": [
+                "bottom.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.11.3",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.11.3/bottom_x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "bottom-v0.11.3-x86_64-unknown-linux-musl",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.11.3/bottom_aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "bottom-v0.11.3-aarch64-unknown-linux-musl",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.11.3/bottom_x86_64-apple-darwin.tar.gz",
+              "extract_dir": "bottom-v0.11.3-x86_64-apple-darwin",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.11.3/bottom_aarch64-apple-darwin.tar.gz",
+              "extract_dir": "bottom-v0.11.3-aarch64-apple-darwin",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.11.3/bottom_x86_64-pc-windows-msvc.zip",
+              "extract_dir": "bottom-v0.11.3-x86_64-pc-windows-msvc",
+              "bin": [
+                "bottom.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.11.2",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.11.2/bottom_x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "bottom-v0.11.2-x86_64-unknown-linux-musl",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.11.2/bottom_aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "bottom-v0.11.2-aarch64-unknown-linux-musl",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.11.2/bottom_x86_64-apple-darwin.tar.gz",
+              "extract_dir": "bottom-v0.11.2-x86_64-apple-darwin",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.11.2/bottom_aarch64-apple-darwin.tar.gz",
+              "extract_dir": "bottom-v0.11.2-aarch64-apple-darwin",
+              "bin": [
+                "bottom"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/ClementTsang/bottom/releases/download/0.11.2/bottom_x86_64-pc-windows-msvc.zip",
+              "extract_dir": "bottom-v0.11.2-x86_64-pc-windows-msvc",
+              "bin": [
+                "bottom.exe"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

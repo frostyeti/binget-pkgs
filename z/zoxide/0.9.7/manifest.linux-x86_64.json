@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.9.7/zoxide-0.9.7-x86_64-unknown-linux-musl.tar.gz",
+      "extract_dir": "zoxide-v0.9.7-x86_64-unknown-linux-musl",
+      "bin": [
+        "zoxide"
+      ]
+    }
+  }
+}

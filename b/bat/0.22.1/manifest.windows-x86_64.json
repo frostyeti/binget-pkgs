@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/sharkdp/bat/releases/download/v0.22.1/bat-v0.22.1-x86_64-pc-windows-msvc.zip",
+      "extract_dir": "bat-v0.22.1-x86_64-pc-windows-msvc",
+      "bin": [
+        "bat.exe"
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/jesseduffield/lazydocker/releases/download/v0.23.0/lazydocker_0.23.0_Windows_x86_64.zip",
+      "bin": [
+        "lazydocker.exe"
+      ]
+    }
+  }
+}

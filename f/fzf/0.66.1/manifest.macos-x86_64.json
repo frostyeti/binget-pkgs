@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/junegunn/fzf/releases/download/v0.66.1/fzf-0.66.1-darwin_amd64.tar.gz",
+      "bin": [
+        "fzf"
+      ]
+    }
+  }
+}

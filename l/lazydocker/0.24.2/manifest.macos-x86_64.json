@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/jesseduffield/lazydocker/releases/download/v0.24.2/lazydocker_0.24.2_Darwin_x86_64.tar.gz",
+      "bin": [
+        "lazydocker"
+      ]
+    }
+  }
+}

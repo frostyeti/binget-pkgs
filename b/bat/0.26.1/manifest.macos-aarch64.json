@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/sharkdp/bat/releases/download/v0.26.1/bat-v0.26.1-aarch64-apple-darwin.tar.gz",
+      "extract_dir": "bat-v0.26.1-aarch64-apple-darwin",
+      "bin": [
+        "bat"
+      ]
+    }
+  }
+}
