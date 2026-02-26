@@ -93,3 +93,7 @@ Runtimes require complex shimming because they often bring along multiple binari
 *   **Complex (Docker, Podman)**: Contain daemons, rely on root system permissions, socket connections, and virtualization.
     *   **Shim Mode**: Almost impossible or highly impractical to shim a daemon correctly per project.
     *   **Global Mode**: The manifest for these should explicitly map to `apt`, `brew`, `winget`, or `msi`. When a user types `binget install docker`, it should run `apt install docker-ce` on Linux or proxy to `winget install Docker.DockerDesktop` on Windows.
+
+## Docker Testing (CI/CD Pipeline)
+
+See [`TESTING.md`](./TESTING.md) for details on how we use Docker to test our manifests against multiple Linux distributions (Ubuntu, Fedora, Alpine) and headless Windows containers (Server Core).
