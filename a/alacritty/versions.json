@@ -1,0 +1,25 @@
+{
+  "latest": "0.16.1",
+  "versions": [
+    {
+      "version": "0.16.1",
+      "status": "active"
+    },
+    {
+      "version": "0.16.0",
+      "status": "active"
+    },
+    {
+      "version": "0.15.1",
+      "status": "active"
+    },
+    {
+      "version": "0.15.0",
+      "status": "active"
+    },
+    {
+      "version": "0.14.0",
+      "status": "active"
+    }
+  ]
+}

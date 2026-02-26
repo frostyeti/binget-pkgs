@@ -158,7 +158,18 @@ const APPS: AppDef[] = [
     rustApp("bottom", "ClementTsang/bottom", "Yet another cross-platform graphical process/system monitor"),
     rustApp("zellij", "zellij-org/zellij", "A terminal workspace with batteries included"),
     rustApp("helix", "helix-editor/helix", "A post-modern modal text editor"),
-    rustApp("alacritty", "alacritty/alacritty", "A cross-platform, OpenGL terminal emulator"),
+    {
+        id: "alacritty",
+        description: "A cross-platform, OpenGL terminal emulator",
+        githubRepo: "alacritty/alacritty",
+        assetMap: {
+            "macos-x86_64": ["Alacritty", "dmg"],
+            "macos-aarch64": ["Alacritty", "dmg"],
+            "windows-x86_64": ["installer", "msi"]
+        },
+        extractDir: "",
+        binName: "alacritty"
+    },
     rustApp("wezterm", "wez/wezterm", "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez"),
     
     goApp("gh", "cli/cli", "GitHub CLI"),
@@ -386,6 +397,109 @@ const APPS: AppDef[] = [
                 await Deno.writeTextFile(join(pkgDir, "manifest.json"), JSON.stringify({ $schema: "../../schema.json", name: app.id, description: app.description, versions }, null, 2));
                 
                 console.log(`Wrote manifests for helm with ${versions.length} versions`);
+            }
+        }
+    },
+    {
+        id: "vscode",
+        description: "Visual Studio Code",
+        customHandler: async () => {
+            const url = `https://update.code.visualstudio.com/api/releases/stable`;
+            const res = await fetch(url);
+            if (!res.ok) throw new Error(`Failed to fetch VSCode releases`);
+            const data = await res.json();
+            
+            // Limit to top 15 versions to save time
+            const versions = [];
+            for (let i = 0; i < Math.min(15, data.length); i++) {
+                const version = data[i];
+                
+                const platforms: Record<string, any> = {
+                    "linux-x86_64": {
+                        install_modes: {
+                            shim: {
+                                type: "archive",
+                                url: `https://update.code.visualstudio.com/${version}/linux-x64/stable`,
+                                extract_dir: "VSCode-linux-x64",
+                                bin: ["bin/code"]
+                            }
+                        }
+                    },
+                    "linux-aarch64": {
+                        install_modes: {
+                            shim: {
+                                type: "archive",
+                                url: `https://update.code.visualstudio.com/${version}/linux-arm64/stable`,
+                                extract_dir: "VSCode-linux-arm64",
+                                bin: ["bin/code"]
+                            }
+                        }
+                    },
+                    "macos-x86_64": {
+                        install_modes: {
+                            shim: {
+                                type: "archive",
+                                url: `https://update.code.visualstudio.com/${version}/darwin/stable`,
+                                extract_dir: "Visual Studio Code.app",
+                                bin: ["Contents/Resources/app/bin/code"]
+                            }
+                        }
+                    },
+                    "macos-aarch64": {
+                        install_modes: {
+                            shim: {
+                                type: "archive",
+                                url: `https://update.code.visualstudio.com/${version}/darwin-arm64/stable`,
+                                extract_dir: "Visual Studio Code.app",
+                                bin: ["Contents/Resources/app/bin/code"]
+                            }
+                        }
+                    },
+                    "windows-x86_64": {
+                        install_modes: {
+                            shim: {
+                                type: "archive",
+                                url: `https://update.code.visualstudio.com/${version}/win32-x64-archive/stable`,
+                                extract_dir: "",
+                                bin: ["bin/code.cmd"]
+                            }
+                        }
+                    }
+                };
+                
+                versions.push({ version, platforms });
+                try { db.query("INSERT OR IGNORE INTO package_versions (id, version, tag_name, published_at) VALUES (?, ?, ?, ?)", ["vscode", version, version, new Date().toISOString()]); } catch (e) {}
+            }
+            
+            if (versions.length > 0) {
+                const app = { id: "vscode", description: "Visual Studio Code" };
+                const c = app.id.charAt(0).toLowerCase();
+                const appDir = join(c, app.id);
+                await ensureDir(appDir);
+
+                versions.sort((a, b) => b.version.localeCompare(a.version, undefined, { numeric: true, sensitivity: 'base' }));
+                const latestVersion = versions[0].version;
+
+                const versionsJson = {
+                    latest: latestVersion,
+                    versions: versions.map(v => ({ version: v.version, status: "active" }))
+                };
+                await Deno.writeTextFile(join(appDir, "versions.json"), JSON.stringify(versionsJson, null, 2));
+
+                for (const v of versions) {
+                    const verDir = join(appDir, v.version);
+                    await ensureDir(verDir);
+                    for (const [plat, platformData] of Object.entries(v.platforms)) {
+                        const manifestPath = join(verDir, `manifest.${plat}.json`);
+                        await Deno.writeTextFile(manifestPath, JSON.stringify(platformData, null, 2));
+                    }
+                }
+                
+                const pkgDir = join("packages", app.id);
+                await ensureDir(pkgDir);
+                await Deno.writeTextFile(join(pkgDir, "manifest.json"), JSON.stringify({ $schema: "../../schema.json", name: app.id, description: app.description, versions }, null, 2));
+                
+                console.log(`Wrote manifests for vscode with ${versions.length} versions`);
             }
         }
     },
@@ -674,16 +788,42 @@ async function processApp(app: AppDef) {
                 if (extDir.includes("{{arch}}")) extDir = extDir.replace(/\{\{arch\}\}/g, arch);
 
                 const url = asset.browser_download_url;
-                const type = url.endsWith(".zip") || url.endsWith(".tar.gz") || url.endsWith(".tgz") ? "archive" : "raw";
+                const lowerUrl = url.toLowerCase();
+                
+                let type = "raw";
+                let installMode = "shim";
+                let format = undefined;
+                
+                if (lowerUrl.endsWith(".zip") || lowerUrl.endsWith(".tar.gz") || lowerUrl.endsWith(".tgz") || lowerUrl.endsWith(".tar.xz") || lowerUrl.endsWith(".tbz")) {
+                    type = "archive";
+                } else if (lowerUrl.endsWith(".msi") || lowerUrl.endsWith(".dmg") || lowerUrl.endsWith(".deb") || lowerUrl.endsWith(".rpm") || lowerUrl.endsWith(".pkg") || lowerUrl.endsWith(".appimage")) {
+                    type = "installer";
+                    installMode = "user"; // Installers run in user mode
+                    if (lowerUrl.endsWith(".msi")) format = "msi";
+                    else if (lowerUrl.endsWith(".dmg")) format = "dmg";
+                    else if (lowerUrl.endsWith(".deb")) format = "deb";
+                    else if (lowerUrl.endsWith(".rpm")) format = "rpm";
+                    else if (lowerUrl.endsWith(".pkg")) format = "pkg";
+                    else if (lowerUrl.endsWith(".appimage")) format = "appimage";
+                }
+
+                const modeData: any = {
+                    type,
+                    url,
+                };
+                
+                if (format) modeData.format = format;
+                
+                if (type === "archive") {
+                    modeData.extract_dir = extDir || undefined;
+                    modeData.bin = [bin];
+                } else if (type === "raw") {
+                    modeData.bin = [bin];
+                }
 
                 platforms[plat] = {
                     install_modes: {
-                        shim: {
-                            type,
-                            url,
-                            extract_dir: extDir || undefined,
-                            bin: [bin]
-                        }
+                        [installMode]: modeData
                     }
                 };
             }

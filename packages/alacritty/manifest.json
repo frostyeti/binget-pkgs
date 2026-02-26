@@ -1,0 +1,167 @@
+{
+  "$schema": "../../schema.json",
+  "name": "alacritty",
+  "description": "A cross-platform, OpenGL terminal emulator",
+  "versions": [
+    {
+      "version": "0.16.1",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/alacritty/alacritty/releases/download/v0.16.1/Alacritty-v0.16.1.dmg",
+              "format": "dmg"
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/alacritty/alacritty/releases/download/v0.16.1/Alacritty-v0.16.1.dmg",
+              "format": "dmg"
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/alacritty/alacritty/releases/download/v0.16.1/Alacritty-v0.16.1-installer.msi",
+              "format": "msi"
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.16.0",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/alacritty/alacritty/releases/download/v0.16.0/Alacritty-v0.16.0.dmg",
+              "format": "dmg"
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/alacritty/alacritty/releases/download/v0.16.0/Alacritty-v0.16.0.dmg",
+              "format": "dmg"
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/alacritty/alacritty/releases/download/v0.16.0/Alacritty-v0.16.0-installer.msi",
+              "format": "msi"
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.15.1",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/alacritty/alacritty/releases/download/v0.15.1/Alacritty-v0.15.1.dmg",
+              "format": "dmg"
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/alacritty/alacritty/releases/download/v0.15.1/Alacritty-v0.15.1.dmg",
+              "format": "dmg"
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/alacritty/alacritty/releases/download/v0.15.1/Alacritty-v0.15.1-installer.msi",
+              "format": "msi"
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.15.0",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/alacritty/alacritty/releases/download/v0.15.0/Alacritty-v0.15.0.dmg",
+              "format": "dmg"
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/alacritty/alacritty/releases/download/v0.15.0/Alacritty-v0.15.0.dmg",
+              "format": "dmg"
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/alacritty/alacritty/releases/download/v0.15.0/Alacritty-v0.15.0-installer.msi",
+              "format": "msi"
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.14.0",
+      "platforms": {
+        "macos-x86_64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/alacritty/alacritty/releases/download/v0.14.0/Alacritty-v0.14.0.dmg",
+              "format": "dmg"
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/alacritty/alacritty/releases/download/v0.14.0/Alacritty-v0.14.0.dmg",
+              "format": "dmg"
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/alacritty/alacritty/releases/download/v0.14.0/Alacritty-v0.14.0-installer.msi",
+              "format": "msi"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

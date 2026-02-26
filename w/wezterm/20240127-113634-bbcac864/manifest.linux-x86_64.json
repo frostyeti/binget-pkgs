@@ -1,11 +1,9 @@
 {
   "install_modes": {
-    "shim": {
-      "type": "raw",
+    "user": {
+      "type": "installer",
       "url": "https://github.com/wezterm/wezterm/releases/download/20240127-113634-bbcac864/WezTerm-20240127-113634-bbcac864-Ubuntu20.04.AppImage",
-      "bin": [
-        "wezterm"
-      ]
+      "format": "appimage"
     }
   }
 }

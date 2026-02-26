@@ -1,0 +1,9 @@
+{
+  "install_modes": {
+    "user": {
+      "type": "installer",
+      "url": "https://github.com/alacritty/alacritty/releases/download/v0.16.0/Alacritty-v0.16.0-installer.msi",
+      "format": "msi"
+    }
+  }
+}

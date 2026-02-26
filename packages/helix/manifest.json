@@ -9,7 +9,7 @@
         "linux-x86_64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/25.07.1/helix-25.07.1-x86_64-linux.tar.xz",
               "extract_dir": "helix-25.07.1-x86_64-unknown-linux-musl",
               "bin": [
@@ -21,7 +21,7 @@
         "linux-aarch64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/25.07.1/helix-25.07.1-aarch64-linux.tar.xz",
               "extract_dir": "helix-25.07.1-aarch64-unknown-linux-musl",
               "bin": [
@@ -33,7 +33,7 @@
         "macos-x86_64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/25.07.1/helix-25.07.1-x86_64-macos.tar.xz",
               "extract_dir": "helix-25.07.1-x86_64-apple-darwin",
               "bin": [
@@ -45,7 +45,7 @@
         "macos-aarch64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/25.07.1/helix-25.07.1-aarch64-macos.tar.xz",
               "extract_dir": "helix-25.07.1-aarch64-apple-darwin",
               "bin": [
@@ -74,7 +74,7 @@
         "linux-x86_64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/25.07/helix-25.07-x86_64-linux.tar.xz",
               "extract_dir": "helix-25.07-x86_64-unknown-linux-musl",
               "bin": [
@@ -86,7 +86,7 @@
         "linux-aarch64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/25.07/helix-25.07-aarch64-linux.tar.xz",
               "extract_dir": "helix-25.07-aarch64-unknown-linux-musl",
               "bin": [
@@ -98,7 +98,7 @@
         "macos-x86_64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/25.07/helix-25.07-x86_64-macos.tar.xz",
               "extract_dir": "helix-25.07-x86_64-apple-darwin",
               "bin": [
@@ -110,7 +110,7 @@
         "macos-aarch64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/25.07/helix-25.07-aarch64-macos.tar.xz",
               "extract_dir": "helix-25.07-aarch64-apple-darwin",
               "bin": [
@@ -139,7 +139,7 @@
         "linux-x86_64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/25.01.1/helix-25.01.1-x86_64-linux.tar.xz",
               "extract_dir": "helix-25.01.1-x86_64-unknown-linux-musl",
               "bin": [
@@ -151,7 +151,7 @@
         "linux-aarch64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/25.01.1/helix-25.01.1-aarch64-linux.tar.xz",
               "extract_dir": "helix-25.01.1-aarch64-unknown-linux-musl",
               "bin": [
@@ -163,7 +163,7 @@
         "macos-x86_64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/25.01.1/helix-25.01.1-x86_64-macos.tar.xz",
               "extract_dir": "helix-25.01.1-x86_64-apple-darwin",
               "bin": [
@@ -175,7 +175,7 @@
         "macos-aarch64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/25.01.1/helix-25.01.1-aarch64-macos.tar.xz",
               "extract_dir": "helix-25.01.1-aarch64-apple-darwin",
               "bin": [
@@ -204,7 +204,7 @@
         "linux-x86_64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/25.01/helix-25.01-x86_64-linux.tar.xz",
               "extract_dir": "helix-25.01-x86_64-unknown-linux-musl",
               "bin": [
@@ -216,7 +216,7 @@
         "linux-aarch64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/25.01/helix-25.01-aarch64-linux.tar.xz",
               "extract_dir": "helix-25.01-aarch64-unknown-linux-musl",
               "bin": [
@@ -228,7 +228,7 @@
         "macos-x86_64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/25.01/helix-25.01-x86_64-macos.tar.xz",
               "extract_dir": "helix-25.01-x86_64-apple-darwin",
               "bin": [
@@ -240,7 +240,7 @@
         "macos-aarch64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/25.01/helix-25.01-aarch64-macos.tar.xz",
               "extract_dir": "helix-25.01-aarch64-apple-darwin",
               "bin": [
@@ -269,7 +269,7 @@
         "linux-x86_64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/24.07/helix-24.07-x86_64-linux.tar.xz",
               "extract_dir": "helix-24.07-x86_64-unknown-linux-musl",
               "bin": [
@@ -281,7 +281,7 @@
         "linux-aarch64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/24.07/helix-24.07-aarch64-linux.tar.xz",
               "extract_dir": "helix-24.07-aarch64-unknown-linux-musl",
               "bin": [
@@ -293,7 +293,7 @@
         "macos-x86_64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/24.07/helix-24.07-x86_64-macos.tar.xz",
               "extract_dir": "helix-24.07-x86_64-apple-darwin",
               "bin": [
@@ -305,7 +305,7 @@
         "macos-aarch64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/24.07/helix-24.07-aarch64-macos.tar.xz",
               "extract_dir": "helix-24.07-aarch64-apple-darwin",
               "bin": [
@@ -334,7 +334,7 @@
         "linux-x86_64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/24.03/helix-24.03-x86_64-linux.tar.xz",
               "extract_dir": "helix-24.03-x86_64-unknown-linux-musl",
               "bin": [
@@ -346,7 +346,7 @@
         "linux-aarch64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/24.03/helix-24.03-aarch64-linux.tar.xz",
               "extract_dir": "helix-24.03-aarch64-unknown-linux-musl",
               "bin": [
@@ -358,7 +358,7 @@
         "macos-x86_64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/24.03/helix-24.03-x86_64-macos.tar.xz",
               "extract_dir": "helix-24.03-x86_64-apple-darwin",
               "bin": [
@@ -370,7 +370,7 @@
         "macos-aarch64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/24.03/helix-24.03-aarch64-macos.tar.xz",
               "extract_dir": "helix-24.03-aarch64-apple-darwin",
               "bin": [
@@ -399,7 +399,7 @@
         "linux-x86_64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/23.10/helix-23.10-x86_64-linux.tar.xz",
               "extract_dir": "helix-23.10-x86_64-unknown-linux-musl",
               "bin": [
@@ -411,7 +411,7 @@
         "linux-aarch64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/23.10/helix-23.10-aarch64-linux.tar.xz",
               "extract_dir": "helix-23.10-aarch64-unknown-linux-musl",
               "bin": [
@@ -423,7 +423,7 @@
         "macos-x86_64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/23.10/helix-23.10-x86_64-macos.tar.xz",
               "extract_dir": "helix-23.10-x86_64-apple-darwin",
               "bin": [
@@ -435,7 +435,7 @@
         "macos-aarch64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/23.10/helix-23.10-aarch64-macos.tar.xz",
               "extract_dir": "helix-23.10-aarch64-apple-darwin",
               "bin": [
@@ -464,7 +464,7 @@
         "linux-x86_64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/23.05/helix-23.05-x86_64-linux.tar.xz",
               "extract_dir": "helix-23.05-x86_64-unknown-linux-musl",
               "bin": [
@@ -476,7 +476,7 @@
         "linux-aarch64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/23.05/helix-23.05-aarch64-linux.tar.xz",
               "extract_dir": "helix-23.05-aarch64-unknown-linux-musl",
               "bin": [
@@ -488,7 +488,7 @@
         "macos-x86_64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/23.05/helix-23.05-x86_64-macos.tar.xz",
               "extract_dir": "helix-23.05-x86_64-apple-darwin",
               "bin": [
@@ -500,7 +500,7 @@
         "macos-aarch64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/23.05/helix-23.05-aarch64-macos.tar.xz",
               "extract_dir": "helix-23.05-aarch64-apple-darwin",
               "bin": [
@@ -529,7 +529,7 @@
         "linux-x86_64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/23.03/helix-23.03-x86_64-linux.tar.xz",
               "extract_dir": "helix-23.03-x86_64-unknown-linux-musl",
               "bin": [
@@ -541,7 +541,7 @@
         "linux-aarch64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/23.03/helix-23.03-aarch64-linux.tar.xz",
               "extract_dir": "helix-23.03-aarch64-unknown-linux-musl",
               "bin": [
@@ -553,7 +553,7 @@
         "macos-x86_64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/23.03/helix-23.03-x86_64-macos.tar.xz",
               "extract_dir": "helix-23.03-x86_64-apple-darwin",
               "bin": [
@@ -565,7 +565,7 @@
         "macos-aarch64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/23.03/helix-23.03-aarch64-macos.tar.xz",
               "extract_dir": "helix-23.03-aarch64-apple-darwin",
               "bin": [
@@ -594,7 +594,7 @@
         "linux-x86_64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/22.12/helix-22.12-x86_64-linux.tar.xz",
               "extract_dir": "helix-22.12-x86_64-unknown-linux-musl",
               "bin": [
@@ -606,7 +606,7 @@
         "linux-aarch64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/22.12/helix-22.12-aarch64-linux.tar.xz",
               "extract_dir": "helix-22.12-aarch64-unknown-linux-musl",
               "bin": [
@@ -618,7 +618,7 @@
         "macos-x86_64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/22.12/helix-22.12-x86_64-macos.tar.xz",
               "extract_dir": "helix-22.12-x86_64-apple-darwin",
               "bin": [
@@ -630,7 +630,7 @@
         "macos-aarch64": {
           "install_modes": {
             "shim": {
-              "type": "raw",
+              "type": "archive",
               "url": "https://github.com/helix-editor/helix/releases/download/22.12/helix-22.12-aarch64-macos.tar.xz",
               "extract_dir": "helix-22.12-aarch64-apple-darwin",
               "bin": [

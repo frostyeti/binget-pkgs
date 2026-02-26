@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://update.code.visualstudio.com/1.109.1/darwin/stable",
+      "extract_dir": "Visual Studio Code.app",
+      "bin": [
+        "Contents/Resources/app/bin/code"
+      ]
+    }
+  }
+}

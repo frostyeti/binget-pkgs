@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://update.code.visualstudio.com/1.109.5/linux-arm64/stable",
+      "extract_dir": "VSCode-linux-arm64",
+      "bin": [
+        "bin/code"
+      ]
+    }
+  }
+}
