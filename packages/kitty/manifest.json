@@ -1,0 +1,412 @@
+{
+  "$schema": "../../schema.json",
+  "name": "kitty",
+  "description": "Cross-platform, fast, feature-rich, GPU based terminal",
+  "versions": [
+    {
+      "version": "0.45.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.45.0/kitty-0.45.0-x86_64.txz",
+              "bin": [
+                "bin/kitty"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.45.0/kitty-0.45.0-arm64.txz",
+              "bin": [
+                "bin/kitty"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.45.0/kitty-0.45.0.dmg",
+              "format": "dmg"
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.45.0/kitty-0.45.0.dmg",
+              "format": "dmg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.44.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.44.0/kitty-0.44.0-x86_64.txz",
+              "bin": [
+                "bin/kitty"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.44.0/kitty-0.44.0-arm64.txz",
+              "bin": [
+                "bin/kitty"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.44.0/kitty-0.44.0.dmg",
+              "format": "dmg"
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.44.0/kitty-0.44.0.dmg",
+              "format": "dmg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.43.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.43.1/kitty-0.43.1-x86_64.txz",
+              "bin": [
+                "bin/kitty"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.43.1/kitty-0.43.1-arm64.txz",
+              "bin": [
+                "bin/kitty"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.43.1/kitty-0.43.1.dmg",
+              "format": "dmg"
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.43.1/kitty-0.43.1.dmg",
+              "format": "dmg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.43.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.43.0/kitty-0.43.0-x86_64.txz",
+              "bin": [
+                "bin/kitty"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.43.0/kitty-0.43.0-arm64.txz",
+              "bin": [
+                "bin/kitty"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.43.0/kitty-0.43.0.dmg",
+              "format": "dmg"
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.43.0/kitty-0.43.0.dmg",
+              "format": "dmg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.42.2",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.42.2/kitty-0.42.2-x86_64.txz",
+              "bin": [
+                "bin/kitty"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.42.2/kitty-0.42.2-arm64.txz",
+              "bin": [
+                "bin/kitty"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.42.2/kitty-0.42.2.dmg",
+              "format": "dmg"
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.42.2/kitty-0.42.2.dmg",
+              "format": "dmg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.42.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.42.1/kitty-0.42.1-x86_64.txz",
+              "bin": [
+                "bin/kitty"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.42.1/kitty-0.42.1-arm64.txz",
+              "bin": [
+                "bin/kitty"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.42.1/kitty-0.42.1.dmg",
+              "format": "dmg"
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.42.1/kitty-0.42.1.dmg",
+              "format": "dmg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.42.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.42.0/kitty-0.42.0-x86_64.txz",
+              "bin": [
+                "bin/kitty"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.42.0/kitty-0.42.0-arm64.txz",
+              "bin": [
+                "bin/kitty"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.42.0/kitty-0.42.0.dmg",
+              "format": "dmg"
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.42.0/kitty-0.42.0.dmg",
+              "format": "dmg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.41.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.41.1/kitty-0.41.1-x86_64.txz",
+              "bin": [
+                "bin/kitty"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.41.1/kitty-0.41.1-arm64.txz",
+              "bin": [
+                "bin/kitty"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.41.1/kitty-0.41.1.dmg",
+              "format": "dmg"
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.41.1/kitty-0.41.1.dmg",
+              "format": "dmg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.41.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.41.0/kitty-0.41.0-x86_64.txz",
+              "bin": [
+                "bin/kitty"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.41.0/kitty-0.41.0-arm64.txz",
+              "bin": [
+                "bin/kitty"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.41.0/kitty-0.41.0.dmg",
+              "format": "dmg"
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "user": {
+              "type": "installer",
+              "url": "https://github.com/kovidgoyal/kitty/releases/download/v0.41.0/kitty-0.41.0.dmg",
+              "format": "dmg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

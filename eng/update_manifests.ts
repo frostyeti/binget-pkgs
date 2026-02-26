@@ -294,6 +294,33 @@ const APPS: AppDef[] = [
         extractDir: "pulumi",
         binName: { "windows-x86_64": "pulumi.exe", "default": "pulumi" }
     },
+    {
+        id: "zed",
+        description: "A high-performance, multiplayer code editor",
+        githubRepo: "zed-industries/zed",
+        assetMap: {
+            "linux-x86_64": ["zed-linux-x86_64.tar.gz"],
+            "linux-aarch64": ["zed-linux-aarch64.tar.gz"],
+            "macos-x86_64": ["Zed-x86_64.dmg"],
+            "macos-aarch64": ["Zed-aarch64.dmg"],
+            "windows-x86_64": ["Zed-x86_64.exe"]
+        },
+        extractDir: "",
+        binName: { "linux-x86_64": "zed.app/bin/zed", "linux-aarch64": "zed.app/bin/zed", "windows-x86_64": "zed.exe", "default": "zed.app/bin/zed" }
+    },
+    {
+        id: "kitty",
+        description: "Cross-platform, fast, feature-rich, GPU based terminal",
+        githubRepo: "kovidgoyal/kitty",
+        assetMap: {
+            "linux-x86_64": ["x86_64.txz"],
+            "linux-aarch64": ["arm64.txz"],
+            "macos-x86_64": ["kitty-.*\\.dmg"],
+            "macos-aarch64": ["kitty-.*\\.dmg"]
+        },
+        extractDir: "",
+        binName: "bin/kitty"
+    },
 
     
     hashicorpApp("terraform", "Terraform is an infrastructure as code tool"),
@@ -794,7 +821,7 @@ async function processApp(app: AppDef) {
                 let installMode = "shim";
                 let format = undefined;
                 
-                if (lowerUrl.endsWith(".zip") || lowerUrl.endsWith(".tar.gz") || lowerUrl.endsWith(".tgz") || lowerUrl.endsWith(".tar.xz") || lowerUrl.endsWith(".tbz")) {
+                if (lowerUrl.endsWith(".zip") || lowerUrl.endsWith(".tar.gz") || lowerUrl.endsWith(".tgz") || lowerUrl.endsWith(".tar.xz") || lowerUrl.endsWith(".tbz") || lowerUrl.endsWith(".txz")) {
                     type = "archive";
                 } else if (lowerUrl.endsWith(".msi") || lowerUrl.endsWith(".dmg") || lowerUrl.endsWith(".deb") || lowerUrl.endsWith(".rpm") || lowerUrl.endsWith(".pkg") || lowerUrl.endsWith(".appimage")) {
                     type = "installer";
