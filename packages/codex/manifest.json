@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema.json",
+  "name": "codex",
+  "description": "AI-assisted CLI dev tool / code generation",
+  "versions": []
+}

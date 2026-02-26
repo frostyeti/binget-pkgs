@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/frostyeti/cast/releases/download/v0.2.0-alpha.0/cast-darwin-arm64-v0.2.0-alpha.0.tar.gz",
+      "bin": [
+        "cast"
+      ]
+    }
+  }
+}

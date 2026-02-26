@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema.json",
+  "name": "opencode",
+  "description": "Interactive CLI agent specializing in software engineering",
+  "versions": []
+}

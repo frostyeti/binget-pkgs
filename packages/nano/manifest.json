@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema.json",
+  "name": "nano",
+  "description": "Simple text editor",
+  "versions": []
+}

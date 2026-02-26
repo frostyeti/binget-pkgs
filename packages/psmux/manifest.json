@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema.json",
+  "name": "psmux",
+  "description": "Terminal multiplexer alternative",
+  "versions": []
+}

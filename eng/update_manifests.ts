@@ -147,6 +147,30 @@ function hashicorpApp(id: string, description: string): AppDef {
 }
 
 const APPS: AppDef[] = [
+    rustApp("nushell", "nushell/nushell", "A new type of shell"),
+    {
+        id: "oh-my-posh",
+        description: "A prompt theme engine for any shell",
+        githubRepo: "JanDeDobbeleer/oh-my-posh",
+        assetMap: {
+            "linux-x86_64": ["posh-linux-amd64"],
+            "linux-aarch64": ["posh-linux-arm64"],
+            "macos-x86_64": ["posh-darwin-amd64"],
+            "macos-aarch64": ["posh-darwin-arm64"],
+            "windows-x86_64": ["posh-windows-amd64.exe"]
+        },
+        extractDir: "",
+        binName: { "windows-x86_64": "oh-my-posh.exe", "default": "oh-my-posh" }
+    },
+    goApp("superfile", "yorukot/superfile", "Very fancy terminal file manager"),
+    goApp("pingme", "shizuokax/pingme", "CLI to send messages/alerts to messaging platforms"),
+
+    rustApp("yazi", "sxyazi/yazi", "Blazing fast terminal file manager"),
+    rustApp("gping", "orf/gping", "Ping, but with a graph"),
+    goApp("micro", "zyedidia/micro", "A modern and intuitive terminal-based text editor"),
+    goApp("lazysql", "jorgerojas26/lazysql", "A cross-platform TUI database management tool written in Go"),
+    goApp("kustomize", "kubernetes-sigs/kustomize", "Customization of kubernetes YAML configurations"),
+
     rustApp("just", "casey/just", "just a command runner"),
     rustApp("bat", "sharkdp/bat", "A cat(1) clone with wings"),
     rustApp("ripgrep", "BurntSushi/ripgrep", "ripgrep recursively searches directories for a regex pattern"),

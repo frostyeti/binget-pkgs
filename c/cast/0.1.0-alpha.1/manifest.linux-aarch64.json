@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/frostyeti/cast/releases/download/v0.1.0-alpha.1/cast-linux-arm64-v0.1.0-alpha.1.tar.gz",
+      "bin": [
+        "cast"
+      ]
+    }
+  }
+}

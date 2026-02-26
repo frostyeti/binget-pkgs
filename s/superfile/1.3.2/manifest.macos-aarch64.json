@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/yorukot/superfile/releases/download/v1.3.2/superfile-darwin-v1.3.2-arm64.tar.gz",
+      "bin": [
+        "superfile"
+      ]
+    }
+  }
+}

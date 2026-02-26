@@ -1,0 +1,607 @@
+{
+  "$schema": "../../schema.json",
+  "name": "oh-my-posh",
+  "description": "A prompt theme engine for any shell",
+  "versions": [
+    {
+      "version": "29.6.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.6.1/posh-linux-amd64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.6.1/posh-linux-arm64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.6.1/posh-darwin-amd64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.6.1/posh-darwin-arm64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.6.1/posh-windows-amd64.exe",
+              "bin": [
+                "oh-my-posh.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "29.6.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.6.0/posh-linux-amd64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.6.0/posh-linux-arm64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.6.0/posh-darwin-amd64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.6.0/posh-darwin-arm64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.6.0/posh-windows-amd64.exe",
+              "bin": [
+                "oh-my-posh.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "29.5.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.5.0/posh-linux-amd64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.5.0/posh-linux-arm64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.5.0/posh-darwin-amd64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.5.0/posh-darwin-arm64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.5.0/posh-windows-amd64.exe",
+              "bin": [
+                "oh-my-posh.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "29.4.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.4.1/posh-linux-amd64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.4.1/posh-linux-arm64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.4.1/posh-darwin-amd64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.4.1/posh-darwin-arm64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.4.1/posh-windows-amd64.exe",
+              "bin": [
+                "oh-my-posh.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "29.4.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.4.0/posh-linux-amd64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.4.0/posh-linux-arm64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.4.0/posh-darwin-amd64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.4.0/posh-darwin-arm64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.4.0/posh-windows-amd64.exe",
+              "bin": [
+                "oh-my-posh.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "29.3.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.3.0/posh-linux-amd64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.3.0/posh-linux-arm64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.3.0/posh-darwin-amd64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.3.0/posh-darwin-arm64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.3.0/posh-windows-amd64.exe",
+              "bin": [
+                "oh-my-posh.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "29.2.2",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.2.2/posh-linux-amd64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.2.2/posh-linux-arm64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.2.2/posh-darwin-amd64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.2.2/posh-darwin-arm64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.2.2/posh-windows-amd64.exe",
+              "bin": [
+                "oh-my-posh.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "29.2.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.2.1/posh-linux-amd64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.2.1/posh-linux-arm64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.2.1/posh-darwin-amd64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.2.1/posh-darwin-arm64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.2.1/posh-windows-amd64.exe",
+              "bin": [
+                "oh-my-posh.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "29.2.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.2.0/posh-linux-amd64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.2.0/posh-linux-arm64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.2.0/posh-darwin-amd64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.2.0/posh-darwin-arm64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.2.0/posh-windows-amd64.exe",
+              "bin": [
+                "oh-my-posh.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "29.1.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.1.0/posh-linux-amd64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.1.0/posh-linux-arm64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.1.0/posh-darwin-amd64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.1.0/posh-darwin-arm64",
+              "bin": [
+                "oh-my-posh"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "raw",
+              "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.1.0/posh-windows-amd64.exe",
+              "bin": [
+                "oh-my-posh.exe"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

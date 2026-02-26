@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schema.json",
+  "name": "odin",
+  "description": "Built-in runtime resolver for odin",
+  "versions": [
+    {
+      "version": "latest",
+      "platforms": {
+        "linux-x86_64": { "install_modes": { "shim": { "type": "runtime" }, "user": { "type": "runtime" }, "global": { "type": "runtime" } } },
+        "linux-aarch64": { "install_modes": { "shim": { "type": "runtime" }, "user": { "type": "runtime" }, "global": { "type": "runtime" } } },
+        "macos-x86_64": { "install_modes": { "shim": { "type": "runtime" }, "user": { "type": "runtime" }, "global": { "type": "runtime" } } },
+        "macos-aarch64": { "install_modes": { "shim": { "type": "runtime" }, "user": { "type": "runtime" }, "global": { "type": "runtime" } } },
+        "windows-x86_64": { "install_modes": { "shim": { "type": "runtime" }, "user": { "type": "runtime" }, "global": { "type": "runtime" } } },
+        "windows-aarch64": { "install_modes": { "shim": { "type": "runtime" }, "user": { "type": "runtime" }, "global": { "type": "runtime" } } }
+      }
+    }
+  ]
+}

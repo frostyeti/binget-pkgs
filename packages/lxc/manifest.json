@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema.json",
+  "name": "lxc",
+  "description": "Linux Containers command-line tools",
+  "versions": []
+}

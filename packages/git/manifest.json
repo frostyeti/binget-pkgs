@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema.json",
+  "name": "git",
+  "description": "Version control",
+  "versions": []
+}

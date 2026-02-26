@@ -1,0 +1,17 @@
+{
+  "latest": "kustomize/v5.8.1",
+  "versions": [
+    {
+      "version": "kustomize/v5.8.1",
+      "status": "active"
+    },
+    {
+      "version": "kustomize/v5.8.0",
+      "status": "active"
+    },
+    {
+      "version": "kustomize/v5.7.1",
+      "status": "active"
+    }
+  ]
+}

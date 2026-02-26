@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema.json",
+  "name": "k3s",
+  "description": "Lightweight Kubernetes",
+  "versions": []
+}

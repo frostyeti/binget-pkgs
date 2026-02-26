@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema.json",
+  "name": "7zip",
+  "description": "High-compression file archiver",
+  "versions": []
+}

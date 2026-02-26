@@ -1,6 +1,10 @@
 {
-  "latest": "3.223.0",
+  "latest": "3.224.0",
   "versions": [
+    {
+      "version": "3.224.0",
+      "status": "active"
+    },
     {
       "version": "3.223.0",
       "status": "active"
@@ -35,10 +39,6 @@
     },
     {
       "version": "3.216.0",
-      "status": "active"
-    },
-    {
-      "version": "3.215.0",
       "status": "active"
     }
   ]

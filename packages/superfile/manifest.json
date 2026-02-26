@@ -1,0 +1,169 @@
+{
+  "$schema": "../../schema.json",
+  "name": "superfile",
+  "description": "Very fancy terminal file manager",
+  "versions": [
+    {
+      "version": "1.5.0",
+      "platforms": {
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/yorukot/superfile/releases/download/v1.5.0/superfile-linux-v1.5.0-arm64.tar.gz",
+              "bin": [
+                "superfile"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/yorukot/superfile/releases/download/v1.5.0/superfile-darwin-v1.5.0-arm64.tar.gz",
+              "bin": [
+                "superfile"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.4.0",
+      "platforms": {
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/yorukot/superfile/releases/download/v1.4.0/superfile-linux-v1.4.0-arm64.tar.gz",
+              "bin": [
+                "superfile"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/yorukot/superfile/releases/download/v1.4.0/superfile-darwin-v1.4.0-arm64.tar.gz",
+              "bin": [
+                "superfile"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.3.3",
+      "platforms": {
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/yorukot/superfile/releases/download/v1.3.3/superfile-linux-v1.3.3-arm64.tar.gz",
+              "bin": [
+                "superfile"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/yorukot/superfile/releases/download/v1.3.3/superfile-darwin-v1.3.3-arm64.tar.gz",
+              "bin": [
+                "superfile"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.3.2",
+      "platforms": {
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/yorukot/superfile/releases/download/v1.3.2/superfile-linux-v1.3.2-arm64.tar.gz",
+              "bin": [
+                "superfile"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/yorukot/superfile/releases/download/v1.3.2/superfile-darwin-v1.3.2-arm64.tar.gz",
+              "bin": [
+                "superfile"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.3.1",
+      "platforms": {
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/yorukot/superfile/releases/download/v1.3.1/superfile-linux-v1.3.1-arm64.tar.gz",
+              "bin": [
+                "superfile"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/yorukot/superfile/releases/download/v1.3.1/superfile-darwin-v1.3.1-arm64.tar.gz",
+              "bin": [
+                "superfile"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.3.0",
+      "platforms": {
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/yorukot/superfile/releases/download/v1.3.0/superfile-linux-v1.3.0-arm64.tar.gz",
+              "bin": [
+                "superfile"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/yorukot/superfile/releases/download/v1.3.0/superfile-darwin-v1.3.0-arm64.tar.gz",
+              "bin": [
+                "superfile"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema.json",
+  "name": "psql",
+  "description": "PostgreSQL command-line client",
+  "versions": []
+}

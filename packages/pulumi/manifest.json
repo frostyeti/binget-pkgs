@@ -4,6 +4,23 @@
   "description": "Pulumi - Infrastructure as Code in any programming language",
   "versions": [
     {
+      "version": "3.224.0",
+      "platforms": {
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/pulumi/pulumi/releases/download/v3.224.0/pulumi-v3.224.0-windows-x64.zip",
+              "extract_dir": "pulumi",
+              "bin": [
+                "pulumi.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
       "version": "3.223.0",
       "platforms": {
         "linux-x86_64": {
@@ -579,71 +596,6 @@
             "shim": {
               "type": "archive",
               "url": "https://github.com/pulumi/pulumi/releases/download/v3.216.0/pulumi-v3.216.0-windows-x64.zip",
-              "extract_dir": "pulumi",
-              "bin": [
-                "pulumi.exe"
-              ]
-            }
-          }
-        }
-      }
-    },
-    {
-      "version": "3.215.0",
-      "platforms": {
-        "linux-x86_64": {
-          "install_modes": {
-            "shim": {
-              "type": "archive",
-              "url": "https://github.com/pulumi/pulumi/releases/download/v3.215.0/pulumi-v3.215.0-linux-x64.tar.gz",
-              "extract_dir": "pulumi",
-              "bin": [
-                "pulumi"
-              ]
-            }
-          }
-        },
-        "linux-aarch64": {
-          "install_modes": {
-            "shim": {
-              "type": "archive",
-              "url": "https://github.com/pulumi/pulumi/releases/download/v3.215.0/pulumi-v3.215.0-linux-arm64.tar.gz",
-              "extract_dir": "pulumi",
-              "bin": [
-                "pulumi"
-              ]
-            }
-          }
-        },
-        "macos-x86_64": {
-          "install_modes": {
-            "shim": {
-              "type": "archive",
-              "url": "https://github.com/pulumi/pulumi/releases/download/v3.215.0/pulumi-v3.215.0-darwin-x64.tar.gz",
-              "extract_dir": "pulumi",
-              "bin": [
-                "pulumi"
-              ]
-            }
-          }
-        },
-        "macos-aarch64": {
-          "install_modes": {
-            "shim": {
-              "type": "archive",
-              "url": "https://github.com/pulumi/pulumi/releases/download/v3.215.0/pulumi-v3.215.0-darwin-arm64.tar.gz",
-              "extract_dir": "pulumi",
-              "bin": [
-                "pulumi"
-              ]
-            }
-          }
-        },
-        "windows-x86_64": {
-          "install_modes": {
-            "shim": {
-              "type": "archive",
-              "url": "https://github.com/pulumi/pulumi/releases/download/v3.215.0/pulumi-v3.215.0-windows-x64.zip",
               "extract_dir": "pulumi",
               "bin": [
                 "pulumi.exe"

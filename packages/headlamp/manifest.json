@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema.json",
+  "name": "headlamp",
+  "description": "Extensible Kubernetes web UI",
+  "versions": []
+}

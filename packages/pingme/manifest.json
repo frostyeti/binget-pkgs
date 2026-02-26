@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema.json",
+  "name": "pingme",
+  "description": "CLI to send messages/alerts to messaging platforms",
+  "versions": []
+}

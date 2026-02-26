@@ -304,66 +304,6 @@
       }
     },
     {
-      "version": "1.33.7",
-      "platforms": {
-        "linux-x86_64": {
-          "install_modes": {
-            "shim": {
-              "type": "raw",
-              "url": "https://dl.k8s.io/release/v1.33.7/bin/linux/amd64/kubectl",
-              "bin": [
-                "kubectl"
-              ]
-            }
-          }
-        },
-        "linux-aarch64": {
-          "install_modes": {
-            "shim": {
-              "type": "raw",
-              "url": "https://dl.k8s.io/release/v1.33.7/bin/linux/arm64/kubectl",
-              "bin": [
-                "kubectl"
-              ]
-            }
-          }
-        },
-        "macos-x86_64": {
-          "install_modes": {
-            "shim": {
-              "type": "raw",
-              "url": "https://dl.k8s.io/release/v1.33.7/bin/darwin/amd64/kubectl",
-              "bin": [
-                "kubectl"
-              ]
-            }
-          }
-        },
-        "macos-aarch64": {
-          "install_modes": {
-            "shim": {
-              "type": "raw",
-              "url": "https://dl.k8s.io/release/v1.33.7/bin/darwin/arm64/kubectl",
-              "bin": [
-                "kubectl"
-              ]
-            }
-          }
-        },
-        "windows-x86_64": {
-          "install_modes": {
-            "shim": {
-              "type": "raw",
-              "url": "https://dl.k8s.io/release/v1.33.7/bin/windows/amd64/kubectl.exe",
-              "bin": [
-                "kubectl.exe"
-              ]
-            }
-          }
-        }
-      }
-    },
-    {
       "version": "1.32.12",
       "platforms": {
         "linux-x86_64": {

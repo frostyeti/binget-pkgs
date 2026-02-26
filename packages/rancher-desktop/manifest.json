@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema.json",
+  "name": "rancher-desktop",
+  "description": "Kubernetes and container management",
+  "versions": []
+}

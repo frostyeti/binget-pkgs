@@ -1,0 +1,33 @@
+{
+  "latest": "2.0.15",
+  "versions": [
+    {
+      "version": "2.0.15",
+      "status": "active"
+    },
+    {
+      "version": "2.0.14",
+      "status": "active"
+    },
+    {
+      "version": "2.0.13",
+      "status": "active"
+    },
+    {
+      "version": "2.0.12",
+      "status": "active"
+    },
+    {
+      "version": "2.0.11",
+      "status": "active"
+    },
+    {
+      "version": "2.0.10",
+      "status": "active"
+    },
+    {
+      "version": "2.0.9",
+      "status": "active"
+    }
+  ]
+}

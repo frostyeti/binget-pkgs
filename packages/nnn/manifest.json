@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema.json",
+  "name": "nnn",
+  "description": "Tiny, lightning fast, feature-packed file manager",
+  "versions": []
+}

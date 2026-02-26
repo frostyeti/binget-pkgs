@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema.json",
+  "name": "sqlite3",
+  "description": "SQLite command-line interface",
+  "versions": []
+}

@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/yorukot/superfile/releases/download/v1.3.1/superfile-linux-v1.3.1-arm64.tar.gz",
+      "bin": [
+        "superfile"
+      ]
+    }
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "$schema": "../../schema.json",
+  "name": "gping",
+  "description": "Ping, but with a graph",
+  "versions": [
+    {
+      "version": "gping-v1.18.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/orf/gping/releases/download/gping-v1.18.0/gping-x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "gping-vgping-v1.18.0-x86_64-unknown-linux-musl",
+              "bin": [
+                "gping"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/orf/gping/releases/download/gping-v1.18.0/gping-aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "gping-vgping-v1.18.0-aarch64-unknown-linux-musl",
+              "bin": [
+                "gping"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "gping-v1.17.3",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/orf/gping/releases/download/gping-v1.17.3/gping-x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "gping-vgping-v1.17.3-x86_64-unknown-linux-musl",
+              "bin": [
+                "gping"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/orf/gping/releases/download/gping-v1.17.3/gping-aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "gping-vgping-v1.17.3-aarch64-unknown-linux-musl",
+              "bin": [
+                "gping"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "gping-v1.17.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/orf/gping/releases/download/gping-v1.17.1/gping-x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "gping-vgping-v1.17.1-x86_64-unknown-linux-musl",
+              "bin": [
+                "gping"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/orf/gping/releases/download/gping-v1.17.1/gping-aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "gping-vgping-v1.17.1-aarch64-unknown-linux-musl",
+              "bin": [
+                "gping"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "gping-v1.16.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/orf/gping/releases/download/gping-v1.16.1/gping-x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "gping-vgping-v1.16.1-x86_64-unknown-linux-musl",
+              "bin": [
+                "gping"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/orf/gping/releases/download/gping-v1.16.1/gping-aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "gping-vgping-v1.16.1-aarch64-unknown-linux-musl",
+              "bin": [
+                "gping"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "gping-v1.16.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/orf/gping/releases/download/gping-v1.16.0/gping-x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "gping-vgping-v1.16.0-x86_64-unknown-linux-musl",
+              "bin": [
+                "gping"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/orf/gping/releases/download/gping-v1.16.0/gping-aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "gping-vgping-v1.16.0-aarch64-unknown-linux-musl",
+              "bin": [
+                "gping"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "gping-v1.15.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/orf/gping/releases/download/gping-v1.15.1/gping-x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "gping-vgping-v1.15.1-x86_64-unknown-linux-musl",
+              "bin": [
+                "gping"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/orf/gping/releases/download/gping-v1.15.1/gping-aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "gping-vgping-v1.15.1-aarch64-unknown-linux-musl",
+              "bin": [
+                "gping"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "gping-v1.15.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/orf/gping/releases/download/gping-v1.15.0/gping-x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "gping-vgping-v1.15.0-x86_64-unknown-linux-musl",
+              "bin": [
+                "gping"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/orf/gping/releases/download/gping-v1.15.0/gping-aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "gping-vgping-v1.15.0-aarch64-unknown-linux-musl",
+              "bin": [
+                "gping"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "gping-v1.14.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/orf/gping/releases/download/gping-v1.14.0/gping-x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "gping-vgping-v1.14.0-x86_64-unknown-linux-musl",
+              "bin": [
+                "gping"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/orf/gping/releases/download/gping-v1.14.0/gping-aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "gping-vgping-v1.14.0-aarch64-unknown-linux-musl",
+              "bin": [
+                "gping"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

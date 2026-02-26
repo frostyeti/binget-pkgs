@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "raw",
+      "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v29.2.0/posh-linux-arm64",
+      "bin": [
+        "oh-my-posh"
+      ]
+    }
+  }
+}

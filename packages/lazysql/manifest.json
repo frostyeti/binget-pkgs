@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema.json",
+  "name": "lazysql",
+  "description": "Cross-platform TUI database management tool",
+  "versions": []
+}

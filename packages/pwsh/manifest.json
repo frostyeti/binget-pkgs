@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema.json",
+  "name": "pwsh",
+  "description": "PowerShell Core",
+  "versions": []
+}

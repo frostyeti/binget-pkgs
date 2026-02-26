@@ -1,0 +1,657 @@
+{
+  "$schema": "../../schema.json",
+  "name": "nushell",
+  "description": "A new type of shell",
+  "versions": [
+    {
+      "version": "0.110.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.110.0/nu-0.110.0-x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "nushell-v0.110.0-x86_64-unknown-linux-musl",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.110.0/nu-0.110.0-aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "nushell-v0.110.0-aarch64-unknown-linux-musl",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.110.0/nu-0.110.0-x86_64-apple-darwin.tar.gz",
+              "extract_dir": "nushell-v0.110.0-x86_64-apple-darwin",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.110.0/nu-0.110.0-aarch64-apple-darwin.tar.gz",
+              "extract_dir": "nushell-v0.110.0-aarch64-apple-darwin",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.110.0/nu-0.110.0-x86_64-pc-windows-msvc.zip",
+              "extract_dir": "nushell-v0.110.0-x86_64-pc-windows-msvc",
+              "bin": [
+                "nushell.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.109.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.109.1/nu-0.109.1-x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "nushell-v0.109.1-x86_64-unknown-linux-musl",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.109.1/nu-0.109.1-aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "nushell-v0.109.1-aarch64-unknown-linux-musl",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.109.1/nu-0.109.1-x86_64-apple-darwin.tar.gz",
+              "extract_dir": "nushell-v0.109.1-x86_64-apple-darwin",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.109.1/nu-0.109.1-aarch64-apple-darwin.tar.gz",
+              "extract_dir": "nushell-v0.109.1-aarch64-apple-darwin",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.109.1/nu-0.109.1-x86_64-pc-windows-msvc.zip",
+              "extract_dir": "nushell-v0.109.1-x86_64-pc-windows-msvc",
+              "bin": [
+                "nushell.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.109.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.109.0/nu-0.109.0-x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "nushell-v0.109.0-x86_64-unknown-linux-musl",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.109.0/nu-0.109.0-aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "nushell-v0.109.0-aarch64-unknown-linux-musl",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.109.0/nu-0.109.0-x86_64-apple-darwin.tar.gz",
+              "extract_dir": "nushell-v0.109.0-x86_64-apple-darwin",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.109.0/nu-0.109.0-aarch64-apple-darwin.tar.gz",
+              "extract_dir": "nushell-v0.109.0-aarch64-apple-darwin",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.109.0/nu-0.109.0-x86_64-pc-windows-msvc.zip",
+              "extract_dir": "nushell-v0.109.0-x86_64-pc-windows-msvc",
+              "bin": [
+                "nushell.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.108.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.108.0/nu-0.108.0-x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "nushell-v0.108.0-x86_64-unknown-linux-musl",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.108.0/nu-0.108.0-aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "nushell-v0.108.0-aarch64-unknown-linux-musl",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.108.0/nu-0.108.0-x86_64-apple-darwin.tar.gz",
+              "extract_dir": "nushell-v0.108.0-x86_64-apple-darwin",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.108.0/nu-0.108.0-aarch64-apple-darwin.tar.gz",
+              "extract_dir": "nushell-v0.108.0-aarch64-apple-darwin",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.108.0/nu-0.108.0-x86_64-pc-windows-msvc.zip",
+              "extract_dir": "nushell-v0.108.0-x86_64-pc-windows-msvc",
+              "bin": [
+                "nushell.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.107.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.107.0/nu-0.107.0-x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "nushell-v0.107.0-x86_64-unknown-linux-musl",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.107.0/nu-0.107.0-aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "nushell-v0.107.0-aarch64-unknown-linux-musl",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.107.0/nu-0.107.0-x86_64-apple-darwin.tar.gz",
+              "extract_dir": "nushell-v0.107.0-x86_64-apple-darwin",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.107.0/nu-0.107.0-aarch64-apple-darwin.tar.gz",
+              "extract_dir": "nushell-v0.107.0-aarch64-apple-darwin",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.107.0/nu-0.107.0-x86_64-pc-windows-msvc.zip",
+              "extract_dir": "nushell-v0.107.0-x86_64-pc-windows-msvc",
+              "bin": [
+                "nushell.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.106.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.106.1/nu-0.106.1-x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "nushell-v0.106.1-x86_64-unknown-linux-musl",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.106.1/nu-0.106.1-aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "nushell-v0.106.1-aarch64-unknown-linux-musl",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.106.1/nu-0.106.1-x86_64-apple-darwin.tar.gz",
+              "extract_dir": "nushell-v0.106.1-x86_64-apple-darwin",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.106.1/nu-0.106.1-aarch64-apple-darwin.tar.gz",
+              "extract_dir": "nushell-v0.106.1-aarch64-apple-darwin",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.106.1/nu-0.106.1-x86_64-pc-windows-msvc.zip",
+              "extract_dir": "nushell-v0.106.1-x86_64-pc-windows-msvc",
+              "bin": [
+                "nushell.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.106.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.106.0/nu-0.106.0-x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "nushell-v0.106.0-x86_64-unknown-linux-musl",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.106.0/nu-0.106.0-aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "nushell-v0.106.0-aarch64-unknown-linux-musl",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.106.0/nu-0.106.0-x86_64-apple-darwin.tar.gz",
+              "extract_dir": "nushell-v0.106.0-x86_64-apple-darwin",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.106.0/nu-0.106.0-aarch64-apple-darwin.tar.gz",
+              "extract_dir": "nushell-v0.106.0-aarch64-apple-darwin",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.106.0/nu-0.106.0-x86_64-pc-windows-msvc.zip",
+              "extract_dir": "nushell-v0.106.0-x86_64-pc-windows-msvc",
+              "bin": [
+                "nushell.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.105.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.105.1/nu-0.105.1-x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "nushell-v0.105.1-x86_64-unknown-linux-musl",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.105.1/nu-0.105.1-aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "nushell-v0.105.1-aarch64-unknown-linux-musl",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.105.1/nu-0.105.1-x86_64-apple-darwin.tar.gz",
+              "extract_dir": "nushell-v0.105.1-x86_64-apple-darwin",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.105.1/nu-0.105.1-aarch64-apple-darwin.tar.gz",
+              "extract_dir": "nushell-v0.105.1-aarch64-apple-darwin",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.105.1/nu-0.105.1-x86_64-pc-windows-msvc.zip",
+              "extract_dir": "nushell-v0.105.1-x86_64-pc-windows-msvc",
+              "bin": [
+                "nushell.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.105.0",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.105.0/nu-0.105.0-x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "nushell-v0.105.0-x86_64-unknown-linux-musl",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.105.0/nu-0.105.0-aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "nushell-v0.105.0-aarch64-unknown-linux-musl",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.105.0/nu-0.105.0-x86_64-apple-darwin.tar.gz",
+              "extract_dir": "nushell-v0.105.0-x86_64-apple-darwin",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.105.0/nu-0.105.0-aarch64-apple-darwin.tar.gz",
+              "extract_dir": "nushell-v0.105.0-aarch64-apple-darwin",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.105.0/nu-0.105.0-x86_64-pc-windows-msvc.zip",
+              "extract_dir": "nushell-v0.105.0-x86_64-pc-windows-msvc",
+              "bin": [
+                "nushell.exe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.104.1",
+      "platforms": {
+        "linux-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.104.1/nu-0.104.1-x86_64-unknown-linux-musl.tar.gz",
+              "extract_dir": "nushell-v0.104.1-x86_64-unknown-linux-musl",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.104.1/nu-0.104.1-aarch64-unknown-linux-musl.tar.gz",
+              "extract_dir": "nushell-v0.104.1-aarch64-unknown-linux-musl",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "macos-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.104.1/nu-0.104.1-x86_64-apple-darwin.tar.gz",
+              "extract_dir": "nushell-v0.104.1-x86_64-apple-darwin",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.104.1/nu-0.104.1-aarch64-apple-darwin.tar.gz",
+              "extract_dir": "nushell-v0.104.1-aarch64-apple-darwin",
+              "bin": [
+                "nushell"
+              ]
+            }
+          }
+        },
+        "windows-x86_64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/nushell/nushell/releases/download/0.104.1/nu-0.104.1-x86_64-pc-windows-msvc.zip",
+              "extract_dir": "nushell-v0.104.1-x86_64-pc-windows-msvc",
+              "bin": [
+                "nushell.exe"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema.json",
+  "name": "docker",
+  "description": "Docker CLI client",
+  "versions": []
+}

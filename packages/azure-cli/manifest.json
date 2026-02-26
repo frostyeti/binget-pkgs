@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema.json",
+  "name": "azure-cli",
+  "description": "Azure command-line interface",
+  "versions": []
+}

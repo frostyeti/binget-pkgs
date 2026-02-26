@@ -1,0 +1,37 @@
+{
+  "latest": "gping-v1.18.0",
+  "versions": [
+    {
+      "version": "gping-v1.18.0",
+      "status": "active"
+    },
+    {
+      "version": "gping-v1.17.3",
+      "status": "active"
+    },
+    {
+      "version": "gping-v1.17.1",
+      "status": "active"
+    },
+    {
+      "version": "gping-v1.16.1",
+      "status": "active"
+    },
+    {
+      "version": "gping-v1.16.0",
+      "status": "active"
+    },
+    {
+      "version": "gping-v1.15.1",
+      "status": "active"
+    },
+    {
+      "version": "gping-v1.15.0",
+      "status": "active"
+    },
+    {
+      "version": "gping-v1.14.0",
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/orf/gping/releases/download/gping-v1.16.0/gping-x86_64-unknown-linux-musl.tar.gz",
+      "extract_dir": "gping-vgping-v1.16.0-x86_64-unknown-linux-musl",
+      "bin": [
+        "gping"
+      ]
+    }
+  }
+}

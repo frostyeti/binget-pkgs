@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema.json",
+  "name": "unzip",
+  "description": "Extraction utility",
+  "versions": []
+}

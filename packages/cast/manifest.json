@@ -4,6 +4,60 @@
   "description": "Cast - a task runner",
   "versions": [
     {
+      "version": "0.2.0-alpha.0",
+      "platforms": {
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/frostyeti/cast/releases/download/v0.2.0-alpha.0/cast-linux-arm64-v0.2.0-alpha.0.tar.gz",
+              "bin": [
+                "cast"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/frostyeti/cast/releases/download/v0.2.0-alpha.0/cast-darwin-arm64-v0.2.0-alpha.0.tar.gz",
+              "bin": [
+                "cast"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "0.1.0-alpha.1",
+      "platforms": {
+        "linux-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/frostyeti/cast/releases/download/v0.1.0-alpha.1/cast-linux-arm64-v0.1.0-alpha.1.tar.gz",
+              "bin": [
+                "cast"
+              ]
+            }
+          }
+        },
+        "macos-aarch64": {
+          "install_modes": {
+            "shim": {
+              "type": "archive",
+              "url": "https://github.com/frostyeti/cast/releases/download/v0.1.0-alpha.1/cast-darwin-arm64-v0.1.0-alpha.1.tar.gz",
+              "bin": [
+                "cast"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
       "version": "0.1.0-alpha.0",
       "platforms": {
         "linux-aarch64": {

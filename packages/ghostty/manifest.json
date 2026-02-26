@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema.json",
+  "name": "ghostty",
+  "description": "Fast, native, cross-platform terminal emulator",
+  "versions": []
+}

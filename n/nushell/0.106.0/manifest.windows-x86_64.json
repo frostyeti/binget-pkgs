@@ -1,0 +1,12 @@
+{
+  "install_modes": {
+    "shim": {
+      "type": "archive",
+      "url": "https://github.com/nushell/nushell/releases/download/0.106.0/nu-0.106.0-x86_64-pc-windows-msvc.zip",
+      "extract_dir": "nushell-v0.106.0-x86_64-pc-windows-msvc",
+      "bin": [
+        "nushell.exe"
+      ]
+    }
+  }
+}

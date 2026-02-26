@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schema.json",
+  "name": "bruno",
+  "description": "Fast and Git-friendly open-source API client",
+  "versions": []
+}

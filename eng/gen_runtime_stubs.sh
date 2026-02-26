@@ -1,5 +1,5 @@
 #!/bin/bash
-RUNTIMES=("node" "rust" "dotnet" "deno" "uv" "python" "ruby" "zig" "go")
+RUNTIMES=("node" "rust" "dotnet" "deno" "uv" "python" "ruby" "zig" "go" "java" "ocaml" "odin" "elixir" "erlang" "haskell" "php" "lua")
 
 for r in "${RUNTIMES[@]}"; do
   mkdir -p "packages/$r"

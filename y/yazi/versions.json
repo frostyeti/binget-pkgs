@@ -1,0 +1,41 @@
+{
+  "latest": "26.1.22",
+  "versions": [
+    {
+      "version": "26.1.22",
+      "status": "active"
+    },
+    {
+      "version": "26.1.4",
+      "status": "active"
+    },
+    {
+      "version": "25.12.29",
+      "status": "active"
+    },
+    {
+      "version": "25.5.31",
+      "status": "active"
+    },
+    {
+      "version": "25.5.28",
+      "status": "active"
+    },
+    {
+      "version": "25.4.8",
+      "status": "active"
+    },
+    {
+      "version": "25.3.2",
+      "status": "active"
+    },
+    {
+      "version": "25.2.26",
+      "status": "active"
+    },
+    {
+      "version": "25.2.11",
+      "status": "active"
+    }
+  ]
+}
