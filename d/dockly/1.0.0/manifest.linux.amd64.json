@@ -1,0 +1,18 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "System Package Manager",
+        "type": "apt",
+        "package": "dockly"
+      }
+    ],
+    "user": [
+      {
+        "name": "System Package Manager",
+        "type": "apt",
+        "package": "dockly"
+      }
+    ]
+  }
+}

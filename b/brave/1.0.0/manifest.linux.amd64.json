@@ -1,0 +1,18 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "System Package Manager",
+        "type": "apt",
+        "package": "brave"
+      }
+    ],
+    "user": [
+      {
+        "name": "System Package Manager",
+        "type": "apt",
+        "package": "brave"
+      }
+    ]
+  }
+}
