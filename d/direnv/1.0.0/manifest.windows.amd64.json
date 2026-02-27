@@ -1,0 +1,18 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "System Package Manager",
+        "type": "winget",
+        "package": "direnv"
+      }
+    ],
+    "user": [
+      {
+        "name": "System Package Manager",
+        "type": "winget",
+        "package": "direnv"
+      }
+    ]
+  }
+}
