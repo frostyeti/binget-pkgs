@@ -4,14 +4,14 @@
       {
         "name": "System Package Manager",
         "type": "winget",
-        "package": "dbeaver"
+        "package": "discord"
       }
     ],
     "user": [
       {
         "name": "System Package Manager",
         "type": "winget",
-        "package": "dbeaver"
+        "package": "discord"
       }
     ]
   }

@@ -4,14 +4,14 @@
       {
         "name": "System Package Manager",
         "type": "winget",
-        "package": "dbeaver"
+        "package": "clair"
       }
     ],
     "user": [
       {
         "name": "System Package Manager",
         "type": "winget",
-        "package": "dbeaver"
+        "package": "clair"
       }
     ]
   }
