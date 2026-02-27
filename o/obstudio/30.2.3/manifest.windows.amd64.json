@@ -1,0 +1,36 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official Zip Archive",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://github.com/obsproject/obs-studio/releases/download/30.2.3/OBS-Studio-30.2.3-Full-x64.zip",
+        "bin": ["bin/64bit/obs64.exe"]
+      }
+    ],
+    "user": [
+      {
+        "name": "Official Zip Archive",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://github.com/obsproject/obs-studio/releases/download/30.2.3/OBS-Studio-30.2.3-Full-x64.zip",
+        "bin": ["bin/64bit/obs64.exe"]
+      }
+    ],
+    "global": [
+      {
+        "name": "Official Zip Archive",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://github.com/obsproject/obs-studio/releases/download/30.2.3/OBS-Studio-30.2.3-Full-x64.zip",
+        "bin": ["bin/64bit/obs64.exe"]
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "OBSProject.OBSStudio"
+      }
+    ]
+  }
+}

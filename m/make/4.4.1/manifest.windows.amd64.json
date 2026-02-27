@@ -1,0 +1,41 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "GNU Make for Windows",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://github.com/mbuilov/gnumake-windows/releases/download/v4.4.1/make-4.4.1-x64.zip",
+        "bin": ["make.exe"]
+      }
+    ],
+    "user": [
+      {
+        "name": "GNU Make for Windows",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://github.com/mbuilov/gnumake-windows/releases/download/v4.4.1/make-4.4.1-x64.zip",
+        "bin": ["make.exe"]
+      }
+    ],
+    "global": [
+      {
+        "name": "GNU Make for Windows",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://github.com/mbuilov/gnumake-windows/releases/download/v4.4.1/make-4.4.1-x64.zip",
+        "bin": ["make.exe"]
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "GnuWin32.Make"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "make"
+      }
+    ]
+  }
+}

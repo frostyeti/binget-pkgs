@@ -1,0 +1,36 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official Zip Archive",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
+        "bin": ["procexp.exe", "procmon.exe", "autoruns.exe"]
+      }
+    ],
+    "user": [
+      {
+        "name": "Official Zip Archive",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
+        "bin": ["procexp.exe", "procmon.exe", "autoruns.exe"]
+      }
+    ],
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "Microsoft.Sysinternals"
+      },
+      {
+        "name": "Official Zip Archive",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
+        "bin": ["procexp.exe", "procmon.exe", "autoruns.exe"]
+      }
+    ]
+  }
+}

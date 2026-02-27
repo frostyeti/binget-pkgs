@@ -1,0 +1,21 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Official Installer",
+        "type": "raw",
+        "url": "https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "Docker.DockerDesktop"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "docker-desktop"
+      }
+    ]
+  }
+}

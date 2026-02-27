@@ -1,0 +1,36 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official Zip Archive",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-win.zip",
+        "bin": ["ninja.exe"]
+      }
+    ],
+    "user": [
+      {
+        "name": "Official Zip Archive",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-win.zip",
+        "bin": ["ninja.exe"]
+      }
+    ],
+    "global": [
+      {
+        "name": "Official Zip Archive",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-win.zip",
+        "bin": ["ninja.exe"]
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "Ninja-build.Ninja"
+      }
+    ]
+  }
+}

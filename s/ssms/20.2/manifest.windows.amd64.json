@@ -1,0 +1,21 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Official Installer",
+        "type": "raw",
+        "url": "https://aka.ms/ssmsfullsetup"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "Microsoft.SQLServerManagementStudio"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "sql-server-management-studio"
+      }
+    ]
+  }
+}

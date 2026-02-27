@@ -1,0 +1,36 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official Zip Archive",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://github.com/microsoft/terminal/releases/download/v1.21.3231.0/Microsoft.WindowsTerminal_1.21.3231.0_x64.zip",
+        "bin": ["wt.exe"]
+      }
+    ],
+    "user": [
+      {
+        "name": "Official Zip Archive",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://github.com/microsoft/terminal/releases/download/v1.21.3231.0/Microsoft.WindowsTerminal_1.21.3231.0_x64.zip",
+        "bin": ["wt.exe"]
+      }
+    ],
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "Microsoft.WindowsTerminal"
+      },
+      {
+        "name": "Official Zip Archive",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://github.com/microsoft/terminal/releases/download/v1.21.3231.0/Microsoft.WindowsTerminal_1.21.3231.0_x64.zip",
+        "bin": ["wt.exe"]
+      }
+    ]
+  }
+}

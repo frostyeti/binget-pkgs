@@ -1,0 +1,21 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Official Installer (Community)",
+        "type": "raw",
+        "url": "https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2022"
+      },
+      {
+        "name": "Winget (Community)",
+        "type": "winget",
+        "package": "Microsoft.VisualStudio.2022.Community"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "visualstudio2022community"
+      }
+    ]
+  }
+}
