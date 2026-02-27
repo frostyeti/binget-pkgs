@@ -1,0 +1,20 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "JetBrains jetbrains-toolbox 3.3",
+        "type": "installer",
+        "url": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.3.0.74186.exe",
+        "format": "exe"
+      }
+    ],
+    "user": [
+      {
+        "name": "JetBrains jetbrains-toolbox 3.3",
+        "type": "installer",
+        "url": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.3.0.74186.exe",
+        "format": "exe"
+      }
+    ]
+  }
+}

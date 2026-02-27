@@ -1,0 +1,20 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "JetBrains datagrip 2025.3.5",
+        "type": "installer",
+        "url": "https://download.jetbrains.com/datagrip/datagrip-2025.3.5-aarch64.exe",
+        "format": "exe"
+      }
+    ],
+    "user": [
+      {
+        "name": "JetBrains datagrip 2025.3.5",
+        "type": "installer",
+        "url": "https://download.jetbrains.com/datagrip/datagrip-2025.3.5-aarch64.exe",
+        "format": "exe"
+      }
+    ]
+  }
+}

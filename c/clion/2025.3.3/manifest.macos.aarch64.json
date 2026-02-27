@@ -1,0 +1,20 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "JetBrains clion 2025.3.3",
+        "type": "installer",
+        "url": "https://download.jetbrains.com/cpp/CLion-2025.3.3-aarch64.dmg",
+        "format": "dmg"
+      }
+    ],
+    "user": [
+      {
+        "name": "JetBrains clion 2025.3.3",
+        "type": "installer",
+        "url": "https://download.jetbrains.com/cpp/CLion-2025.3.3-aarch64.dmg",
+        "format": "dmg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "JetBrains rustrover 2025.3.4",
+        "type": "archive",
+        "url": "https://download.jetbrains.com/rustrover/RustRover-2025.3.4.win.zip",
+        "format": "zip",
+        "bin": [
+          "bin/rustrover64.exe"
+        ]
+      }
+    ],
+    "user": [
+      {
+        "name": "JetBrains rustrover 2025.3.4",
+        "type": "archive",
+        "url": "https://download.jetbrains.com/rustrover/RustRover-2025.3.4.win.zip",
+        "format": "zip",
+        "bin": [
+          "bin/rustrover64.exe"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "JetBrains rustrover 2025.3.4",
+        "type": "archive",
+        "url": "https://download.jetbrains.com/rustrover/RustRover-2025.3.4.win.zip",
+        "format": "zip",
+        "bin": [
+          "bin/rustrover64.exe"
+        ]
+      }
+    ]
+  }
+}

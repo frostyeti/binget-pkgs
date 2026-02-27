@@ -1,0 +1,37 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "JetBrains datagrip 2025.3.5",
+        "type": "archive",
+        "url": "https://download.jetbrains.com/datagrip/datagrip-2025.3.5.tar.gz",
+        "format": "tar.gz",
+        "bin": [
+          "bin/datagrip"
+        ]
+      }
+    ],
+    "user": [
+      {
+        "name": "JetBrains datagrip 2025.3.5",
+        "type": "archive",
+        "url": "https://download.jetbrains.com/datagrip/datagrip-2025.3.5.tar.gz",
+        "format": "tar.gz",
+        "bin": [
+          "bin/datagrip"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "JetBrains datagrip 2025.3.5",
+        "type": "archive",
+        "url": "https://download.jetbrains.com/datagrip/datagrip-2025.3.5.tar.gz",
+        "format": "tar.gz",
+        "bin": [
+          "bin/datagrip"
+        ]
+      }
+    ]
+  }
+}

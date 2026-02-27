@@ -1,0 +1,37 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "JetBrains datagrip 2025.3.5",
+        "type": "archive",
+        "url": "https://download.jetbrains.com/datagrip/datagrip-2025.3.5.win.zip",
+        "format": "zip",
+        "bin": [
+          "bin/datagrip64.exe"
+        ]
+      }
+    ],
+    "user": [
+      {
+        "name": "JetBrains datagrip 2025.3.5",
+        "type": "archive",
+        "url": "https://download.jetbrains.com/datagrip/datagrip-2025.3.5.win.zip",
+        "format": "zip",
+        "bin": [
+          "bin/datagrip64.exe"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "JetBrains datagrip 2025.3.5",
+        "type": "archive",
+        "url": "https://download.jetbrains.com/datagrip/datagrip-2025.3.5.win.zip",
+        "format": "zip",
+        "bin": [
+          "bin/datagrip64.exe"
+        ]
+      }
+    ]
+  }
+}

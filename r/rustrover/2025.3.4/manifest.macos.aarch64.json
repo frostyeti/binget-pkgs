@@ -1,0 +1,20 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "JetBrains rustrover 2025.3.4",
+        "type": "installer",
+        "url": "https://download.jetbrains.com/rustrover/RustRover-2025.3.4-aarch64.dmg",
+        "format": "dmg"
+      }
+    ],
+    "user": [
+      {
+        "name": "JetBrains rustrover 2025.3.4",
+        "type": "installer",
+        "url": "https://download.jetbrains.com/rustrover/RustRover-2025.3.4-aarch64.dmg",
+        "format": "dmg"
+      }
+    ]
+  }
+}

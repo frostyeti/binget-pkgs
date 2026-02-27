@@ -1,0 +1,37 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "JetBrains webstorm 2025.3.3",
+        "type": "archive",
+        "url": "https://download.jetbrains.com/webstorm/WebStorm-2025.3.3.win.zip",
+        "format": "zip",
+        "bin": [
+          "bin/webstorm64.exe"
+        ]
+      }
+    ],
+    "user": [
+      {
+        "name": "JetBrains webstorm 2025.3.3",
+        "type": "archive",
+        "url": "https://download.jetbrains.com/webstorm/WebStorm-2025.3.3.win.zip",
+        "format": "zip",
+        "bin": [
+          "bin/webstorm64.exe"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "JetBrains webstorm 2025.3.3",
+        "type": "archive",
+        "url": "https://download.jetbrains.com/webstorm/WebStorm-2025.3.3.win.zip",
+        "format": "zip",
+        "bin": [
+          "bin/webstorm64.exe"
+        ]
+      }
+    ]
+  }
+}
