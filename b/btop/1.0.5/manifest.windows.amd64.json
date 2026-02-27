@@ -1,0 +1,36 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official Zip Archive",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://github.com/aristocratos/btop4win/releases/download/v1.0.5/btop4win-x64.zip",
+        "bin": ["btop4win/btop4win.exe"]
+      }
+    ],
+    "user": [
+      {
+        "name": "Official Zip Archive",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://github.com/aristocratos/btop4win/releases/download/v1.0.5/btop4win-x64.zip",
+        "bin": ["btop4win/btop4win.exe"]
+      }
+    ],
+    "global": [
+      {
+        "name": "Official Zip Archive",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://github.com/aristocratos/btop4win/releases/download/v1.0.5/btop4win-x64.zip",
+        "bin": ["btop4win/btop4win.exe"]
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "aristocratos.btop4win"
+      }
+    ]
+  }
+}
