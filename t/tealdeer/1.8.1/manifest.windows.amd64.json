@@ -1,0 +1,39 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "raw",
+        "url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.8.1/tealdeer-windows-x86_64-msvc.exe",
+        "bin": [
+          "tealdeer.exe"
+        ]
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "raw",
+        "url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.8.1/tealdeer-windows-x86_64-msvc.exe",
+        "bin": [
+          "tealdeer.exe"
+        ]
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "raw",
+        "url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.8.1/tealdeer-windows-x86_64-msvc.exe",
+        "bin": [
+          "tealdeer.exe"
+        ]
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "tealdeer-rs.tealdeer"
+      }
+    ]
+  }
+}

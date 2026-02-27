@@ -1,0 +1,37 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/jonas/tig/releases/download/tig-2.6.0/tig-tig-2.6.0-x86_64-pc-windows-msvc.zip",
+        "bin": [
+          "tig.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/jonas/tig/releases/download/tig-2.6.0/tig-tig-2.6.0-x86_64-pc-windows-msvc.zip",
+        "bin": [
+          "tig.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/jonas/tig/releases/download/tig-2.6.0/tig-tig-2.6.0-x86_64-pc-windows-msvc.zip",
+        "bin": [
+          "tig.exe"
+        ],
+        "format": "zip"
+      }
+    ]
+  }
+}

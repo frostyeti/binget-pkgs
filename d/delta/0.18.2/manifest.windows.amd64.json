@@ -1,0 +1,42 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/dandavison/delta/releases/download/0.18.2/delta-0.18.2-x86_64-pc-windows-msvc.zip",
+        "bin": [
+          "delta-0.18.2-x86_64-pc-windows-msvc/delta.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/dandavison/delta/releases/download/0.18.2/delta-0.18.2-x86_64-pc-windows-msvc.zip",
+        "bin": [
+          "delta-0.18.2-x86_64-pc-windows-msvc/delta.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/dandavison/delta/releases/download/0.18.2/delta-0.18.2-x86_64-pc-windows-msvc.zip",
+        "bin": [
+          "delta-0.18.2-x86_64-pc-windows-msvc/delta.exe"
+        ],
+        "format": "zip"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "dandavison.delta"
+      }
+    ]
+  }
+}

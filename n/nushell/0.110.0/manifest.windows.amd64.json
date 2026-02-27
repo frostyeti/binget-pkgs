@@ -1,0 +1,42 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/nushell/nushell/releases/download/0.110.0/nu-0.110.0-x86_64-pc-windows-msvc.zip",
+        "bin": [
+          "nu-0.110.0-x86_64-pc-windows-msvc/nu.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/nushell/nushell/releases/download/0.110.0/nu-0.110.0-x86_64-pc-windows-msvc.zip",
+        "bin": [
+          "nu-0.110.0-x86_64-pc-windows-msvc/nu.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/nushell/nushell/releases/download/0.110.0/nu-0.110.0-x86_64-pc-windows-msvc.zip",
+        "bin": [
+          "nu-0.110.0-x86_64-pc-windows-msvc/nu.exe"
+        ],
+        "format": "zip"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "Nushell.Nushell"
+      }
+    ]
+  }
+}

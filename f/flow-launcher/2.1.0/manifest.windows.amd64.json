@@ -1,0 +1,42 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v2.1.0/Flow-Launcher-v2.1.0.zip",
+        "bin": [
+          "Flow.Launcher.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v2.1.0/Flow-Launcher-v2.1.0.zip",
+        "bin": [
+          "Flow.Launcher.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v2.1.0/Flow-Launcher-v2.1.0.zip",
+        "bin": [
+          "Flow.Launcher.exe"
+        ],
+        "format": "zip"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "Flow-Launcher.Flow-Launcher"
+      }
+    ]
+  }
+}

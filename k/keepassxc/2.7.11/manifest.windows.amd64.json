@@ -1,0 +1,42 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.11/KeePassXC-2.7.11-Win64-Portable.zip",
+        "bin": [
+          "KeePassXC.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.11/KeePassXC-2.7.11-Win64-Portable.zip",
+        "bin": [
+          "KeePassXC.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.11/KeePassXC-2.7.11-Win64-Portable.zip",
+        "bin": [
+          "KeePassXC.exe"
+        ],
+        "format": "zip"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "KeePassXCTeam.KeePassXC"
+      }
+    ]
+  }
+}

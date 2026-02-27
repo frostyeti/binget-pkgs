@@ -1,0 +1,37 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/shenwei356/rush/releases/download/v0.8.0/rush_windows_amd64.exe.tar.gz",
+        "bin": [
+          "rush.exe"
+        ],
+        "format": "tar"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/shenwei356/rush/releases/download/v0.8.0/rush_windows_amd64.exe.tar.gz",
+        "bin": [
+          "rush.exe"
+        ],
+        "format": "tar"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/shenwei356/rush/releases/download/v0.8.0/rush_windows_amd64.exe.tar.gz",
+        "bin": [
+          "rush.exe"
+        ],
+        "format": "tar"
+      }
+    ]
+  }
+}

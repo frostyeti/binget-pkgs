@@ -1,0 +1,9 @@
+{
+  "latest": "releases",
+  "versions": [
+    {
+      "version": "releases",
+      "status": "stable"
+    }
+  ]
+}

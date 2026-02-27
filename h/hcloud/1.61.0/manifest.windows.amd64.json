@@ -1,0 +1,42 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/hetznercloud/cli/releases/download/v1.61.0/hcloud-windows-amd64.zip",
+        "bin": [
+          "hcloud.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/hetznercloud/cli/releases/download/v1.61.0/hcloud-windows-amd64.zip",
+        "bin": [
+          "hcloud.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/hetznercloud/cli/releases/download/v1.61.0/hcloud-windows-amd64.zip",
+        "bin": [
+          "hcloud.exe"
+        ],
+        "format": "zip"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "Hetzner.hcloud"
+      }
+    ]
+  }
+}

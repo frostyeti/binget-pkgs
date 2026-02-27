@@ -1,0 +1,42 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/unkn0wn-root/resterm/releases/download/v0.23.6/resterm_0.23.6_windows_amd64.zip",
+        "bin": [
+          "resterm.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/unkn0wn-root/resterm/releases/download/v0.23.6/resterm_0.23.6_windows_amd64.zip",
+        "bin": [
+          "resterm.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/unkn0wn-root/resterm/releases/download/v0.23.6/resterm_0.23.6_windows_amd64.zip",
+        "bin": [
+          "resterm.exe"
+        ],
+        "format": "zip"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "unkn0wn-root.resterm"
+      }
+    ]
+  }
+}

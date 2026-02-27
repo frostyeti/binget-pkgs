@@ -1,0 +1,42 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/dalance/procs/releases/download/v0.14.10/procs-v0.14.10-x86_64-pc-windows-msvc.zip",
+        "bin": [
+          "procs.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/dalance/procs/releases/download/v0.14.10/procs-v0.14.10-x86_64-pc-windows-msvc.zip",
+        "bin": [
+          "procs.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/dalance/procs/releases/download/v0.14.10/procs-v0.14.10-x86_64-pc-windows-msvc.zip",
+        "bin": [
+          "procs.exe"
+        ],
+        "format": "zip"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "dalance.procs"
+      }
+    ]
+  }
+}

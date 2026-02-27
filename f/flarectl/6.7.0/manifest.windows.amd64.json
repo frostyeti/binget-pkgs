@@ -1,0 +1,37 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/cloudflare/cloudflare-go/releases/download/v6.7.0/flarectl_6.7.0_windows_amd64.zip",
+        "bin": [
+          "flarectl.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/cloudflare/cloudflare-go/releases/download/v6.7.0/flarectl_6.7.0_windows_amd64.zip",
+        "bin": [
+          "flarectl.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/cloudflare/cloudflare-go/releases/download/v6.7.0/flarectl_6.7.0_windows_amd64.zip",
+        "bin": [
+          "flarectl.exe"
+        ],
+        "format": "zip"
+      }
+    ]
+  }
+}

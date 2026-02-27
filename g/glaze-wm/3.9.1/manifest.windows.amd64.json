@@ -1,0 +1,42 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/glzr-io/glazewm/releases/download/v3.9.1/glazewm-v3.9.1-x64.zip",
+        "bin": [
+          "glazewm.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/glzr-io/glazewm/releases/download/v3.9.1/glazewm-v3.9.1-x64.zip",
+        "bin": [
+          "glazewm.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/glzr-io/glazewm/releases/download/v3.9.1/glazewm-v3.9.1-x64.zip",
+        "bin": [
+          "glazewm.exe"
+        ],
+        "format": "zip"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "glzr-io.glazewm"
+      }
+    ]
+  }
+}

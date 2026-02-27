@@ -1,0 +1,42 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/digitalocean/doctl/releases/download/v1.151.0/doctl-1.151.0-windows-amd64.zip",
+        "bin": [
+          "doctl.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/digitalocean/doctl/releases/download/v1.151.0/doctl-1.151.0-windows-amd64.zip",
+        "bin": [
+          "doctl.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/digitalocean/doctl/releases/download/v1.151.0/doctl-1.151.0-windows-amd64.zip",
+        "bin": [
+          "doctl.exe"
+        ],
+        "format": "zip"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "DigitalOcean.doctl"
+      }
+    ]
+  }
+}

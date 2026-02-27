@@ -1,0 +1,37 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/fatedier/frp/releases/download/v0.67.0/frp_0.67.0_windows_amd64.zip",
+        "bin": [
+          "frp_0.67.0_windows_amd64/frpc.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/fatedier/frp/releases/download/v0.67.0/frp_0.67.0_windows_amd64.zip",
+        "bin": [
+          "frp_0.67.0_windows_amd64/frpc.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/fatedier/frp/releases/download/v0.67.0/frp_0.67.0_windows_amd64.zip",
+        "bin": [
+          "frp_0.67.0_windows_amd64/frpc.exe"
+        ],
+        "format": "zip"
+      }
+    ]
+  }
+}

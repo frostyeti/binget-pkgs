@@ -1,0 +1,11 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "Amazon.AWSCLI"
+      }
+    ]
+  }
+}

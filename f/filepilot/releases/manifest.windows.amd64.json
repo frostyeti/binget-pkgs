@@ -1,0 +1,37 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/ChrisTs8920/FilePilot/releases/download/releases/FilePilot.zip",
+        "bin": [
+          "FilePilot.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/ChrisTs8920/FilePilot/releases/download/releases/FilePilot.zip",
+        "bin": [
+          "FilePilot.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/ChrisTs8920/FilePilot/releases/download/releases/FilePilot.zip",
+        "bin": [
+          "FilePilot.exe"
+        ],
+        "format": "zip"
+      }
+    ]
+  }
+}

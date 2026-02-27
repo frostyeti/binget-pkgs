@@ -1,0 +1,42 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/pulumi/pulumi/releases/download/v3.224.0/pulumi-v3.224.0-windows-x64.zip",
+        "bin": [
+          "pulumi/bin/pulumi.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/pulumi/pulumi/releases/download/v3.224.0/pulumi-v3.224.0-windows-x64.zip",
+        "bin": [
+          "pulumi/bin/pulumi.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/pulumi/pulumi/releases/download/v3.224.0/pulumi-v3.224.0-windows-x64.zip",
+        "bin": [
+          "pulumi/bin/pulumi.exe"
+        ],
+        "format": "zip"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "Pulumi.Pulumi"
+      }
+    ]
+  }
+}
