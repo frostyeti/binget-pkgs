@@ -2,9 +2,16 @@
   "install_modes": {
     "global": [
       {
-        "name": "Winget",
+        "name": "System Package Manager",
         "type": "winget",
-        "package": "JetBrains.PyCharm.Professional"
+        "package": "pycharm"
+      }
+    ],
+    "user": [
+      {
+        "name": "System Package Manager",
+        "type": "winget",
+        "package": "pycharm"
       }
     ]
   }

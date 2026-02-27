@@ -4,14 +4,14 @@
       {
         "name": "System Package Manager",
         "type": "winget",
-        "package": "webstorm"
+        "package": "datagrip"
       }
     ],
     "user": [
       {
         "name": "System Package Manager",
         "type": "winget",
-        "package": "webstorm"
+        "package": "datagrip"
       }
     ]
   }

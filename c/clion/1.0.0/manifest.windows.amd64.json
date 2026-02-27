@@ -2,9 +2,16 @@
   "install_modes": {
     "global": [
       {
-        "name": "Winget",
+        "name": "System Package Manager",
         "type": "winget",
-        "package": "JetBrains.CLion"
+        "package": "clion"
+      }
+    ],
+    "user": [
+      {
+        "name": "System Package Manager",
+        "type": "winget",
+        "package": "clion"
       }
     ]
   }

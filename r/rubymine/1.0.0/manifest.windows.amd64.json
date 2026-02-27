@@ -4,14 +4,14 @@
       {
         "name": "System Package Manager",
         "type": "winget",
-        "package": "webstorm"
+        "package": "rubymine"
       }
     ],
     "user": [
       {
         "name": "System Package Manager",
         "type": "winget",
-        "package": "webstorm"
+        "package": "rubymine"
       }
     ]
   }

@@ -2,9 +2,16 @@
   "install_modes": {
     "global": [
       {
-        "name": "Winget",
+        "name": "System Package Manager",
         "type": "winget",
-        "package": "JetBrains.Rider"
+        "package": "rider"
+      }
+    ],
+    "user": [
+      {
+        "name": "System Package Manager",
+        "type": "winget",
+        "package": "rider"
       }
     ]
   }
