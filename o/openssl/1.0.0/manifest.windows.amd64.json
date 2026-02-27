@@ -1,0 +1,16 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget (FireDaemon)",
+        "type": "winget",
+        "package": "FireDaemon.OpenSSL"
+      },
+      {
+        "name": "Winget (ShiningLight)",
+        "type": "winget",
+        "package": "ShiningLight.OpenSSL"
+      }
+    ]
+  }
+}
