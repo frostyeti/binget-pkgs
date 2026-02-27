@@ -1,0 +1,42 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/go-acme/lego/releases/download/v4.32.0/lego_4.32.0_windows_amd64.zip",
+        "bin": [
+          "lego.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/go-acme/lego/releases/download/v4.32.0/lego_4.32.0_windows_amd64.zip",
+        "bin": [
+          "lego.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/go-acme/lego/releases/download/v4.32.0/lego_4.32.0_windows_amd64.zip",
+        "bin": [
+          "lego.exe"
+        ],
+        "format": "zip"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "go-acme.lego"
+      }
+    ]
+  }
+}

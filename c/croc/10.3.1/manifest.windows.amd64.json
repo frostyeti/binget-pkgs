@@ -1,0 +1,42 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/schollz/croc/releases/download/v10.3.1/croc_10.3.1_Windows-64bit.zip",
+        "bin": [
+          "croc.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/schollz/croc/releases/download/v10.3.1/croc_10.3.1_Windows-64bit.zip",
+        "bin": [
+          "croc.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/schollz/croc/releases/download/v10.3.1/croc_10.3.1_Windows-64bit.zip",
+        "bin": [
+          "croc.exe"
+        ],
+        "format": "zip"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "schollz.croc"
+      }
+    ]
+  }
+}

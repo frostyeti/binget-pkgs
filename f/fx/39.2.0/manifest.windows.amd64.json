@@ -1,0 +1,34 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "raw",
+        "url": "https://github.com/antonmedv/fx/releases/download/39.2.0/fx_windows_amd64.exe",
+        "bin": [
+          "fx.exe"
+        ]
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "raw",
+        "url": "https://github.com/antonmedv/fx/releases/download/39.2.0/fx_windows_amd64.exe",
+        "bin": [
+          "fx.exe"
+        ]
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "raw",
+        "url": "https://github.com/antonmedv/fx/releases/download/39.2.0/fx_windows_amd64.exe",
+        "bin": [
+          "fx.exe"
+        ]
+      }
+    ]
+  }
+}

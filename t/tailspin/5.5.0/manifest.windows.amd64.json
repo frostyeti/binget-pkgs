@@ -1,0 +1,42 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/bensadeh/tailspin/releases/download/5.5.0/tailspin-x86_64-pc-windows-msvc.zip",
+        "bin": [
+          "tailspin.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/bensadeh/tailspin/releases/download/5.5.0/tailspin-x86_64-pc-windows-msvc.zip",
+        "bin": [
+          "tailspin.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/bensadeh/tailspin/releases/download/5.5.0/tailspin-x86_64-pc-windows-msvc.zip",
+        "bin": [
+          "tailspin.exe"
+        ],
+        "format": "zip"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "bensadeh.tailspin"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/fastfetch-cli/fastfetch/releases/download/2.59.0/fastfetch-windows-amd64.zip",
+        "bin": [
+          "fastfetch.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/fastfetch-cli/fastfetch/releases/download/2.59.0/fastfetch-windows-amd64.zip",
+        "bin": [
+          "fastfetch.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/fastfetch-cli/fastfetch/releases/download/2.59.0/fastfetch-windows-amd64.zip",
+        "bin": [
+          "fastfetch.exe"
+        ],
+        "format": "zip"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "fastfetch-cli.fastfetch"
+      }
+    ]
+  }
+}

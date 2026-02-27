@@ -1,0 +1,37 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/vladimirvivien/ktop/releases/download/v0.5.3/ktop_0.5.3_windows_amd64.zip",
+        "bin": [
+          "ktop.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/vladimirvivien/ktop/releases/download/v0.5.3/ktop_0.5.3_windows_amd64.zip",
+        "bin": [
+          "ktop.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/vladimirvivien/ktop/releases/download/v0.5.3/ktop_0.5.3_windows_amd64.zip",
+        "bin": [
+          "ktop.exe"
+        ],
+        "format": "zip"
+      }
+    ]
+  }
+}

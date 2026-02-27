@@ -1,0 +1,39 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "raw",
+        "url": "https://github.com/AlDanial/cloc/releases/download/v2.08/cloc-2.08.exe",
+        "bin": [
+          "cloc.exe"
+        ]
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "raw",
+        "url": "https://github.com/AlDanial/cloc/releases/download/v2.08/cloc-2.08.exe",
+        "bin": [
+          "cloc.exe"
+        ]
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "raw",
+        "url": "https://github.com/AlDanial/cloc/releases/download/v2.08/cloc-2.08.exe",
+        "bin": [
+          "cloc.exe"
+        ]
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "AlDanial.cloc"
+      }
+    ]
+  }
+}

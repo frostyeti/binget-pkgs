@@ -1,0 +1,42 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/martinvonz/jj/releases/download/v0.38.0/jj-v0.38.0-x86_64-pc-windows-msvc.zip",
+        "bin": [
+          "jj.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/martinvonz/jj/releases/download/v0.38.0/jj-v0.38.0-x86_64-pc-windows-msvc.zip",
+        "bin": [
+          "jj.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/martinvonz/jj/releases/download/v0.38.0/jj-v0.38.0-x86_64-pc-windows-msvc.zip",
+        "bin": [
+          "jj.exe"
+        ],
+        "format": "zip"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "martinvonz.jj"
+      }
+    ]
+  }
+}

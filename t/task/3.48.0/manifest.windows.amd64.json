@@ -1,0 +1,42 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/go-task/task/releases/download/v3.48.0/task_windows_amd64.zip",
+        "bin": [
+          "task.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/go-task/task/releases/download/v3.48.0/task_windows_amd64.zip",
+        "bin": [
+          "task.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/go-task/task/releases/download/v3.48.0/task_windows_amd64.zip",
+        "bin": [
+          "task.exe"
+        ],
+        "format": "zip"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "go-task.Task"
+      }
+    ]
+  }
+}

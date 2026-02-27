@@ -1,0 +1,39 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "raw",
+        "url": "https://github.com/FiloSottile/mkcert/releases/download/v1.4.4/mkcert-v1.4.4-windows-amd64.exe",
+        "bin": [
+          "mkcert.exe"
+        ]
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "raw",
+        "url": "https://github.com/FiloSottile/mkcert/releases/download/v1.4.4/mkcert-v1.4.4-windows-amd64.exe",
+        "bin": [
+          "mkcert.exe"
+        ]
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "raw",
+        "url": "https://github.com/FiloSottile/mkcert/releases/download/v1.4.4/mkcert-v1.4.4-windows-amd64.exe",
+        "bin": [
+          "mkcert.exe"
+        ]
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "FiloSottile.mkcert"
+      }
+    ]
+  }
+}

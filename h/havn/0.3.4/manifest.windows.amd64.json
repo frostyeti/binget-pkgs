@@ -1,0 +1,37 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/mrjackwills/havn/releases/download/v0.3.4/havn_0.3.4_windows_amd64.zip",
+        "bin": [
+          "havn.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/mrjackwills/havn/releases/download/v0.3.4/havn_0.3.4_windows_amd64.zip",
+        "bin": [
+          "havn.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/mrjackwills/havn/releases/download/v0.3.4/havn_0.3.4_windows_amd64.zip",
+        "bin": [
+          "havn.exe"
+        ],
+        "format": "zip"
+      }
+    ]
+  }
+}

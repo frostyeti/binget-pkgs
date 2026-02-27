@@ -1,0 +1,42 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/michidk/vscli/releases/download/v1.3.0/vscli-x86_64-pc-windows-msvc.zip",
+        "bin": [
+          "vscli.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/michidk/vscli/releases/download/v1.3.0/vscli-x86_64-pc-windows-msvc.zip",
+        "bin": [
+          "vscli.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/michidk/vscli/releases/download/v1.3.0/vscli-x86_64-pc-windows-msvc.zip",
+        "bin": [
+          "vscli.exe"
+        ],
+        "format": "zip"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "michidk.vscli"
+      }
+    ]
+  }
+}

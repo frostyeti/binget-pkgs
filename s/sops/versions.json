@@ -1,0 +1,9 @@
+{
+  "latest": "3.12.1",
+  "versions": [
+    {
+      "version": "3.12.1",
+      "status": "stable"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "raw",
+        "url": "https://github.com/getsops/sops/releases/download/v3.12.1/sops-v3.12.1.exe",
+        "bin": [
+          "sops.exe"
+        ]
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "raw",
+        "url": "https://github.com/getsops/sops/releases/download/v3.12.1/sops-v3.12.1.exe",
+        "bin": [
+          "sops.exe"
+        ]
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "raw",
+        "url": "https://github.com/getsops/sops/releases/download/v3.12.1/sops-v3.12.1.exe",
+        "bin": [
+          "sops.exe"
+        ]
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "getsops.sops"
+      }
+    ]
+  }
+}

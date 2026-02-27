@@ -1,0 +1,37 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/xo/usql/releases/download/v0.20.8/usql_0.20.8_windows_amd64.zip",
+        "bin": [
+          "usql.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/xo/usql/releases/download/v0.20.8/usql_0.20.8_windows_amd64.zip",
+        "bin": [
+          "usql.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/xo/usql/releases/download/v0.20.8/usql_0.20.8_windows_amd64.zip",
+        "bin": [
+          "usql.exe"
+        ],
+        "format": "zip"
+      }
+    ]
+  }
+}

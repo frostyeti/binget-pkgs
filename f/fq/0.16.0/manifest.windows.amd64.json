@@ -1,0 +1,37 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/wader/fq/releases/download/v0.16.0/fq_0.16.0_windows_amd64.zip",
+        "bin": [
+          "fq.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/wader/fq/releases/download/v0.16.0/fq_0.16.0_windows_amd64.zip",
+        "bin": [
+          "fq.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/wader/fq/releases/download/v0.16.0/fq_0.16.0_windows_amd64.zip",
+        "bin": [
+          "fq.exe"
+        ],
+        "format": "zip"
+      }
+    ]
+  }
+}
