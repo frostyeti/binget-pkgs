@@ -1,0 +1,36 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://github.com/flameshot-org/flameshot/releases/download/v13.3.0/Flameshot-v13.3.0-win64.zip",
+        "bin": ["flameshot.exe"]
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://github.com/flameshot-org/flameshot/releases/download/v13.3.0/Flameshot-v13.3.0-win64.zip",
+        "bin": ["flameshot.exe"]
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://github.com/flameshot-org/flameshot/releases/download/v13.3.0/Flameshot-v13.3.0-win64.zip",
+        "bin": ["flameshot.exe"]
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "Flameshot.Flameshot"
+      }
+    ]
+  }
+}
