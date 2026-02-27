@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "jujutsu"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "jujutsu"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "jujutsu"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "jujutsu"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "jujutsu"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "jujutsu"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "jujutsu"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "jujutsu"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "jujutsu"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "jujutsu"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "jujutsu"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "jujutsu"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "jujutsu"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "jujutsu"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "jujutsu"
+      }
+    ]
+  }
+}

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "ladybird"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "ladybird"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "ladybird"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "ladybird"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "ladybird"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "ladybird"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "ladybird"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "ladybird"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "ladybird"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "ladybird"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "ladybird"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "ladybird"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "ladybird"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "ladybird"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "ladybird"
       }
     ]

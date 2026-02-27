@@ -1,0 +1,25 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "ktop"
+      }
+    ],
+    "user": [
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "ktop"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "ktop"
+      }
+    ]
+  }
+}

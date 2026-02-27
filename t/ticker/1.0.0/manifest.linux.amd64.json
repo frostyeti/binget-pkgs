@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "ticker"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "ticker"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "ticker"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "ticker"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "ticker"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "ticker"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "ticker"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "ticker"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "ticker"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "ticker"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "ticker"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "ticker"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "ticker"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "ticker"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "ticker"
       }
     ]

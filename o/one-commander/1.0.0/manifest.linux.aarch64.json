@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "one-commander"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "one-commander"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "one-commander"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "one-commander"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "one-commander"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "one-commander"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "one-commander"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "one-commander"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "one-commander"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "one-commander"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "one-commander"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "one-commander"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "one-commander"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "one-commander"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "one-commander"
       }
     ]

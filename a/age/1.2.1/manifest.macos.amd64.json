@@ -1,0 +1,63 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (age-v1.2.1-darwin-amd64.tar.gz)",
+        "url": "https://github.com/FiloSottile/age/releases/download/v1.2.1/age-v1.2.1-darwin-amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "age"
+        ]
+      },
+      {
+        "name": "Direct Download (age-v1.2.1-darwin-amd64.tar.gz.proof)",
+        "url": "https://github.com/FiloSottile/age/releases/download/v1.2.1/age-v1.2.1-darwin-amd64.tar.gz.proof",
+        "type": "raw",
+        "bin": [
+          "age"
+        ]
+      },
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "age"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (age-v1.2.1-darwin-amd64.tar.gz)",
+        "url": "https://github.com/FiloSottile/age/releases/download/v1.2.1/age-v1.2.1-darwin-amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "age"
+        ]
+      },
+      {
+        "name": "Direct Download (age-v1.2.1-darwin-amd64.tar.gz.proof)",
+        "url": "https://github.com/FiloSottile/age/releases/download/v1.2.1/age-v1.2.1-darwin-amd64.tar.gz.proof",
+        "type": "raw",
+        "bin": [
+          "age"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (age-v1.2.1-darwin-amd64.tar.gz)",
+        "url": "https://github.com/FiloSottile/age/releases/download/v1.2.1/age-v1.2.1-darwin-amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "age"
+        ]
+      },
+      {
+        "name": "Direct Download (age-v1.2.1-darwin-amd64.tar.gz.proof)",
+        "url": "https://github.com/FiloSottile/age/releases/download/v1.2.1/age-v1.2.1-darwin-amd64.tar.gz.proof",
+        "type": "raw",
+        "bin": [
+          "age"
+        ]
+      }
+    ]
+  }
+}

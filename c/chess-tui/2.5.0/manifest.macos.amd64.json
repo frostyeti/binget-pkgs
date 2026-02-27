@@ -1,0 +1,39 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (chess-tui-2.5.0-x86_64-apple-darwin.tar.gz)",
+        "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.5.0/chess-tui-2.5.0-x86_64-apple-darwin.tar.gz",
+        "type": "archive",
+        "bin": [
+          "chess-tui"
+        ]
+      },
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "chess-tui"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (chess-tui-2.5.0-x86_64-apple-darwin.tar.gz)",
+        "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.5.0/chess-tui-2.5.0-x86_64-apple-darwin.tar.gz",
+        "type": "archive",
+        "bin": [
+          "chess-tui"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (chess-tui-2.5.0-x86_64-apple-darwin.tar.gz)",
+        "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.5.0/chess-tui-2.5.0-x86_64-apple-darwin.tar.gz",
+        "type": "archive",
+        "bin": [
+          "chess-tui"
+        ]
+      }
+    ]
+  }
+}

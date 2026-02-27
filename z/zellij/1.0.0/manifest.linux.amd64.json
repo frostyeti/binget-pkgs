@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "zellij"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "zellij"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "zellij"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "zellij"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "zellij"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "zellij"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "zellij"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "zellij"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "zellij"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "zellij"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "zellij"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "zellij"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "zellij"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "zellij"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "zellij"
       }
     ]

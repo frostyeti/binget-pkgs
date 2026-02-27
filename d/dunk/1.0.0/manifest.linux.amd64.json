@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "dunk"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dunk"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dunk"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dunk"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "dunk"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "dunk"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dunk"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dunk"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dunk"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "dunk"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "dunk"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dunk"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dunk"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dunk"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "dunk"
       }
     ]

@@ -2,14 +2,21 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "Homebrew",
         "type": "brew",
         "package": "claude-code"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "claude-code"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Homebrew",
         "type": "brew",
         "package": "claude-code"
       }

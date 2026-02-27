@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "netstat"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "netstat"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "netstat"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "netstat"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "netstat"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "netstat"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "netstat"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "netstat"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "netstat"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "netstat"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "netstat"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "netstat"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "netstat"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "netstat"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "netstat"
       }
     ]

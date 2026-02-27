@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "delta"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "delta"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "delta"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "delta"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "delta"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "delta"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "delta"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "delta"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "delta"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "delta"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "delta"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "delta"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "delta"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "delta"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "delta"
+      }
+    ]
+  }
+}

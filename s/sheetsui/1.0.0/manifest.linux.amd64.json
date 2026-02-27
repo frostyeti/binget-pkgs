@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "sheetsui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sheetsui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sheetsui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sheetsui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "sheetsui"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "sheetsui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sheetsui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sheetsui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sheetsui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "sheetsui"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "sheetsui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sheetsui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sheetsui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sheetsui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "sheetsui"
       }
     ]

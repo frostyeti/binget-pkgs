@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "notion"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "notion"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "notion"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "notion"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "notion"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "notion"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "notion"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "notion"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "notion"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "notion"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "notion"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "notion"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "notion"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "notion"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "notion"
       }
     ]

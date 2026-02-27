@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "ollama"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "ollama"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "ollama"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "ollama"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "ollama"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "ollama"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "ollama"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "ollama"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "ollama"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "ollama"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "ollama"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "ollama"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "ollama"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "ollama"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "ollama"
       }
     ]

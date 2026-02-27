@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "jira-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "jira-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "jira-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "jira-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "jira-cli"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "jira-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "jira-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "jira-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "jira-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "jira-cli"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "jira-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "jira-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "jira-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "jira-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "jira-cli"
       }
     ]

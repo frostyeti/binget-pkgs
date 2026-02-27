@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "mkcert"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "mkcert"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "mkcert"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "mkcert"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "mkcert"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "mkcert"
+      }
+    ]
+  }
+}

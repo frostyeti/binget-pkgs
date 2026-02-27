@@ -1,0 +1,59 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (amtui_v0.0.4_linux_amd64.tar.gz)",
+        "url": "https://github.com/pehlicd/amtui/releases/download/v0.0.4/amtui_v0.0.4_linux_amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "amtui"
+        ]
+      },
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "amtui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "amtui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "amtui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "amtui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "amtui"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (amtui_v0.0.4_linux_amd64.tar.gz)",
+        "url": "https://github.com/pehlicd/amtui/releases/download/v0.0.4/amtui_v0.0.4_linux_amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "amtui"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (amtui_v0.0.4_linux_amd64.tar.gz)",
+        "url": "https://github.com/pehlicd/amtui/releases/download/v0.0.4/amtui_v0.0.4_linux_amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "amtui"
+        ]
+      }
+    ]
+  }
+}

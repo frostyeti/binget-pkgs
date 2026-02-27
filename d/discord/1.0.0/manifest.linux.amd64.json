@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "discord"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "discord"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "discord"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "discord"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "discord"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "discord"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "discord"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "discord"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "discord"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "discord"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "discord"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "discord"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "discord"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "discord"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "discord"
       }
     ]

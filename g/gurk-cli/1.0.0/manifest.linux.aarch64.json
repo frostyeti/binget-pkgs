@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "gurk-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "gurk-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "gurk-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "gurk-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "gurk-cli"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "gurk-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "gurk-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "gurk-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "gurk-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "gurk-cli"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "gurk-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "gurk-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "gurk-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "gurk-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "gurk-cli"
       }
     ]

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "edit"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "edit"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "edit"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "edit"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "edit"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "edit"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "edit"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "edit"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "edit"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "edit"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "edit"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "edit"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "edit"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "edit"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "edit"
       }
     ]

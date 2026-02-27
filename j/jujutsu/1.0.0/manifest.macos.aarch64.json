@@ -1,0 +1,25 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "jujutsu"
+      }
+    ],
+    "user": [
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "jujutsu"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "jujutsu"
+      }
+    ]
+  }
+}

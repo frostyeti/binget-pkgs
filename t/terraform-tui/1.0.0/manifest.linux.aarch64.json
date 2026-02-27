@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "terraform-tui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "terraform-tui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "terraform-tui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "terraform-tui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "terraform-tui"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "terraform-tui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "terraform-tui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "terraform-tui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "terraform-tui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "terraform-tui"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "terraform-tui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "terraform-tui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "terraform-tui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "terraform-tui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "terraform-tui"
       }
     ]

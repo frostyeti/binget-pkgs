@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "tailspin"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "tailspin"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "tailspin"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "tailspin"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "tailspin"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "tailspin"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "tailspin"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "tailspin"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "tailspin"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "tailspin"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "tailspin"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "tailspin"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "tailspin"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "tailspin"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "tailspin"
+      }
+    ]
+  }
+}

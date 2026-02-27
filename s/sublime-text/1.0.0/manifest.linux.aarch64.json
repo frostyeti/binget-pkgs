@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "sublime-text"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sublime-text"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sublime-text"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sublime-text"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "sublime-text"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "sublime-text"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sublime-text"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sublime-text"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sublime-text"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "sublime-text"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "sublime-text"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sublime-text"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sublime-text"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sublime-text"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "sublime-text"
       }
     ]

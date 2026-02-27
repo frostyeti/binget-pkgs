@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "havn"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "havn"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "havn"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "havn"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "havn"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "havn"
+      }
+    ]
+  }
+}

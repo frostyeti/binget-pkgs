@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "shellshock"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "shellshock"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "shellshock"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "shellshock"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "shellshock"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "shellshock"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "shellshock"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "shellshock"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "shellshock"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "shellshock"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "shellshock"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "shellshock"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "shellshock"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "shellshock"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "shellshock"
       }
     ]

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "spotify"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "spotify"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "spotify"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "spotify"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "spotify"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "spotify"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "spotify"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "spotify"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "spotify"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "spotify"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "spotify"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "spotify"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "spotify"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "spotify"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "spotify"
       }
     ]

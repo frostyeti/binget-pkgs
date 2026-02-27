@@ -1,0 +1,39 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (aztfexport_v0.18.0_darwin_arm64.zip)",
+        "url": "https://github.com/Azure/aztfexport/releases/download/v0.18.0/aztfexport_v0.18.0_darwin_arm64.zip",
+        "type": "archive",
+        "bin": [
+          "aztfexport"
+        ]
+      },
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "aztfexport"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (aztfexport_v0.18.0_darwin_arm64.zip)",
+        "url": "https://github.com/Azure/aztfexport/releases/download/v0.18.0/aztfexport_v0.18.0_darwin_arm64.zip",
+        "type": "archive",
+        "bin": [
+          "aztfexport"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (aztfexport_v0.18.0_darwin_arm64.zip)",
+        "url": "https://github.com/Azure/aztfexport/releases/download/v0.18.0/aztfexport_v0.18.0_darwin_arm64.zip",
+        "type": "archive",
+        "bin": [
+          "aztfexport"
+        ]
+      }
+    ]
+  }
+}

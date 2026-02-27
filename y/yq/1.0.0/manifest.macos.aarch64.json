@@ -2,14 +2,21 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "Homebrew",
         "type": "brew",
         "package": "yq"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "yq"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Homebrew",
         "type": "brew",
         "package": "yq"
       }

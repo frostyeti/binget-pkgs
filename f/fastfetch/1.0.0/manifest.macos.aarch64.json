@@ -1,0 +1,25 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "fastfetch"
+      }
+    ],
+    "user": [
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "fastfetch"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "fastfetch"
+      }
+    ]
+  }
+}

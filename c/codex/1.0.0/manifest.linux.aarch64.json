@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "codex"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "codex"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "codex"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "codex"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "codex"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "codex"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "codex"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "codex"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "codex"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "codex"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "codex"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "codex"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "codex"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "codex"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "codex"
       }
     ]

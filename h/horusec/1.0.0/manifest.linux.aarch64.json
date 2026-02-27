@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "horusec"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "horusec"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "horusec"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "horusec"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "horusec"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "horusec"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "horusec"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "horusec"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "horusec"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "horusec"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "horusec"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "horusec"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "horusec"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "horusec"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "horusec"
       }
     ]

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "wiper"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wiper"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wiper"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wiper"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "wiper"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "wiper"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wiper"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wiper"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wiper"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "wiper"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "wiper"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wiper"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wiper"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wiper"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "wiper"
       }
     ]

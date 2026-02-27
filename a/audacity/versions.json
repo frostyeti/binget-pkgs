@@ -1,8 +1,44 @@
 {
-  "latest": "1.0.0",
+  "latest": "Audacity-3.7.7",
   "versions": [
     {
-      "version": "1.0.0",
+      "version": "Audacity-3.7.7",
+      "status": "stable"
+    },
+    {
+      "version": "Audacity-3.7.6",
+      "status": "stable"
+    },
+    {
+      "version": "Audacity-4.0.0-alpha-2",
+      "status": "prerelease"
+    },
+    {
+      "version": "Audacity-3.7.5",
+      "status": "stable"
+    },
+    {
+      "version": "Audacity-3.7.4",
+      "status": "stable"
+    },
+    {
+      "version": "Audacity-3.7.3",
+      "status": "stable"
+    },
+    {
+      "version": "Audacity-3.7.2",
+      "status": "stable"
+    },
+    {
+      "version": "Audacity-3.7.1",
+      "status": "stable"
+    },
+    {
+      "version": "Audacity-3.7.0",
+      "status": "stable"
+    },
+    {
+      "version": "Audacity-3.6.4",
       "status": "stable"
     }
   ]

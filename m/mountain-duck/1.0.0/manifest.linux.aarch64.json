@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "mountain-duck"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "mountain-duck"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "mountain-duck"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "mountain-duck"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "mountain-duck"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "mountain-duck"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "mountain-duck"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "mountain-duck"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "mountain-duck"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "mountain-duck"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "mountain-duck"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "mountain-duck"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "mountain-duck"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "mountain-duck"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "mountain-duck"
       }
     ]

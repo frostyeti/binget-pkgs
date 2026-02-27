@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "syncthing"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "syncthing"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "syncthing"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "syncthing"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "syncthing"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "syncthing"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "syncthing"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "syncthing"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "syncthing"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "syncthing"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "syncthing"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "syncthing"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "syncthing"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "syncthing"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "syncthing"
       }
     ]

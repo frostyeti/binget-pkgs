@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "protonvpn"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "protonvpn"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "protonvpn"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "protonvpn"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "protonvpn"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "protonvpn"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "protonvpn"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "protonvpn"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "protonvpn"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "protonvpn"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "protonvpn"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "protonvpn"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "protonvpn"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "protonvpn"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "protonvpn"
       }
     ]

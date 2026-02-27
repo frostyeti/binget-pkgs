@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "hostctl"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "hostctl"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "hostctl"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "hostctl"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "hostctl"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "hostctl"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "hostctl"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "hostctl"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "hostctl"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "hostctl"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "hostctl"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "hostctl"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "hostctl"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "hostctl"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "hostctl"
+      }
+    ]
+  }
+}

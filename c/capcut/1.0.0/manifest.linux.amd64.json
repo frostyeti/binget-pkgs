@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "capcut"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "capcut"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "capcut"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "capcut"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "capcut"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "capcut"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "capcut"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "capcut"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "capcut"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "capcut"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "capcut"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "capcut"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "capcut"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "capcut"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "capcut"
       }
     ]

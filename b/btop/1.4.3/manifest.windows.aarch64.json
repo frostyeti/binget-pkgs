@@ -1,0 +1,18 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "btop"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "btop"
+      }
+    ],
+    "user": [],
+    "shim": []
+  }
+}

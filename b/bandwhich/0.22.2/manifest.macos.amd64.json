@@ -1,0 +1,39 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (bandwhich-v0.22.2-x86_64-apple-darwin.tar.gz)",
+        "url": "https://github.com/imsnif/bandwhich/releases/download/v0.22.2/bandwhich-v0.22.2-x86_64-apple-darwin.tar.gz",
+        "type": "archive",
+        "bin": [
+          "bandwhich"
+        ]
+      },
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "bandwhich"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (bandwhich-v0.22.2-x86_64-apple-darwin.tar.gz)",
+        "url": "https://github.com/imsnif/bandwhich/releases/download/v0.22.2/bandwhich-v0.22.2-x86_64-apple-darwin.tar.gz",
+        "type": "archive",
+        "bin": [
+          "bandwhich"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (bandwhich-v0.22.2-x86_64-apple-darwin.tar.gz)",
+        "url": "https://github.com/imsnif/bandwhich/releases/download/v0.22.2/bandwhich-v0.22.2-x86_64-apple-darwin.tar.gz",
+        "type": "archive",
+        "bin": [
+          "bandwhich"
+        ]
+      }
+    ]
+  }
+}

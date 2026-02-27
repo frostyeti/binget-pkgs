@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "cloudquery"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "cloudquery"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "cloudquery"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "cloudquery"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "cloudquery"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "cloudquery"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "cloudquery"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "cloudquery"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "cloudquery"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "cloudquery"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "cloudquery"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "cloudquery"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "cloudquery"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "cloudquery"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "cloudquery"
       }
     ]

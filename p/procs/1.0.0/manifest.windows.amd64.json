@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "procs"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "procs"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "procs"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "procs"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "procs"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "procs"
+      }
+    ]
+  }
+}

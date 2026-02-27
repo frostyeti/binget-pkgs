@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "odin"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "odin"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "odin"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "odin"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "odin"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "odin"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "odin"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "odin"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "odin"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "odin"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "odin"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "odin"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "odin"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "odin"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "odin"
+      }
+    ]
+  }
+}

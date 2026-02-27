@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "nushell"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "nushell"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "nushell"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "nushell"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "nushell"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "nushell"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "nushell"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "nushell"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "nushell"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "nushell"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "nushell"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "nushell"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "nushell"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "nushell"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "nushell"
+      }
+    ]
+  }
+}

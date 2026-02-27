@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "slack-term"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "slack-term"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "slack-term"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "slack-term"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "slack-term"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "slack-term"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "slack-term"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "slack-term"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "slack-term"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "slack-term"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "slack-term"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "slack-term"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "slack-term"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "slack-term"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "slack-term"
       }
     ]

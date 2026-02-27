@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "cloc"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "cloc"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "cloc"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "cloc"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "cloc"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "cloc"
+      }
+    ]
+  }
+}

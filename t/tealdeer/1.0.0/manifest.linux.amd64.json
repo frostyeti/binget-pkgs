@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "tealdeer"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "tealdeer"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "tealdeer"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "tealdeer"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "tealdeer"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "tealdeer"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "tealdeer"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "tealdeer"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "tealdeer"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "tealdeer"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "tealdeer"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "tealdeer"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "tealdeer"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "tealdeer"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "tealdeer"
+      }
+    ]
+  }
+}

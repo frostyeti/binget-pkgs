@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "virtualbox"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "virtualbox"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "virtualbox"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "virtualbox"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "virtualbox"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "virtualbox"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "virtualbox"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "virtualbox"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "virtualbox"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "virtualbox"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "virtualbox"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "virtualbox"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "virtualbox"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "virtualbox"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "virtualbox"
       }
     ]

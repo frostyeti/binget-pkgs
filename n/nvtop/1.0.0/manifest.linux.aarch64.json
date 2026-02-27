@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "nvtop"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "nvtop"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "nvtop"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "nvtop"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "nvtop"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "nvtop"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "nvtop"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "nvtop"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "nvtop"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "nvtop"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "nvtop"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "nvtop"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "nvtop"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "nvtop"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "nvtop"
       }
     ]

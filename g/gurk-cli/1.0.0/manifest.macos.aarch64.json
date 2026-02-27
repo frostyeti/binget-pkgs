@@ -2,14 +2,21 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "Homebrew",
         "type": "brew",
         "package": "gurk-cli"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "gurk-cli"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Homebrew",
         "type": "brew",
         "package": "gurk-cli"
       }

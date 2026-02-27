@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "durdraw"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "durdraw"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "durdraw"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "durdraw"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "durdraw"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "durdraw"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "durdraw"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "durdraw"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "durdraw"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "durdraw"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "durdraw"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "durdraw"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "durdraw"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "durdraw"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "durdraw"
       }
     ]

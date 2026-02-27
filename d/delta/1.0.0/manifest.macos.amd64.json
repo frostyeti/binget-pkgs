@@ -1,0 +1,25 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "delta"
+      }
+    ],
+    "user": [
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "delta"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "delta"
+      }
+    ]
+  }
+}

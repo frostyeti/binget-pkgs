@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "semgrep"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "semgrep"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "semgrep"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "semgrep"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "semgrep"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "semgrep"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "semgrep"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "semgrep"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "semgrep"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "semgrep"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "semgrep"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "semgrep"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "semgrep"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "semgrep"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "semgrep"
       }
     ]

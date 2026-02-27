@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "toolong"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "toolong"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "toolong"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "toolong"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "toolong"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "toolong"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "toolong"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "toolong"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "toolong"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "toolong"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "toolong"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "toolong"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "toolong"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "toolong"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "toolong"
       }
     ]

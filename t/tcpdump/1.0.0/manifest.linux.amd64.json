@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "tcpdump"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "tcpdump"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "tcpdump"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "tcpdump"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "tcpdump"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "tcpdump"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "tcpdump"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "tcpdump"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "tcpdump"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "tcpdump"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "tcpdump"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "tcpdump"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "tcpdump"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "tcpdump"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "tcpdump"
       }
     ]

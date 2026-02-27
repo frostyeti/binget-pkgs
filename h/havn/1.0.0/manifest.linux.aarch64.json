@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "havn"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "havn"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "havn"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "havn"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "havn"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "havn"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "havn"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "havn"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "havn"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "havn"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "havn"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "havn"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "havn"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "havn"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "havn"
+      }
+    ]
+  }
+}

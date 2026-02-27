@@ -1,0 +1,25 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "croc"
+      }
+    ],
+    "user": [
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "croc"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "croc"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "doctl"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "doctl"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "doctl"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "doctl"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "doctl"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "doctl"
+      }
+    ]
+  }
+}

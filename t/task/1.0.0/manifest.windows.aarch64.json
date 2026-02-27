@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "task"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "task"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "task"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "task"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "task"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "task"
+      }
+    ]
+  }
+}

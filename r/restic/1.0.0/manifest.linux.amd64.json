@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "restic"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "restic"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "restic"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "restic"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "restic"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "restic"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "restic"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "restic"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "restic"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "restic"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "restic"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "restic"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "restic"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "restic"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "restic"
+      }
+    ]
+  }
+}

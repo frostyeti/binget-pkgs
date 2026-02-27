@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "dbmate"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dbmate"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dbmate"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dbmate"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "dbmate"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "dbmate"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dbmate"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dbmate"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dbmate"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "dbmate"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "dbmate"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dbmate"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dbmate"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dbmate"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "dbmate"
       }
     ]

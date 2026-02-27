@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "docker-desktop"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "docker-desktop"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "docker-desktop"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "docker-desktop"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "docker-desktop"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "docker-desktop"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "docker-desktop"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "docker-desktop"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "docker-desktop"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "docker-desktop"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "docker-desktop"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "docker-desktop"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "docker-desktop"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "docker-desktop"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "docker-desktop"
+      }
+    ]
+  }
+}

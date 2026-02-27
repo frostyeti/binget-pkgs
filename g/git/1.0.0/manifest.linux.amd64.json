@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "git"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "git"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "git"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "git"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "git"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "git"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "git"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "git"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "git"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "git"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "git"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "git"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "git"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "git"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "git"
+      }
+    ]
+  }
+}

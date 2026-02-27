@@ -1,0 +1,38 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (bombardier-windows-amd64.exe)",
+        "url": "https://github.com/codesenberg/bombardier/releases/download/v1.2.1/bombardier-windows-amd64.exe",
+        "type": "installer",
+        "format": "exe"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "bombardier"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "bombardier"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (bombardier-windows-amd64.exe)",
+        "url": "https://github.com/codesenberg/bombardier/releases/download/v1.2.1/bombardier-windows-amd64.exe",
+        "type": "installer",
+        "format": "exe"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (bombardier-windows-amd64.exe)",
+        "url": "https://github.com/codesenberg/bombardier/releases/download/v1.2.1/bombardier-windows-amd64.exe",
+        "type": "installer",
+        "format": "exe"
+      }
+    ]
+  }
+}

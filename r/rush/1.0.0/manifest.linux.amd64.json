@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "rush"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "rush"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "rush"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "rush"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "rush"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "rush"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "rush"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "rush"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "rush"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "rush"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "rush"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "rush"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "rush"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "rush"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "rush"
+      }
+    ]
+  }
+}

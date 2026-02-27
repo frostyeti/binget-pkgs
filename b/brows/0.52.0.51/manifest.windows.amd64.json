@@ -1,0 +1,62 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (brows-x64-0.52.0.51.msi)",
+        "url": "https://github.com/brows-app/brows/releases/download/v0.52.0.51/brows-x64-0.52.0.51.msi",
+        "type": "installer",
+        "format": "msi"
+      },
+      {
+        "name": "Direct Download (brows-x64-0.52.0.51.zip)",
+        "url": "https://github.com/brows-app/brows/releases/download/v0.52.0.51/brows-x64-0.52.0.51.zip",
+        "type": "archive",
+        "bin": [
+          "brows.exe"
+        ]
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "brows"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "brows"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (brows-x64-0.52.0.51.msi)",
+        "url": "https://github.com/brows-app/brows/releases/download/v0.52.0.51/brows-x64-0.52.0.51.msi",
+        "type": "installer",
+        "format": "msi"
+      },
+      {
+        "name": "Direct Download (brows-x64-0.52.0.51.zip)",
+        "url": "https://github.com/brows-app/brows/releases/download/v0.52.0.51/brows-x64-0.52.0.51.zip",
+        "type": "archive",
+        "bin": [
+          "brows.exe"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (brows-x64-0.52.0.51.msi)",
+        "url": "https://github.com/brows-app/brows/releases/download/v0.52.0.51/brows-x64-0.52.0.51.msi",
+        "type": "installer",
+        "format": "msi"
+      },
+      {
+        "name": "Direct Download (brows-x64-0.52.0.51.zip)",
+        "url": "https://github.com/brows-app/brows/releases/download/v0.52.0.51/brows-x64-0.52.0.51.zip",
+        "type": "archive",
+        "bin": [
+          "brows.exe"
+        ]
+      }
+    ]
+  }
+}

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "lazynginx"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "lazynginx"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "lazynginx"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "lazynginx"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "lazynginx"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "lazynginx"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "lazynginx"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "lazynginx"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "lazynginx"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "lazynginx"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "lazynginx"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "lazynginx"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "lazynginx"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "lazynginx"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "lazynginx"
       }
     ]

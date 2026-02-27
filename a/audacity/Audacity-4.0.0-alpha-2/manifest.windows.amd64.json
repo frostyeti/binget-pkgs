@@ -1,0 +1,38 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (Audacity-4.0.0.253031630.f3e3e3b.-x86_64.msi)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.0-alpha-2/Audacity-4.0.0.253031630.f3e3e3b.-x86_64.msi",
+        "type": "installer",
+        "format": "msi"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "audacity"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "audacity"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (Audacity-4.0.0.253031630.f3e3e3b.-x86_64.msi)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.0-alpha-2/Audacity-4.0.0.253031630.f3e3e3b.-x86_64.msi",
+        "type": "installer",
+        "format": "msi"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (Audacity-4.0.0.253031630.f3e3e3b.-x86_64.msi)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.0-alpha-2/Audacity-4.0.0.253031630.f3e3e3b.-x86_64.msi",
+        "type": "installer",
+        "format": "msi"
+      }
+    ]
+  }
+}

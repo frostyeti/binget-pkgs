@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "claude-code"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "claude-code"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "claude-code"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "claude-code"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "claude-code"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "claude-code"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "claude-code"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "claude-code"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "claude-code"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "claude-code"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "claude-code"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "claude-code"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "claude-code"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "claude-code"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "claude-code"
       }
     ]

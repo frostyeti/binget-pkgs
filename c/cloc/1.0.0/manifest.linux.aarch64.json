@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "cloc"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "cloc"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "cloc"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "cloc"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "cloc"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "cloc"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "cloc"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "cloc"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "cloc"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "cloc"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "cloc"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "cloc"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "cloc"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "cloc"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "cloc"
+      }
+    ]
+  }
+}

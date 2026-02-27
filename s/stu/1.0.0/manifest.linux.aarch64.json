@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "stu"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "stu"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "stu"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "stu"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "stu"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "stu"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "stu"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "stu"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "stu"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "stu"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "stu"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "stu"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "stu"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "stu"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "stu"
       }
     ]

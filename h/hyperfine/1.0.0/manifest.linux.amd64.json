@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "hyperfine"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "hyperfine"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "hyperfine"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "hyperfine"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "hyperfine"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "hyperfine"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "hyperfine"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "hyperfine"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "hyperfine"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "hyperfine"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "hyperfine"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "hyperfine"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "hyperfine"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "hyperfine"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "hyperfine"
+      }
+    ]
+  }
+}

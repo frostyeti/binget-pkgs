@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "bandwhich"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "bandwhich"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "bandwhich"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "bandwhich"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "bandwhich"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "bandwhich"
+      }
+    ]
+  }
+}

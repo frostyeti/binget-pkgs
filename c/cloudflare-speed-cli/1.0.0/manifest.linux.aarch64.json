@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "cloudflare-speed-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "cloudflare-speed-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "cloudflare-speed-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "cloudflare-speed-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "cloudflare-speed-cli"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "cloudflare-speed-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "cloudflare-speed-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "cloudflare-speed-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "cloudflare-speed-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "cloudflare-speed-cli"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "cloudflare-speed-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "cloudflare-speed-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "cloudflare-speed-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "cloudflare-speed-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "cloudflare-speed-cli"
       }
     ]

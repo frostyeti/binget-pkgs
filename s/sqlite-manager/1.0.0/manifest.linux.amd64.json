@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "sqlite-manager"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sqlite-manager"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sqlite-manager"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sqlite-manager"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "sqlite-manager"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "sqlite-manager"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sqlite-manager"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sqlite-manager"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sqlite-manager"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "sqlite-manager"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "sqlite-manager"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sqlite-manager"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sqlite-manager"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sqlite-manager"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "sqlite-manager"
       }
     ]

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "impala"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "impala"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "impala"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "impala"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "impala"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "impala"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "impala"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "impala"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "impala"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "impala"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "impala"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "impala"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "impala"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "impala"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "impala"
       }
     ]

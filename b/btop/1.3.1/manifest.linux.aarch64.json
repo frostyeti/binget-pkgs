@@ -1,0 +1,227 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (btop-aarch64-linux-musl.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-aarch64-linux-musl.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "Direct Download (btop-arm-linux-musleabi.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-arm-linux-musleabi.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "Direct Download (btop-armv5l-linux-musleabi.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-armv5l-linux-musleabi.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "Direct Download (btop-armv7l-linux-musleabihf.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-armv7l-linux-musleabihf.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "Direct Download (btop-i486-linux-musl.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-i486-linux-musl.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "Direct Download (btop-i686-linux-musl.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-i686-linux-musl.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "Direct Download (btop-mips64-linux-musl.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-mips64-linux-musl.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "Direct Download (btop-powerpc64-linux-musl.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-powerpc64-linux-musl.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "btop"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "btop"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "btop"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "btop"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "btop"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (btop-aarch64-linux-musl.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-aarch64-linux-musl.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "Direct Download (btop-arm-linux-musleabi.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-arm-linux-musleabi.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "Direct Download (btop-armv5l-linux-musleabi.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-armv5l-linux-musleabi.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "Direct Download (btop-armv7l-linux-musleabihf.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-armv7l-linux-musleabihf.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "Direct Download (btop-i486-linux-musl.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-i486-linux-musl.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "Direct Download (btop-i686-linux-musl.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-i686-linux-musl.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "Direct Download (btop-mips64-linux-musl.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-mips64-linux-musl.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "Direct Download (btop-powerpc64-linux-musl.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-powerpc64-linux-musl.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (btop-aarch64-linux-musl.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-aarch64-linux-musl.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "Direct Download (btop-arm-linux-musleabi.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-arm-linux-musleabi.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "Direct Download (btop-armv5l-linux-musleabi.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-armv5l-linux-musleabi.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "Direct Download (btop-armv7l-linux-musleabihf.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-armv7l-linux-musleabihf.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "Direct Download (btop-i486-linux-musl.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-i486-linux-musl.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "Direct Download (btop-i686-linux-musl.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-i686-linux-musl.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "Direct Download (btop-mips64-linux-musl.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-mips64-linux-musl.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      },
+      {
+        "name": "Direct Download (btop-powerpc64-linux-musl.tbz)",
+        "url": "https://github.com/aristocratos/btop/releases/download/v1.3.1/btop-powerpc64-linux-musl.tbz",
+        "type": "raw",
+        "bin": [
+          "btop"
+        ]
+      }
+    ]
+  }
+}

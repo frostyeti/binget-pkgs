@@ -1,0 +1,18 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "bearer"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "bearer"
+      }
+    ],
+    "user": [],
+    "shim": []
+  }
+}

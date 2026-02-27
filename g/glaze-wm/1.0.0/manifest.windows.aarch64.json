@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "glaze-wm"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "glaze-wm"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "glaze-wm"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "glaze-wm"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "glaze-wm"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "glaze-wm"
+      }
+    ]
+  }
+}

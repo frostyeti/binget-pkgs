@@ -1,0 +1,39 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (amtui_v0.1.0_darwin_amd64.tar.gz)",
+        "url": "https://github.com/pehlicd/amtui/releases/download/v0.1.0/amtui_v0.1.0_darwin_amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "amtui"
+        ]
+      },
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "amtui"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (amtui_v0.1.0_darwin_amd64.tar.gz)",
+        "url": "https://github.com/pehlicd/amtui/releases/download/v0.1.0/amtui_v0.1.0_darwin_amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "amtui"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (amtui_v0.1.0_darwin_amd64.tar.gz)",
+        "url": "https://github.com/pehlicd/amtui/releases/download/v0.1.0/amtui_v0.1.0_darwin_amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "amtui"
+        ]
+      }
+    ]
+  }
+}

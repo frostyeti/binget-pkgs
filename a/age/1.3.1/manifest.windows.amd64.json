@@ -1,36 +1,67 @@
 {
   "install_modes": {
-    "shim": [
+    "global": [
       {
-        "name": "Official GitHub Release",
-        "type": "archive",
+        "name": "Direct Download (age-v1.3.1-windows-amd64.zip)",
         "url": "https://github.com/FiloSottile/age/releases/download/v1.3.1/age-v1.3.1-windows-amd64.zip",
+        "type": "archive",
         "bin": [
-          "age/age.exe"
-        ],
-        "format": "zip"
+          "age.exe"
+        ]
+      },
+      {
+        "name": "Direct Download (age-v1.3.1-windows-amd64.zip.proof)",
+        "url": "https://github.com/FiloSottile/age/releases/download/v1.3.1/age-v1.3.1-windows-amd64.zip.proof",
+        "type": "raw",
+        "bin": [
+          "age.exe"
+        ]
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "age"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "age"
       }
     ],
     "user": [
       {
-        "name": "Official GitHub Release",
-        "type": "archive",
+        "name": "Direct Download (age-v1.3.1-windows-amd64.zip)",
         "url": "https://github.com/FiloSottile/age/releases/download/v1.3.1/age-v1.3.1-windows-amd64.zip",
+        "type": "archive",
         "bin": [
-          "age/age.exe"
-        ],
-        "format": "zip"
+          "age.exe"
+        ]
+      },
+      {
+        "name": "Direct Download (age-v1.3.1-windows-amd64.zip.proof)",
+        "url": "https://github.com/FiloSottile/age/releases/download/v1.3.1/age-v1.3.1-windows-amd64.zip.proof",
+        "type": "raw",
+        "bin": [
+          "age.exe"
+        ]
       }
     ],
-    "global": [
+    "shim": [
       {
-        "name": "Official GitHub Release",
-        "type": "archive",
+        "name": "Direct Download (age-v1.3.1-windows-amd64.zip)",
         "url": "https://github.com/FiloSottile/age/releases/download/v1.3.1/age-v1.3.1-windows-amd64.zip",
+        "type": "archive",
         "bin": [
-          "age/age.exe"
-        ],
-        "format": "zip"
+          "age.exe"
+        ]
+      },
+      {
+        "name": "Direct Download (age-v1.3.1-windows-amd64.zip.proof)",
+        "url": "https://github.com/FiloSottile/age/releases/download/v1.3.1/age-v1.3.1-windows-amd64.zip.proof",
+        "type": "raw",
+        "bin": [
+          "age.exe"
+        ]
       }
     ]
   }

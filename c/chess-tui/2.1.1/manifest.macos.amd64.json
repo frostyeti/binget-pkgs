@@ -1,0 +1,13 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "chess-tui"
+      }
+    ],
+    "user": [],
+    "shim": []
+  }
+}

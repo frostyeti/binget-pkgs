@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "visualstudio"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "visualstudio"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "visualstudio"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "visualstudio"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "visualstudio"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "visualstudio"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "visualstudio"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "visualstudio"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "visualstudio"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "visualstudio"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "visualstudio"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "visualstudio"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "visualstudio"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "visualstudio"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "visualstudio"
+      }
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (audacity-macOS-3.6.4-universal.dmg)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.6.4/audacity-macOS-3.6.4-universal.dmg",
+        "type": "archive",
+        "format": "dmg",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-macOS-3.6.4-x86_64.dmg)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.6.4/audacity-macOS-3.6.4-x86_64.dmg",
+        "type": "archive",
+        "format": "dmg",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-manual-3.6.4.tar.gz)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.6.4/audacity-manual-3.6.4.tar.gz",
+        "type": "archive",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-sources-3.6.4.tar.gz)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.6.4/audacity-sources-3.6.4.tar.gz",
+        "type": "archive",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-win-3.6.4-32bit.zip)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.6.4/audacity-win-3.6.4-32bit.zip",
+        "type": "archive",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-win-3.6.4-64bit.zip)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.6.4/audacity-win-3.6.4-64bit.zip",
+        "type": "archive",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "audacity"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (audacity-macOS-3.6.4-universal.dmg)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.6.4/audacity-macOS-3.6.4-universal.dmg",
+        "type": "archive",
+        "format": "dmg",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-macOS-3.6.4-x86_64.dmg)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.6.4/audacity-macOS-3.6.4-x86_64.dmg",
+        "type": "archive",
+        "format": "dmg",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-manual-3.6.4.tar.gz)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.6.4/audacity-manual-3.6.4.tar.gz",
+        "type": "archive",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-sources-3.6.4.tar.gz)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.6.4/audacity-sources-3.6.4.tar.gz",
+        "type": "archive",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-win-3.6.4-32bit.zip)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.6.4/audacity-win-3.6.4-32bit.zip",
+        "type": "archive",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-win-3.6.4-64bit.zip)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.6.4/audacity-win-3.6.4-64bit.zip",
+        "type": "archive",
+        "bin": [
+          "audacity"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (audacity-macOS-3.6.4-universal.dmg)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.6.4/audacity-macOS-3.6.4-universal.dmg",
+        "type": "archive",
+        "format": "dmg",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-macOS-3.6.4-x86_64.dmg)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.6.4/audacity-macOS-3.6.4-x86_64.dmg",
+        "type": "archive",
+        "format": "dmg",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-manual-3.6.4.tar.gz)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.6.4/audacity-manual-3.6.4.tar.gz",
+        "type": "archive",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-sources-3.6.4.tar.gz)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.6.4/audacity-sources-3.6.4.tar.gz",
+        "type": "archive",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-win-3.6.4-32bit.zip)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.6.4/audacity-win-3.6.4-32bit.zip",
+        "type": "archive",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-win-3.6.4-64bit.zip)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.6.4/audacity-win-3.6.4-64bit.zip",
+        "type": "archive",
+        "bin": [
+          "audacity"
+        ]
+      }
+    ]
+  }
+}

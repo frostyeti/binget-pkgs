@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "git-crypt"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "git-crypt"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "git-crypt"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "git-crypt"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "git-crypt"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "git-crypt"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "git-crypt"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "git-crypt"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "git-crypt"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "git-crypt"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "git-crypt"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "git-crypt"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "git-crypt"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "git-crypt"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "git-crypt"
       }
     ]

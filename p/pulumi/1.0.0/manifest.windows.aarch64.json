@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "pulumi"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "pulumi"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "pulumi"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "pulumi"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "pulumi"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "pulumi"
+      }
+    ]
+  }
+}

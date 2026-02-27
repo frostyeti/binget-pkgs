@@ -1,0 +1,44 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (bandwhich-v0.21.1-x86_64-pc-windows-msvc.zip)",
+        "url": "https://github.com/imsnif/bandwhich/releases/download/v0.21.1/bandwhich-v0.21.1-x86_64-pc-windows-msvc.zip",
+        "type": "archive",
+        "bin": [
+          "bandwhich.exe"
+        ]
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "bandwhich"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "bandwhich"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (bandwhich-v0.21.1-x86_64-pc-windows-msvc.zip)",
+        "url": "https://github.com/imsnif/bandwhich/releases/download/v0.21.1/bandwhich-v0.21.1-x86_64-pc-windows-msvc.zip",
+        "type": "archive",
+        "bin": [
+          "bandwhich.exe"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (bandwhich-v0.21.1-x86_64-pc-windows-msvc.zip)",
+        "url": "https://github.com/imsnif/bandwhich/releases/download/v0.21.1/bandwhich-v0.21.1-x86_64-pc-windows-msvc.zip",
+        "type": "archive",
+        "bin": [
+          "bandwhich.exe"
+        ]
+      }
+    ]
+  }
+}

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "xpipe"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "xpipe"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "xpipe"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "xpipe"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "xpipe"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "xpipe"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "xpipe"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "xpipe"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "xpipe"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "xpipe"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "xpipe"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "xpipe"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "xpipe"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "xpipe"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "xpipe"
       }
     ]

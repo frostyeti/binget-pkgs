@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "pulumi"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "pulumi"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "pulumi"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "pulumi"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "pulumi"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "pulumi"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "pulumi"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "pulumi"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "pulumi"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "pulumi"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "pulumi"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "pulumi"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "pulumi"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "pulumi"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "pulumi"
+      }
+    ]
+  }
+}

@@ -1,8 +1,8 @@
 {
-  "latest": "1.151.0",
+  "latest": "1.0.0",
   "versions": [
     {
-      "version": "1.151.0",
+      "version": "1.0.0",
       "status": "stable"
     }
   ]

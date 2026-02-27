@@ -1,0 +1,33 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "brows"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "brows"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "brows"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "brows"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "brows"
+      }
+    ],
+    "user": [],
+    "shim": []
+  }
+}

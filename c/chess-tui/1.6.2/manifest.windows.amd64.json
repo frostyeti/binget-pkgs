@@ -1,0 +1,18 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "chess-tui"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "chess-tui"
+      }
+    ],
+    "user": [],
+    "shim": []
+  }
+}

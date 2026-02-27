@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "sclack"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sclack"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sclack"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sclack"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "sclack"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "sclack"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sclack"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sclack"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sclack"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "sclack"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "sclack"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sclack"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sclack"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sclack"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "sclack"
       }
     ]

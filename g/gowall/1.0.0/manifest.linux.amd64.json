@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "gowall"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "gowall"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "gowall"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "gowall"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "gowall"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "gowall"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "gowall"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "gowall"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "gowall"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "gowall"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "gowall"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "gowall"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "gowall"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "gowall"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "gowall"
       }
     ]

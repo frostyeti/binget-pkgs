@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "prs"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "prs"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "prs"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "prs"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "prs"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "prs"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "prs"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "prs"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "prs"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "prs"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "prs"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "prs"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "prs"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "prs"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "prs"
       }
     ]

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "syft"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "syft"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "syft"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "syft"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "syft"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "syft"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "syft"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "syft"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "syft"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "syft"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "syft"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "syft"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "syft"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "syft"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "syft"
       }
     ]

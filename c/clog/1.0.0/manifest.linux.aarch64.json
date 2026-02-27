@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "clog"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "clog"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "clog"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "clog"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "clog"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "clog"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "clog"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "clog"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "clog"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "clog"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "clog"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "clog"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "clog"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "clog"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "clog"
       }
     ]

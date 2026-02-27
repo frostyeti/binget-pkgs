@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "gita"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "gita"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "gita"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "gita"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "gita"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "gita"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "gita"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "gita"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "gita"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "gita"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "gita"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "gita"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "gita"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "gita"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "gita"
       }
     ]

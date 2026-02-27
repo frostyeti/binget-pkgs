@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "glow"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "glow"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "glow"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "glow"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "glow"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "glow"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "glow"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "glow"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "glow"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "glow"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "glow"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "glow"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "glow"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "glow"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "glow"
+      }
+    ]
+  }
+}

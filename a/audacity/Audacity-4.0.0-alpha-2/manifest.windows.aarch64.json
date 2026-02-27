@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "audacity"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "audacity"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "audacity"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "audacity"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "audacity"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "audacity"
+      }
+    ]
+  }
+}

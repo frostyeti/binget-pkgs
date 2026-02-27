@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "nerdctl"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "nerdctl"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "nerdctl"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "nerdctl"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "nerdctl"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "nerdctl"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "nerdctl"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "nerdctl"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "nerdctl"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "nerdctl"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "nerdctl"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "nerdctl"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "nerdctl"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "nerdctl"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "nerdctl"
       }
     ]

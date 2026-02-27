@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "gcp-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "gcp-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "gcp-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "gcp-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "gcp-cli"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "gcp-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "gcp-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "gcp-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "gcp-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "gcp-cli"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "gcp-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "gcp-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "gcp-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "gcp-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "gcp-cli"
       }
     ]

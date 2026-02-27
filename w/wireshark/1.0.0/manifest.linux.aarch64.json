@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "wireshark"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wireshark"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wireshark"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wireshark"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "wireshark"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "wireshark"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wireshark"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wireshark"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wireshark"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "wireshark"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "wireshark"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wireshark"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wireshark"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wireshark"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "wireshark"
       }
     ]

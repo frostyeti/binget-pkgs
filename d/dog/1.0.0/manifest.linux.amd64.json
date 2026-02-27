@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "dog"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dog"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dog"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dog"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "dog"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "dog"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dog"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dog"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dog"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "dog"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "dog"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dog"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dog"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dog"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "dog"
+      }
+    ]
+  }
+}

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "parqv"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "parqv"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "parqv"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "parqv"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "parqv"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "parqv"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "parqv"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "parqv"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "parqv"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "parqv"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "parqv"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "parqv"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "parqv"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "parqv"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "parqv"
       }
     ]

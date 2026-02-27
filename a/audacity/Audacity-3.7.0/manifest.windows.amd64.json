@@ -1,0 +1,104 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (audacity-win-3.7.0-32bit.exe)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.0/audacity-win-3.7.0-32bit.exe",
+        "type": "installer",
+        "format": "exe"
+      },
+      {
+        "name": "Direct Download (audacity-win-3.7.0-32bit.zip)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.0/audacity-win-3.7.0-32bit.zip",
+        "type": "archive",
+        "bin": [
+          "audacity.exe"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-win-3.7.0-64bit.exe)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.0/audacity-win-3.7.0-64bit.exe",
+        "type": "installer",
+        "format": "exe"
+      },
+      {
+        "name": "Direct Download (audacity-win-3.7.0-64bit.zip)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.0/audacity-win-3.7.0-64bit.zip",
+        "type": "archive",
+        "bin": [
+          "audacity.exe"
+        ]
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "audacity"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "audacity"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (audacity-win-3.7.0-32bit.exe)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.0/audacity-win-3.7.0-32bit.exe",
+        "type": "installer",
+        "format": "exe"
+      },
+      {
+        "name": "Direct Download (audacity-win-3.7.0-32bit.zip)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.0/audacity-win-3.7.0-32bit.zip",
+        "type": "archive",
+        "bin": [
+          "audacity.exe"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-win-3.7.0-64bit.exe)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.0/audacity-win-3.7.0-64bit.exe",
+        "type": "installer",
+        "format": "exe"
+      },
+      {
+        "name": "Direct Download (audacity-win-3.7.0-64bit.zip)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.0/audacity-win-3.7.0-64bit.zip",
+        "type": "archive",
+        "bin": [
+          "audacity.exe"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (audacity-win-3.7.0-32bit.exe)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.0/audacity-win-3.7.0-32bit.exe",
+        "type": "installer",
+        "format": "exe"
+      },
+      {
+        "name": "Direct Download (audacity-win-3.7.0-32bit.zip)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.0/audacity-win-3.7.0-32bit.zip",
+        "type": "archive",
+        "bin": [
+          "audacity.exe"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-win-3.7.0-64bit.exe)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.0/audacity-win-3.7.0-64bit.exe",
+        "type": "installer",
+        "format": "exe"
+      },
+      {
+        "name": "Direct Download (audacity-win-3.7.0-64bit.zip)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.0/audacity-win-3.7.0-64bit.zip",
+        "type": "archive",
+        "bin": [
+          "audacity.exe"
+        ]
+      }
+    ]
+  }
+}

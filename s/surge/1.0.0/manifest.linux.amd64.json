@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "surge"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "surge"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "surge"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "surge"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "surge"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "surge"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "surge"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "surge"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "surge"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "surge"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "surge"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "surge"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "surge"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "surge"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "surge"
       }
     ]

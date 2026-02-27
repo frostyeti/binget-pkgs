@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "dolt"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dolt"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dolt"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dolt"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "dolt"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "dolt"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dolt"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dolt"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dolt"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "dolt"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "dolt"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dolt"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dolt"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dolt"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "dolt"
       }
     ]

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "crush"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "crush"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "crush"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "crush"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "crush"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "crush"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "crush"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "crush"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "crush"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "crush"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "crush"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "crush"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "crush"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "crush"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "crush"
       }
     ]

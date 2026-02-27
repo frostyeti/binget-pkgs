@@ -1,0 +1,39 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (k9s_Darwin_arm64.tar.gz)",
+        "url": "https://github.com/derailed/k9s/releases/download/v0.50.9/k9s_Darwin_arm64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "k9s"
+        ]
+      },
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "k9s"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (k9s_Darwin_arm64.tar.gz)",
+        "url": "https://github.com/derailed/k9s/releases/download/v0.50.9/k9s_Darwin_arm64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "k9s"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (k9s_Darwin_arm64.tar.gz)",
+        "url": "https://github.com/derailed/k9s/releases/download/v0.50.9/k9s_Darwin_arm64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "k9s"
+        ]
+      }
+    ]
+  }
+}

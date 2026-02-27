@@ -1,0 +1,39 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (bearer_1.51.1_darwin_arm64.tar.gz)",
+        "url": "https://github.com/Bearer/bearer/releases/download/v1.51.1/bearer_1.51.1_darwin_arm64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "bearer"
+        ]
+      },
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "bearer"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (bearer_1.51.1_darwin_arm64.tar.gz)",
+        "url": "https://github.com/Bearer/bearer/releases/download/v1.51.1/bearer_1.51.1_darwin_arm64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "bearer"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (bearer_1.51.1_darwin_arm64.tar.gz)",
+        "url": "https://github.com/Bearer/bearer/releases/download/v1.51.1/bearer_1.51.1_darwin_arm64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "bearer"
+        ]
+      }
+    ]
+  }
+}

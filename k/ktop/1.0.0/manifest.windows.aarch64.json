@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "ktop"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "ktop"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "ktop"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "ktop"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "ktop"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "ktop"
+      }
+    ]
+  }
+}

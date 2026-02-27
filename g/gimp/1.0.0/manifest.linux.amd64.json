@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "gimp"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "gimp"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "gimp"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "gimp"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "gimp"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "gimp"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "gimp"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "gimp"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "gimp"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "gimp"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "gimp"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "gimp"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "gimp"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "gimp"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "gimp"
       }
     ]

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "trivy"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "trivy"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "trivy"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "trivy"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "trivy"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "trivy"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "trivy"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "trivy"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "trivy"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "trivy"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "trivy"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "trivy"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "trivy"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "trivy"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "trivy"
       }
     ]

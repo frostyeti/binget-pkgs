@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "flameshot"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "flameshot"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "flameshot"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "flameshot"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "flameshot"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "flameshot"
+      }
+    ]
+  }
+}

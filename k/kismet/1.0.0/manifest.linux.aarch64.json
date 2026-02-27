@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "kismet"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "kismet"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "kismet"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "kismet"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "kismet"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "kismet"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "kismet"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "kismet"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "kismet"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "kismet"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "kismet"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "kismet"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "kismet"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "kismet"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "kismet"
       }
     ]

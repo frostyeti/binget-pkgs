@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "hexchat"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "hexchat"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "hexchat"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "hexchat"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "hexchat"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "hexchat"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "hexchat"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "hexchat"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "hexchat"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "hexchat"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "hexchat"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "hexchat"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "hexchat"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "hexchat"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "hexchat"
       }
     ]

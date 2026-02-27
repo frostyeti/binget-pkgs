@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "yq"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "yq"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "yq"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "yq"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "yq"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "yq"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "yq"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "yq"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "yq"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "yq"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "yq"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "yq"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "yq"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "yq"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "yq"
       }
     ]

@@ -1,0 +1,13 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "btop"
+      }
+    ],
+    "user": [],
+    "shim": []
+  }
+}

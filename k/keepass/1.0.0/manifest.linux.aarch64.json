@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "keepass"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "keepass"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "keepass"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "keepass"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "keepass"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "keepass"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "keepass"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "keepass"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "keepass"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "keepass"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "keepass"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "keepass"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "keepass"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "keepass"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "keepass"
       }
     ]

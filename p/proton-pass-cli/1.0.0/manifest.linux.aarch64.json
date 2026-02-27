@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "proton-pass-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "proton-pass-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "proton-pass-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "proton-pass-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "proton-pass-cli"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "proton-pass-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "proton-pass-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "proton-pass-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "proton-pass-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "proton-pass-cli"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "proton-pass-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "proton-pass-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "proton-pass-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "proton-pass-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "proton-pass-cli"
       }
     ]

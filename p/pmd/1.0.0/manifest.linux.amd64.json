@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "pmd"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "pmd"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "pmd"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "pmd"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "pmd"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "pmd"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "pmd"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "pmd"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "pmd"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "pmd"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "pmd"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "pmd"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "pmd"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "pmd"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "pmd"
       }
     ]

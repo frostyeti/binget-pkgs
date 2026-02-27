@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "btop"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "btop"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "btop"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "btop"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "btop"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "btop"
+      }
+    ]
+  }
+}

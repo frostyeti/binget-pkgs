@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "keepassxc"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "keepassxc"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "keepassxc"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "keepassxc"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "keepassxc"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "keepassxc"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "keepassxc"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "keepassxc"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "keepassxc"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "keepassxc"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "keepassxc"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "keepassxc"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "keepassxc"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "keepassxc"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "keepassxc"
+      }
+    ]
+  }
+}

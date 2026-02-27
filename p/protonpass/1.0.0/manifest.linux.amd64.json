@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "protonpass"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "protonpass"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "protonpass"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "protonpass"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "protonpass"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "protonpass"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "protonpass"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "protonpass"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "protonpass"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "protonpass"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "protonpass"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "protonpass"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "protonpass"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "protonpass"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "protonpass"
       }
     ]

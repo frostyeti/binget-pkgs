@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "masscan"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "masscan"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "masscan"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "masscan"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "masscan"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "masscan"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "masscan"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "masscan"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "masscan"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "masscan"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "masscan"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "masscan"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "masscan"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "masscan"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "masscan"
       }
     ]

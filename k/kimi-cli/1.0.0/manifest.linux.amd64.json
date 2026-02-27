@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "kimi-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "kimi-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "kimi-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "kimi-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "kimi-cli"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "kimi-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "kimi-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "kimi-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "kimi-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "kimi-cli"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "kimi-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "kimi-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "kimi-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "kimi-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "kimi-cli"
       }
     ]

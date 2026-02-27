@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "sqlpackage"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sqlpackage"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sqlpackage"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sqlpackage"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "sqlpackage"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "sqlpackage"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sqlpackage"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sqlpackage"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sqlpackage"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "sqlpackage"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "sqlpackage"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sqlpackage"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sqlpackage"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sqlpackage"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "sqlpackage"
       }
     ]

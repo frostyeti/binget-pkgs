@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "aws-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "aws-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "aws-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "aws-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "aws-cli"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "aws-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "aws-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "aws-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "aws-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "aws-cli"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "aws-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "aws-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "aws-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "aws-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "aws-cli"
+      }
+    ]
+  }
+}

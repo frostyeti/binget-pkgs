@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "amtui"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "amtui"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "amtui"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "amtui"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "amtui"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "amtui"
+      }
+    ]
+  }
+}

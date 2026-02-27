@@ -2,14 +2,21 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "Homebrew",
         "type": "brew",
         "package": "adobe-acrobat-reader"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "adobe-acrobat-reader"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Homebrew",
         "type": "brew",
         "package": "adobe-acrobat-reader"
       }

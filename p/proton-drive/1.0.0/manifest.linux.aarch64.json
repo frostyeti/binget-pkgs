@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "proton-drive"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "proton-drive"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "proton-drive"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "proton-drive"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "proton-drive"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "proton-drive"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "proton-drive"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "proton-drive"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "proton-drive"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "proton-drive"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "proton-drive"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "proton-drive"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "proton-drive"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "proton-drive"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "proton-drive"
       }
     ]

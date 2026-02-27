@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "kotlin"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "kotlin"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "kotlin"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "kotlin"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "kotlin"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "kotlin"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "kotlin"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "kotlin"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "kotlin"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "kotlin"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "kotlin"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "kotlin"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "kotlin"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "kotlin"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "kotlin"
+      }
+    ]
+  }
+}

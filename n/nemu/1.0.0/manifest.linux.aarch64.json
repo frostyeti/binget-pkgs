@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "nemu"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "nemu"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "nemu"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "nemu"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "nemu"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "nemu"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "nemu"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "nemu"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "nemu"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "nemu"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "nemu"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "nemu"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "nemu"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "nemu"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "nemu"
       }
     ]

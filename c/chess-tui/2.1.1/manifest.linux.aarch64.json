@@ -1,0 +1,59 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (chess-tui-2.1.1-aarch64-unknown-linux-gnu.tar.gz)",
+        "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.1.1/chess-tui-2.1.1-aarch64-unknown-linux-gnu.tar.gz",
+        "type": "archive",
+        "bin": [
+          "chess-tui"
+        ]
+      },
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "chess-tui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "chess-tui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "chess-tui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "chess-tui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "chess-tui"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (chess-tui-2.1.1-aarch64-unknown-linux-gnu.tar.gz)",
+        "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.1.1/chess-tui-2.1.1-aarch64-unknown-linux-gnu.tar.gz",
+        "type": "archive",
+        "bin": [
+          "chess-tui"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (chess-tui-2.1.1-aarch64-unknown-linux-gnu.tar.gz)",
+        "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.1.1/chess-tui-2.1.1-aarch64-unknown-linux-gnu.tar.gz",
+        "type": "archive",
+        "bin": [
+          "chess-tui"
+        ]
+      }
+    ]
+  }
+}

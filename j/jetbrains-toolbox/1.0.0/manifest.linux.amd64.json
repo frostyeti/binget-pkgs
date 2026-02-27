@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "jetbrains-toolbox"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "jetbrains-toolbox"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "jetbrains-toolbox"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "jetbrains-toolbox"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "jetbrains-toolbox"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "jetbrains-toolbox"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "jetbrains-toolbox"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "jetbrains-toolbox"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "jetbrains-toolbox"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "jetbrains-toolbox"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "jetbrains-toolbox"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "jetbrains-toolbox"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "jetbrains-toolbox"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "jetbrains-toolbox"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "jetbrains-toolbox"
+      }
+    ]
+  }
+}

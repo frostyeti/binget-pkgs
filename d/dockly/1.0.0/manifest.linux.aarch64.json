@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "dockly"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dockly"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dockly"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dockly"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "dockly"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "dockly"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dockly"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dockly"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dockly"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "dockly"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "dockly"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dockly"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dockly"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dockly"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "dockly"
       }
     ]

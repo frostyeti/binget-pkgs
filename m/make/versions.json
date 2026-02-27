@@ -1,6 +1,9 @@
 {
-  "latest": "4.4.1",
+  "latest": "1.0.0",
   "versions": [
-    { "version": "4.4.1", "status": "stable" }
+    {
+      "version": "1.0.0",
+      "status": "stable"
+    }
   ]
 }

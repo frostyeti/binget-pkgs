@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "sqlmap"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sqlmap"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sqlmap"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sqlmap"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "sqlmap"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "sqlmap"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sqlmap"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sqlmap"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sqlmap"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "sqlmap"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "sqlmap"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sqlmap"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sqlmap"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sqlmap"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "sqlmap"
       }
     ]

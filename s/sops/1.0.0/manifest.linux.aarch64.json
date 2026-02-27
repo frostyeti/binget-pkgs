@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "sops"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sops"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sops"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sops"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "sops"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "sops"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sops"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sops"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sops"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "sops"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "sops"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sops"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sops"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sops"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "sops"
+      }
+    ]
+  }
+}

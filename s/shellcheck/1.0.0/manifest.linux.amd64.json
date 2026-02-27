@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "shellcheck"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "shellcheck"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "shellcheck"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "shellcheck"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "shellcheck"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "shellcheck"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "shellcheck"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "shellcheck"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "shellcheck"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "shellcheck"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "shellcheck"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "shellcheck"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "shellcheck"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "shellcheck"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "shellcheck"
       }
     ]

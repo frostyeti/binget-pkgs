@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "steam"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "steam"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "steam"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "steam"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "steam"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "steam"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "steam"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "steam"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "steam"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "steam"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "steam"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "steam"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "steam"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "steam"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "steam"
       }
     ]

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "loglens"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "loglens"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "loglens"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "loglens"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "loglens"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "loglens"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "loglens"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "loglens"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "loglens"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "loglens"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "loglens"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "loglens"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "loglens"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "loglens"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "loglens"
       }
     ]

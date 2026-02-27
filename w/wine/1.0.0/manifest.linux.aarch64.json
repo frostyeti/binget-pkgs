@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "wine"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wine"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wine"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wine"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "wine"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "wine"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wine"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wine"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wine"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "wine"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "wine"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wine"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wine"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wine"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "wine"
       }
     ]

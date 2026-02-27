@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "usql"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "usql"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "usql"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "usql"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "usql"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "usql"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "usql"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "usql"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "usql"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "usql"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "usql"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "usql"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "usql"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "usql"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "usql"
+      }
+    ]
+  }
+}

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "wget"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wget"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wget"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wget"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "wget"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "wget"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wget"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wget"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wget"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "wget"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "wget"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wget"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wget"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wget"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "wget"
       }
     ]

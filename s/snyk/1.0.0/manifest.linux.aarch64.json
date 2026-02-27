@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "snyk"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "snyk"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "snyk"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "snyk"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "snyk"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "snyk"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "snyk"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "snyk"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "snyk"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "snyk"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "snyk"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "snyk"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "snyk"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "snyk"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "snyk"
       }
     ]

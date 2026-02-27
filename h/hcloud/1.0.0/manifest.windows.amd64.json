@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "hcloud"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "hcloud"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "hcloud"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "hcloud"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "hcloud"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "hcloud"
+      }
+    ]
+  }
+}

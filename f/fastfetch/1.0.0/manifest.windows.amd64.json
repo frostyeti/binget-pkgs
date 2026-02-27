@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "fastfetch"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "fastfetch"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "fastfetch"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "fastfetch"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "fastfetch"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "fastfetch"
+      }
+    ]
+  }
+}

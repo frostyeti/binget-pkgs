@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "ssms"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "ssms"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "ssms"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "ssms"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "ssms"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "ssms"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "ssms"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "ssms"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "ssms"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "ssms"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "ssms"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "ssms"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "ssms"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "ssms"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "ssms"
+      }
+    ]
+  }
+}

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "pstop"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "pstop"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "pstop"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "pstop"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "pstop"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "pstop"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "pstop"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "pstop"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "pstop"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "pstop"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "pstop"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "pstop"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "pstop"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "pstop"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "pstop"
       }
     ]

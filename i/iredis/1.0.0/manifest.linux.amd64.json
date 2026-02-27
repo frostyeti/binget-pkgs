@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "iredis"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "iredis"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "iredis"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "iredis"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "iredis"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "iredis"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "iredis"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "iredis"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "iredis"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "iredis"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "iredis"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "iredis"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "iredis"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "iredis"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "iredis"
       }
     ]

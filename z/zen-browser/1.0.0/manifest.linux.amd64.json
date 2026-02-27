@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "zen-browser"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "zen-browser"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "zen-browser"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "zen-browser"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "zen-browser"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "zen-browser"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "zen-browser"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "zen-browser"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "zen-browser"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "zen-browser"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "zen-browser"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "zen-browser"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "zen-browser"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "zen-browser"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "zen-browser"
       }
     ]

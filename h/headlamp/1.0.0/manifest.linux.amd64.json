@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "headlamp"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "headlamp"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "headlamp"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "headlamp"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "headlamp"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "headlamp"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "headlamp"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "headlamp"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "headlamp"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "headlamp"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "headlamp"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "headlamp"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "headlamp"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "headlamp"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "headlamp"
       }
     ]

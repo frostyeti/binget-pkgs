@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "mremoteng"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "mremoteng"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "mremoteng"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "mremoteng"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "mremoteng"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "mremoteng"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "mremoteng"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "mremoteng"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "mremoteng"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "mremoteng"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "mremoteng"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "mremoteng"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "mremoteng"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "mremoteng"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "mremoteng"
       }
     ]

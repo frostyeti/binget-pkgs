@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "glow"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "glow"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "glow"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "glow"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "glow"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "glow"
+      }
+    ]
+  }
+}

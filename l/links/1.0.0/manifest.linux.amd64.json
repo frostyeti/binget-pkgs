@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "links"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "links"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "links"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "links"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "links"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "links"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "links"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "links"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "links"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "links"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "links"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "links"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "links"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "links"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "links"
       }
     ]

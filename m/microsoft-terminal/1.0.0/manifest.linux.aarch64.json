@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "microsoft-terminal"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "microsoft-terminal"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "microsoft-terminal"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "microsoft-terminal"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "microsoft-terminal"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "microsoft-terminal"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "microsoft-terminal"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "microsoft-terminal"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "microsoft-terminal"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "microsoft-terminal"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "microsoft-terminal"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "microsoft-terminal"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "microsoft-terminal"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "microsoft-terminal"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "microsoft-terminal"
+      }
+    ]
+  }
+}

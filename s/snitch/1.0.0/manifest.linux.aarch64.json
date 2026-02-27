@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "snitch"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "snitch"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "snitch"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "snitch"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "snitch"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "snitch"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "snitch"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "snitch"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "snitch"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "snitch"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "snitch"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "snitch"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "snitch"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "snitch"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "snitch"
       }
     ]

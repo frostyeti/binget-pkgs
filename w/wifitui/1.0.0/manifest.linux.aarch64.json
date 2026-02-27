@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "wifitui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wifitui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wifitui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wifitui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "wifitui"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "wifitui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wifitui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wifitui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wifitui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "wifitui"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "wifitui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wifitui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wifitui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wifitui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "wifitui"
       }
     ]

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "kube-bench"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "kube-bench"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "kube-bench"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "kube-bench"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "kube-bench"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "kube-bench"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "kube-bench"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "kube-bench"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "kube-bench"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "kube-bench"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "kube-bench"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "kube-bench"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "kube-bench"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "kube-bench"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "kube-bench"
       }
     ]

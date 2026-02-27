@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "lazymake"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "lazymake"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "lazymake"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "lazymake"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "lazymake"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "lazymake"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "lazymake"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "lazymake"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "lazymake"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "lazymake"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "lazymake"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "lazymake"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "lazymake"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "lazymake"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "lazymake"
       }
     ]

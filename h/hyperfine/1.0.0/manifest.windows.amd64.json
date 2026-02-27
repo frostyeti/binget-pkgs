@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "hyperfine"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "hyperfine"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "hyperfine"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "hyperfine"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "hyperfine"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "hyperfine"
+      }
+    ]
+  }
+}

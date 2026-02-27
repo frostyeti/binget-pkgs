@@ -1,0 +1,39 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (bombardier-darwin-amd64)",
+        "url": "https://github.com/codesenberg/bombardier/releases/download/v2.0.1/bombardier-darwin-amd64",
+        "type": "raw",
+        "bin": [
+          "bombardier"
+        ]
+      },
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "bombardier"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (bombardier-darwin-amd64)",
+        "url": "https://github.com/codesenberg/bombardier/releases/download/v2.0.1/bombardier-darwin-amd64",
+        "type": "raw",
+        "bin": [
+          "bombardier"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (bombardier-darwin-amd64)",
+        "url": "https://github.com/codesenberg/bombardier/releases/download/v2.0.1/bombardier-darwin-amd64",
+        "type": "raw",
+        "bin": [
+          "bombardier"
+        ]
+      }
+    ]
+  }
+}

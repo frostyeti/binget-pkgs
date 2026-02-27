@@ -1,0 +1,39 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (act3_2.0.0_darwin_amd64.tar.gz)",
+        "url": "https://github.com/dhth/act3/releases/download/v2.0.0/act3_2.0.0_darwin_amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "act3"
+        ]
+      },
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "act3"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (act3_2.0.0_darwin_amd64.tar.gz)",
+        "url": "https://github.com/dhth/act3/releases/download/v2.0.0/act3_2.0.0_darwin_amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "act3"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (act3_2.0.0_darwin_amd64.tar.gz)",
+        "url": "https://github.com/dhth/act3/releases/download/v2.0.0/act3_2.0.0_darwin_amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "act3"
+        ]
+      }
+    ]
+  }
+}

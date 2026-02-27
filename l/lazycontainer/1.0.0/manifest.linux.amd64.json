@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "lazycontainer"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "lazycontainer"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "lazycontainer"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "lazycontainer"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "lazycontainer"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "lazycontainer"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "lazycontainer"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "lazycontainer"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "lazycontainer"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "lazycontainer"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "lazycontainer"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "lazycontainer"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "lazycontainer"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "lazycontainer"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "lazycontainer"
       }
     ]

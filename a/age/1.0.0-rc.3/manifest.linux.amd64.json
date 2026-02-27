@@ -1,0 +1,59 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (age-v1.0.0-rc.3-linux-amd64.tar.gz)",
+        "url": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-linux-amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "age"
+        ]
+      },
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "age"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "age"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "age"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "age"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "age"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (age-v1.0.0-rc.3-linux-amd64.tar.gz)",
+        "url": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-linux-amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "age"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (age-v1.0.0-rc.3-linux-amd64.tar.gz)",
+        "url": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-linux-amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "age"
+        ]
+      }
+    ]
+  }
+}

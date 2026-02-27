@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "wft"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wft"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wft"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wft"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "wft"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "wft"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wft"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wft"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wft"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "wft"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "wft"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wft"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wft"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wft"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "wft"
       }
     ]

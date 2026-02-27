@@ -1,0 +1,44 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (amtui_v0.1.0_windows_amd64.tar.gz)",
+        "url": "https://github.com/pehlicd/amtui/releases/download/v0.1.0/amtui_v0.1.0_windows_amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "amtui.exe"
+        ]
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "amtui"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "amtui"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (amtui_v0.1.0_windows_amd64.tar.gz)",
+        "url": "https://github.com/pehlicd/amtui/releases/download/v0.1.0/amtui_v0.1.0_windows_amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "amtui.exe"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (amtui_v0.1.0_windows_amd64.tar.gz)",
+        "url": "https://github.com/pehlicd/amtui/releases/download/v0.1.0/amtui_v0.1.0_windows_amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "amtui.exe"
+        ]
+      }
+    ]
+  }
+}

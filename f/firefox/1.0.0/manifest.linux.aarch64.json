@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "firefox"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "firefox"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "firefox"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "firefox"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "firefox"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "firefox"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "firefox"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "firefox"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "firefox"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "firefox"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "firefox"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "firefox"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "firefox"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "firefox"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "firefox"
       }
     ]

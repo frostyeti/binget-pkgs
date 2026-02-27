@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "soundnode"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "soundnode"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "soundnode"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "soundnode"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "soundnode"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "soundnode"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "soundnode"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "soundnode"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "soundnode"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "soundnode"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "soundnode"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "soundnode"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "soundnode"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "soundnode"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "soundnode"
       }
     ]

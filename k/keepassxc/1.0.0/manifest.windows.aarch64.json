@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "keepassxc"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "keepassxc"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "keepassxc"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "keepassxc"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "keepassxc"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "keepassxc"
+      }
+    ]
+  }
+}

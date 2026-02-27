@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "direnv"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "direnv"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "direnv"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "direnv"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "direnv"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "direnv"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "direnv"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "direnv"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "direnv"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "direnv"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "direnv"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "direnv"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "direnv"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "direnv"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "direnv"
       }
     ]

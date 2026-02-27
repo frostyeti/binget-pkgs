@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "signal"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "signal"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "signal"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "signal"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "signal"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "signal"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "signal"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "signal"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "signal"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "signal"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "signal"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "signal"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "signal"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "signal"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "signal"
       }
     ]

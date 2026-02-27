@@ -2,16 +2,57 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "Direct Download (act3_1.0.0_linux_arm64.tar.gz)",
+        "url": "https://github.com/dhth/act3/releases/download/v1.0.0/act3_1.0.0_linux_arm64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "act3"
+        ]
+      },
+      {
+        "name": "APT",
         "type": "apt",
+        "package": "act3"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "act3"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "act3"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "act3"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "act3"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
-        "type": "apt",
-        "package": "act3"
+        "name": "Direct Download (act3_1.0.0_linux_arm64.tar.gz)",
+        "url": "https://github.com/dhth/act3/releases/download/v1.0.0/act3_1.0.0_linux_arm64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "act3"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (act3_1.0.0_linux_arm64.tar.gz)",
+        "url": "https://github.com/dhth/act3/releases/download/v1.0.0/act3_1.0.0_linux_arm64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "act3"
+        ]
       }
     ]
   }

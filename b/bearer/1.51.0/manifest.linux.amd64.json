@@ -1,0 +1,119 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (bearer_1.51.0_linux-amd64.deb)",
+        "url": "https://github.com/Bearer/bearer/releases/download/v1.51.0/bearer_1.51.0_linux-amd64.deb",
+        "type": "installer",
+        "format": "deb"
+      },
+      {
+        "name": "Direct Download (bearer_1.51.0_linux-amd64.pkg.tar.zst)",
+        "url": "https://github.com/Bearer/bearer/releases/download/v1.51.0/bearer_1.51.0_linux-amd64.pkg.tar.zst",
+        "type": "raw",
+        "bin": [
+          "bearer"
+        ]
+      },
+      {
+        "name": "Direct Download (bearer_1.51.0_linux-amd64.rpm)",
+        "url": "https://github.com/Bearer/bearer/releases/download/v1.51.0/bearer_1.51.0_linux-amd64.rpm",
+        "type": "installer",
+        "format": "rpm"
+      },
+      {
+        "name": "Direct Download (bearer_1.51.0_linux_amd64.tar.gz)",
+        "url": "https://github.com/Bearer/bearer/releases/download/v1.51.0/bearer_1.51.0_linux_amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "bearer"
+        ]
+      },
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "bearer"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "bearer"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "bearer"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "bearer"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "bearer"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (bearer_1.51.0_linux-amd64.deb)",
+        "url": "https://github.com/Bearer/bearer/releases/download/v1.51.0/bearer_1.51.0_linux-amd64.deb",
+        "type": "installer",
+        "format": "deb"
+      },
+      {
+        "name": "Direct Download (bearer_1.51.0_linux-amd64.pkg.tar.zst)",
+        "url": "https://github.com/Bearer/bearer/releases/download/v1.51.0/bearer_1.51.0_linux-amd64.pkg.tar.zst",
+        "type": "raw",
+        "bin": [
+          "bearer"
+        ]
+      },
+      {
+        "name": "Direct Download (bearer_1.51.0_linux-amd64.rpm)",
+        "url": "https://github.com/Bearer/bearer/releases/download/v1.51.0/bearer_1.51.0_linux-amd64.rpm",
+        "type": "installer",
+        "format": "rpm"
+      },
+      {
+        "name": "Direct Download (bearer_1.51.0_linux_amd64.tar.gz)",
+        "url": "https://github.com/Bearer/bearer/releases/download/v1.51.0/bearer_1.51.0_linux_amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "bearer"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (bearer_1.51.0_linux-amd64.deb)",
+        "url": "https://github.com/Bearer/bearer/releases/download/v1.51.0/bearer_1.51.0_linux-amd64.deb",
+        "type": "installer",
+        "format": "deb"
+      },
+      {
+        "name": "Direct Download (bearer_1.51.0_linux-amd64.pkg.tar.zst)",
+        "url": "https://github.com/Bearer/bearer/releases/download/v1.51.0/bearer_1.51.0_linux-amd64.pkg.tar.zst",
+        "type": "raw",
+        "bin": [
+          "bearer"
+        ]
+      },
+      {
+        "name": "Direct Download (bearer_1.51.0_linux-amd64.rpm)",
+        "url": "https://github.com/Bearer/bearer/releases/download/v1.51.0/bearer_1.51.0_linux-amd64.rpm",
+        "type": "installer",
+        "format": "rpm"
+      },
+      {
+        "name": "Direct Download (bearer_1.51.0_linux_amd64.tar.gz)",
+        "url": "https://github.com/Bearer/bearer/releases/download/v1.51.0/bearer_1.51.0_linux_amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "bearer"
+        ]
+      }
+    ]
+  }
+}

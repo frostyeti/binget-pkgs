@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "pet"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "pet"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "pet"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "pet"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "pet"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "pet"
+      }
+    ]
+  }
+}

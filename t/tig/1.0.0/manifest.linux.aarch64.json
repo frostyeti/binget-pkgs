@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "tig"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "tig"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "tig"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "tig"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "tig"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "tig"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "tig"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "tig"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "tig"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "tig"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "tig"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "tig"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "tig"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "tig"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "tig"
+      }
+    ]
+  }
+}

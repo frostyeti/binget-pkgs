@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "tailspin"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "tailspin"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "tailspin"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "tailspin"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "tailspin"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "tailspin"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "visualstudio"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "visualstudio"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "visualstudio"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "visualstudio"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "visualstudio"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "visualstudio"
+      }
+    ]
+  }
+}

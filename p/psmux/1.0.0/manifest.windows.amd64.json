@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "psmux"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "psmux"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "psmux"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "psmux"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "psmux"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "psmux"
+      }
+    ]
+  }
+}

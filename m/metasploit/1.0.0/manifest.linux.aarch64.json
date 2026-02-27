@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "metasploit"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "metasploit"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "metasploit"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "metasploit"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "metasploit"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "metasploit"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "metasploit"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "metasploit"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "metasploit"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "metasploit"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "metasploit"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "metasploit"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "metasploit"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "metasploit"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "metasploit"
       }
     ]

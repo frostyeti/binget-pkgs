@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "rsync"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "rsync"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "rsync"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "rsync"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "rsync"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "rsync"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "rsync"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "rsync"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "rsync"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "rsync"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "rsync"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "rsync"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "rsync"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "rsync"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "rsync"
       }
     ]

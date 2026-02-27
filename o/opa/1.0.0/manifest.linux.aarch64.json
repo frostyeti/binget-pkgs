@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "opa"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "opa"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "opa"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "opa"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "opa"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "opa"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "opa"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "opa"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "opa"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "opa"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "opa"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "opa"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "opa"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "opa"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "opa"
       }
     ]

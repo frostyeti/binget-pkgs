@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "runme"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "runme"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "runme"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "runme"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "runme"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "runme"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "runme"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "runme"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "runme"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "runme"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "runme"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "runme"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "runme"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "runme"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "runme"
       }
     ]

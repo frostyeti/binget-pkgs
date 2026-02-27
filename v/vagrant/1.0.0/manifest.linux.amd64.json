@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "vagrant"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "vagrant"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "vagrant"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "vagrant"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "vagrant"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "vagrant"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "vagrant"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "vagrant"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "vagrant"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "vagrant"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "vagrant"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "vagrant"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "vagrant"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "vagrant"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "vagrant"
       }
     ]

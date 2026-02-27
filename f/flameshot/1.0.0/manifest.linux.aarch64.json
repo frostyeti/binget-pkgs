@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "flameshot"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "flameshot"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "flameshot"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "flameshot"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "flameshot"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "flameshot"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "flameshot"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "flameshot"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "flameshot"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "flameshot"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "flameshot"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "flameshot"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "flameshot"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "flameshot"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "flameshot"
+      }
+    ]
+  }
+}

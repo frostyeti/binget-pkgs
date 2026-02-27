@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "rufus"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "rufus"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "rufus"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "rufus"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "rufus"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "rufus"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "rufus"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "rufus"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "rufus"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "rufus"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "rufus"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "rufus"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "rufus"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "rufus"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "rufus"
       }
     ]

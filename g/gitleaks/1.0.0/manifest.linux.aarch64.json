@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "gitleaks"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "gitleaks"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "gitleaks"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "gitleaks"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "gitleaks"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "gitleaks"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "gitleaks"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "gitleaks"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "gitleaks"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "gitleaks"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "gitleaks"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "gitleaks"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "gitleaks"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "gitleaks"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "gitleaks"
       }
     ]

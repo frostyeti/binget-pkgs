@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "bandwhich"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "bandwhich"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "bandwhich"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "bandwhich"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "bandwhich"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "bandwhich"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "bandwhich"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "bandwhich"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "bandwhich"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "bandwhich"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "bandwhich"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "bandwhich"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "bandwhich"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "bandwhich"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "bandwhich"
+      }
+    ]
+  }
+}

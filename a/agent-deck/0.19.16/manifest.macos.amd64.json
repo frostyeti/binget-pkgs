@@ -1,0 +1,39 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (agent-deck_0.19.16_darwin_amd64.tar.gz)",
+        "url": "https://github.com/asheshgoplani/agent-deck/releases/download/v0.19.16/agent-deck_0.19.16_darwin_amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "agent-deck"
+        ]
+      },
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "agent-deck"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (agent-deck_0.19.16_darwin_amd64.tar.gz)",
+        "url": "https://github.com/asheshgoplani/agent-deck/releases/download/v0.19.16/agent-deck_0.19.16_darwin_amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "agent-deck"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (agent-deck_0.19.16_darwin_amd64.tar.gz)",
+        "url": "https://github.com/asheshgoplani/agent-deck/releases/download/v0.19.16/agent-deck_0.19.16_darwin_amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "agent-deck"
+        ]
+      }
+    ]
+  }
+}

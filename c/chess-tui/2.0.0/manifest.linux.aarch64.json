@@ -1,0 +1,33 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "chess-tui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "chess-tui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "chess-tui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "chess-tui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "chess-tui"
+      }
+    ],
+    "user": [],
+    "shim": []
+  }
+}

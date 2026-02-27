@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "filepilot"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "filepilot"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "filepilot"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "filepilot"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "filepilot"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "filepilot"
+      }
+    ]
+  }
+}

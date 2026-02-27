@@ -1,0 +1,165 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (audacity-macOS-3.7.2-arm64.dmg)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.2/audacity-macOS-3.7.2-arm64.dmg",
+        "type": "archive",
+        "format": "dmg",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-macOS-3.7.2-universal.dmg)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.2/audacity-macOS-3.7.2-universal.dmg",
+        "type": "archive",
+        "format": "dmg",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-macOS-3.7.2-universal.pkg)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.2/audacity-macOS-3.7.2-universal.pkg",
+        "type": "raw",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-manual-3.7.2.tar.gz)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.2/audacity-manual-3.7.2.tar.gz",
+        "type": "archive",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-sources-3.7.2.tar.gz)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.2/audacity-sources-3.7.2.tar.gz",
+        "type": "archive",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-win-3.7.2-32bit.zip)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.2/audacity-win-3.7.2-32bit.zip",
+        "type": "archive",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "audacity"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (audacity-macOS-3.7.2-arm64.dmg)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.2/audacity-macOS-3.7.2-arm64.dmg",
+        "type": "archive",
+        "format": "dmg",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-macOS-3.7.2-universal.dmg)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.2/audacity-macOS-3.7.2-universal.dmg",
+        "type": "archive",
+        "format": "dmg",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-macOS-3.7.2-universal.pkg)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.2/audacity-macOS-3.7.2-universal.pkg",
+        "type": "raw",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-manual-3.7.2.tar.gz)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.2/audacity-manual-3.7.2.tar.gz",
+        "type": "archive",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-sources-3.7.2.tar.gz)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.2/audacity-sources-3.7.2.tar.gz",
+        "type": "archive",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-win-3.7.2-32bit.zip)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.2/audacity-win-3.7.2-32bit.zip",
+        "type": "archive",
+        "bin": [
+          "audacity"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (audacity-macOS-3.7.2-arm64.dmg)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.2/audacity-macOS-3.7.2-arm64.dmg",
+        "type": "archive",
+        "format": "dmg",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-macOS-3.7.2-universal.dmg)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.2/audacity-macOS-3.7.2-universal.dmg",
+        "type": "archive",
+        "format": "dmg",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-macOS-3.7.2-universal.pkg)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.2/audacity-macOS-3.7.2-universal.pkg",
+        "type": "raw",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-manual-3.7.2.tar.gz)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.2/audacity-manual-3.7.2.tar.gz",
+        "type": "archive",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-sources-3.7.2.tar.gz)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.2/audacity-sources-3.7.2.tar.gz",
+        "type": "archive",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Direct Download (audacity-win-3.7.2-32bit.zip)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.2/audacity-win-3.7.2-32bit.zip",
+        "type": "archive",
+        "bin": [
+          "audacity"
+        ]
+      }
+    ]
+  }
+}

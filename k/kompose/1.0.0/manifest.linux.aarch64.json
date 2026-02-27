@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "kompose"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "kompose"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "kompose"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "kompose"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "kompose"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "kompose"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "kompose"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "kompose"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "kompose"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "kompose"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "kompose"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "kompose"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "kompose"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "kompose"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "kompose"
       }
     ]

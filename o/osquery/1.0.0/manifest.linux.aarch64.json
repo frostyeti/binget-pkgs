@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "osquery"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "osquery"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "osquery"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "osquery"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "osquery"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "osquery"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "osquery"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "osquery"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "osquery"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "osquery"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "osquery"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "osquery"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "osquery"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "osquery"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "osquery"
       }
     ]

@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "jujutsu"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "jujutsu"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "jujutsu"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "jujutsu"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "jujutsu"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "jujutsu"
+      }
+    ]
+  }
+}

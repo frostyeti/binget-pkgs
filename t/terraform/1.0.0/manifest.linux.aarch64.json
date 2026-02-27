@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "terraform"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "terraform"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "terraform"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "terraform"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "terraform"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "terraform"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "terraform"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "terraform"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "terraform"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "terraform"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "terraform"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "terraform"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "terraform"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "terraform"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "terraform"
       }
     ]

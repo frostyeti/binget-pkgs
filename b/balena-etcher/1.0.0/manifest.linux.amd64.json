@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "balena-etcher"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "balena-etcher"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "balena-etcher"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "balena-etcher"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "balena-etcher"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "balena-etcher"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "balena-etcher"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "balena-etcher"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "balena-etcher"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "balena-etcher"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "balena-etcher"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "balena-etcher"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "balena-etcher"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "balena-etcher"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "balena-etcher"
       }
     ]

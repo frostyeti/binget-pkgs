@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "grype"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "grype"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "grype"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "grype"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "grype"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "grype"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "grype"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "grype"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "grype"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "grype"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "grype"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "grype"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "grype"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "grype"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "grype"
       }
     ]

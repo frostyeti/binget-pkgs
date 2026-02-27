@@ -1,8 +1,44 @@
 {
-  "latest": "1.0.0",
+  "latest": "azure-cli-2.83.0",
   "versions": [
     {
-      "version": "1.0.0",
+      "version": "azure-cli-2.83.0",
+      "status": "stable"
+    },
+    {
+      "version": "azure-cli-2.82.0",
+      "status": "stable"
+    },
+    {
+      "version": "azure-cli-2.66.2",
+      "status": "stable"
+    },
+    {
+      "version": "azure-cli-2.81.0",
+      "status": "stable"
+    },
+    {
+      "version": "azure-cli-2.80.0",
+      "status": "stable"
+    },
+    {
+      "version": "azure-cli-2.79.0",
+      "status": "stable"
+    },
+    {
+      "version": "azure-cli-2.78.0",
+      "status": "stable"
+    },
+    {
+      "version": "azure-cli-2.77.0",
+      "status": "stable"
+    },
+    {
+      "version": "azure-cli-2.76.0",
+      "status": "stable"
+    },
+    {
+      "version": "azure-cli-2.75.0",
       "status": "stable"
     }
   ]

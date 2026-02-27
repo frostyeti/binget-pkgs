@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "openssh"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "openssh"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "openssh"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "openssh"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "openssh"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "openssh"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "openssh"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "openssh"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "openssh"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "openssh"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "openssh"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "openssh"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "openssh"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "openssh"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "openssh"
       }
     ]

@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "glaze-wm"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "glaze-wm"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "glaze-wm"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "glaze-wm"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "glaze-wm"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "glaze-wm"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "glaze-wm"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "glaze-wm"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "glaze-wm"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "glaze-wm"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "glaze-wm"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "glaze-wm"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "glaze-wm"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "glaze-wm"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "glaze-wm"
+      }
+    ]
+  }
+}

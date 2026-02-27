@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "mkcert"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "mkcert"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "mkcert"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "mkcert"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "mkcert"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "mkcert"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "mkcert"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "mkcert"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "mkcert"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "mkcert"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "mkcert"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "mkcert"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "mkcert"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "mkcert"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "mkcert"
+      }
+    ]
+  }
+}

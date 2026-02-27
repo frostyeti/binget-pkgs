@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "pastel"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "pastel"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "pastel"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "pastel"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "pastel"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "pastel"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "pastel"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "pastel"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "pastel"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "pastel"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "pastel"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "pastel"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "pastel"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "pastel"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "pastel"
+      }
+    ]
+  }
+}

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "gotp"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "gotp"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "gotp"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "gotp"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "gotp"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "gotp"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "gotp"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "gotp"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "gotp"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "gotp"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "gotp"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "gotp"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "gotp"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "gotp"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "gotp"
       }
     ]

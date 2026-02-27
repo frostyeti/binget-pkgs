@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "flow-launcher"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "flow-launcher"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "flow-launcher"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "flow-launcher"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "flow-launcher"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "flow-launcher"
+      }
+    ]
+  }
+}

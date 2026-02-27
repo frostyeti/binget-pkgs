@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "lazynpm"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "lazynpm"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "lazynpm"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "lazynpm"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "lazynpm"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "lazynpm"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "lazynpm"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "lazynpm"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "lazynpm"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "lazynpm"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "lazynpm"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "lazynpm"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "lazynpm"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "lazynpm"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "lazynpm"
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (k9s_linux_amd64.apk)",
+        "url": "https://github.com/derailed/k9s/releases/download/v0.50.14/k9s_linux_amd64.apk",
+        "type": "raw",
+        "bin": [
+          "k9s"
+        ]
+      },
+      {
+        "name": "Direct Download (k9s_linux_amd64.deb)",
+        "url": "https://github.com/derailed/k9s/releases/download/v0.50.14/k9s_linux_amd64.deb",
+        "type": "installer",
+        "format": "deb"
+      },
+      {
+        "name": "Direct Download (k9s_linux_amd64.rpm)",
+        "url": "https://github.com/derailed/k9s/releases/download/v0.50.14/k9s_linux_amd64.rpm",
+        "type": "installer",
+        "format": "rpm"
+      },
+      {
+        "name": "Direct Download (k9s_Linux_amd64.tar.gz)",
+        "url": "https://github.com/derailed/k9s/releases/download/v0.50.14/k9s_Linux_amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "k9s"
+        ]
+      },
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "k9s"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "k9s"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "k9s"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "k9s"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "k9s"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (k9s_linux_amd64.apk)",
+        "url": "https://github.com/derailed/k9s/releases/download/v0.50.14/k9s_linux_amd64.apk",
+        "type": "raw",
+        "bin": [
+          "k9s"
+        ]
+      },
+      {
+        "name": "Direct Download (k9s_linux_amd64.deb)",
+        "url": "https://github.com/derailed/k9s/releases/download/v0.50.14/k9s_linux_amd64.deb",
+        "type": "installer",
+        "format": "deb"
+      },
+      {
+        "name": "Direct Download (k9s_linux_amd64.rpm)",
+        "url": "https://github.com/derailed/k9s/releases/download/v0.50.14/k9s_linux_amd64.rpm",
+        "type": "installer",
+        "format": "rpm"
+      },
+      {
+        "name": "Direct Download (k9s_Linux_amd64.tar.gz)",
+        "url": "https://github.com/derailed/k9s/releases/download/v0.50.14/k9s_Linux_amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "k9s"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (k9s_linux_amd64.apk)",
+        "url": "https://github.com/derailed/k9s/releases/download/v0.50.14/k9s_linux_amd64.apk",
+        "type": "raw",
+        "bin": [
+          "k9s"
+        ]
+      },
+      {
+        "name": "Direct Download (k9s_linux_amd64.deb)",
+        "url": "https://github.com/derailed/k9s/releases/download/v0.50.14/k9s_linux_amd64.deb",
+        "type": "installer",
+        "format": "deb"
+      },
+      {
+        "name": "Direct Download (k9s_linux_amd64.rpm)",
+        "url": "https://github.com/derailed/k9s/releases/download/v0.50.14/k9s_linux_amd64.rpm",
+        "type": "installer",
+        "format": "rpm"
+      },
+      {
+        "name": "Direct Download (k9s_Linux_amd64.tar.gz)",
+        "url": "https://github.com/derailed/k9s/releases/download/v0.50.14/k9s_Linux_amd64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "k9s"
+        ]
+      }
+    ]
+  }
+}

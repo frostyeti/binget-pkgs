@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "kdash"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "kdash"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "kdash"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "kdash"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "kdash"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "kdash"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "kdash"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "kdash"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "kdash"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "kdash"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "kdash"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "kdash"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "kdash"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "kdash"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "kdash"
       }
     ]

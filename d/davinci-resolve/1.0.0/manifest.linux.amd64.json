@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "davinci-resolve"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "davinci-resolve"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "davinci-resolve"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "davinci-resolve"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "davinci-resolve"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "davinci-resolve"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "davinci-resolve"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "davinci-resolve"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "davinci-resolve"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "davinci-resolve"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "davinci-resolve"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "davinci-resolve"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "davinci-resolve"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "davinci-resolve"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "davinci-resolve"
       }
     ]

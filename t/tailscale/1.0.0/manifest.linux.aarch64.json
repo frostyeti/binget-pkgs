@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "tailscale"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "tailscale"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "tailscale"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "tailscale"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "tailscale"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "tailscale"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "tailscale"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "tailscale"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "tailscale"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "tailscale"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "tailscale"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "tailscale"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "tailscale"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "tailscale"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "tailscale"
       }
     ]

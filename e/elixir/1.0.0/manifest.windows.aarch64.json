@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "elixir"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "elixir"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "elixir"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "elixir"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "elixir"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "elixir"
+      }
+    ]
+  }
+}

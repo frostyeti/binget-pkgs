@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "vscli"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "vscli"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "vscli"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "vscli"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "vscli"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "vscli"
+      }
+    ]
+  }
+}

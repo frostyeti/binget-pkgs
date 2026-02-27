@@ -1,0 +1,59 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (act3_0.3.0_linux_arm64.tar.gz)",
+        "url": "https://github.com/dhth/act3/releases/download/v0.3.0/act3_0.3.0_linux_arm64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "act3"
+        ]
+      },
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "act3"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "act3"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "act3"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "act3"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "act3"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (act3_0.3.0_linux_arm64.tar.gz)",
+        "url": "https://github.com/dhth/act3/releases/download/v0.3.0/act3_0.3.0_linux_arm64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "act3"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (act3_0.3.0_linux_arm64.tar.gz)",
+        "url": "https://github.com/dhth/act3/releases/download/v0.3.0/act3_0.3.0_linux_arm64.tar.gz",
+        "type": "archive",
+        "bin": [
+          "act3"
+        ]
+      }
+    ]
+  }
+}

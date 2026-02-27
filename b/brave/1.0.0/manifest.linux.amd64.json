@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "brave"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "brave"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "brave"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "brave"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "brave"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "brave"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "brave"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "brave"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "brave"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "brave"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "brave"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "brave"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "brave"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "brave"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "brave"
       }
     ]

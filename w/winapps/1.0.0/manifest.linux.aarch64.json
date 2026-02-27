@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "winapps"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "winapps"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "winapps"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "winapps"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "winapps"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "winapps"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "winapps"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "winapps"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "winapps"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "winapps"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "winapps"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "winapps"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "winapps"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "winapps"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "winapps"
       }
     ]

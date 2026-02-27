@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "flyctl"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "flyctl"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "flyctl"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "flyctl"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "flyctl"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "flyctl"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "flyctl"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "flyctl"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "flyctl"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "flyctl"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "flyctl"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "flyctl"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "flyctl"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "flyctl"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "flyctl"
       }
     ]

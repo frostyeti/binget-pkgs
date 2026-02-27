@@ -1,0 +1,83 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (bandwhich-v0.22.1-x86_64-unknown-linux-gnu.tar.gz)",
+        "url": "https://github.com/imsnif/bandwhich/releases/download/v0.22.1/bandwhich-v0.22.1-x86_64-unknown-linux-gnu.tar.gz",
+        "type": "archive",
+        "bin": [
+          "bandwhich"
+        ]
+      },
+      {
+        "name": "Direct Download (bandwhich-v0.22.1-x86_64-unknown-linux-musl.tar.gz)",
+        "url": "https://github.com/imsnif/bandwhich/releases/download/v0.22.1/bandwhich-v0.22.1-x86_64-unknown-linux-musl.tar.gz",
+        "type": "archive",
+        "bin": [
+          "bandwhich"
+        ]
+      },
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "bandwhich"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "bandwhich"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "bandwhich"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "bandwhich"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "bandwhich"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (bandwhich-v0.22.1-x86_64-unknown-linux-gnu.tar.gz)",
+        "url": "https://github.com/imsnif/bandwhich/releases/download/v0.22.1/bandwhich-v0.22.1-x86_64-unknown-linux-gnu.tar.gz",
+        "type": "archive",
+        "bin": [
+          "bandwhich"
+        ]
+      },
+      {
+        "name": "Direct Download (bandwhich-v0.22.1-x86_64-unknown-linux-musl.tar.gz)",
+        "url": "https://github.com/imsnif/bandwhich/releases/download/v0.22.1/bandwhich-v0.22.1-x86_64-unknown-linux-musl.tar.gz",
+        "type": "archive",
+        "bin": [
+          "bandwhich"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (bandwhich-v0.22.1-x86_64-unknown-linux-gnu.tar.gz)",
+        "url": "https://github.com/imsnif/bandwhich/releases/download/v0.22.1/bandwhich-v0.22.1-x86_64-unknown-linux-gnu.tar.gz",
+        "type": "archive",
+        "bin": [
+          "bandwhich"
+        ]
+      },
+      {
+        "name": "Direct Download (bandwhich-v0.22.1-x86_64-unknown-linux-musl.tar.gz)",
+        "url": "https://github.com/imsnif/bandwhich/releases/download/v0.22.1/bandwhich-v0.22.1-x86_64-unknown-linux-musl.tar.gz",
+        "type": "archive",
+        "bin": [
+          "bandwhich"
+        ]
+      }
+    ]
+  }
+}

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "pgcli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "pgcli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "pgcli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "pgcli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "pgcli"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "pgcli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "pgcli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "pgcli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "pgcli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "pgcli"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "pgcli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "pgcli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "pgcli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "pgcli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "pgcli"
       }
     ]

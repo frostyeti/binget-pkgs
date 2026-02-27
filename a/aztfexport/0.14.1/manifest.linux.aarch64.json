@@ -1,0 +1,83 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (aztfexport_v0.14.1_linux_arm.zip)",
+        "url": "https://github.com/Azure/aztfexport/releases/download/v0.14.1/aztfexport_v0.14.1_linux_arm.zip",
+        "type": "archive",
+        "bin": [
+          "aztfexport"
+        ]
+      },
+      {
+        "name": "Direct Download (aztfexport_v0.14.1_linux_arm64.zip)",
+        "url": "https://github.com/Azure/aztfexport/releases/download/v0.14.1/aztfexport_v0.14.1_linux_arm64.zip",
+        "type": "archive",
+        "bin": [
+          "aztfexport"
+        ]
+      },
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "aztfexport"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "aztfexport"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "aztfexport"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "aztfexport"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "aztfexport"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (aztfexport_v0.14.1_linux_arm.zip)",
+        "url": "https://github.com/Azure/aztfexport/releases/download/v0.14.1/aztfexport_v0.14.1_linux_arm.zip",
+        "type": "archive",
+        "bin": [
+          "aztfexport"
+        ]
+      },
+      {
+        "name": "Direct Download (aztfexport_v0.14.1_linux_arm64.zip)",
+        "url": "https://github.com/Azure/aztfexport/releases/download/v0.14.1/aztfexport_v0.14.1_linux_arm64.zip",
+        "type": "archive",
+        "bin": [
+          "aztfexport"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (aztfexport_v0.14.1_linux_arm.zip)",
+        "url": "https://github.com/Azure/aztfexport/releases/download/v0.14.1/aztfexport_v0.14.1_linux_arm.zip",
+        "type": "archive",
+        "bin": [
+          "aztfexport"
+        ]
+      },
+      {
+        "name": "Direct Download (aztfexport_v0.14.1_linux_arm64.zip)",
+        "url": "https://github.com/Azure/aztfexport/releases/download/v0.14.1/aztfexport_v0.14.1_linux_arm64.zip",
+        "type": "archive",
+        "bin": [
+          "aztfexport"
+        ]
+      }
+    ]
+  }
+}

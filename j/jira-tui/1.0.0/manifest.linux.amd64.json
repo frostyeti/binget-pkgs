@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "jira-tui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "jira-tui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "jira-tui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "jira-tui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "jira-tui"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "jira-tui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "jira-tui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "jira-tui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "jira-tui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "jira-tui"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "jira-tui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "jira-tui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "jira-tui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "jira-tui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "jira-tui"
       }
     ]

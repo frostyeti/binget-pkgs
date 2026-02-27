@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "clair"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "clair"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "clair"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "clair"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "clair"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "clair"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "clair"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "clair"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "clair"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "clair"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "clair"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "clair"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "clair"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "clair"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "clair"
       }
     ]

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "wacli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wacli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wacli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wacli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "wacli"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "wacli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wacli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wacli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wacli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "wacli"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "wacli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wacli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wacli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wacli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "wacli"
       }
     ]

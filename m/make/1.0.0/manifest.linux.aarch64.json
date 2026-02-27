@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "make"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "make"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "make"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "make"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "make"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "make"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "make"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "make"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "make"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "make"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "make"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "make"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "make"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "make"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "make"
+      }
+    ]
+  }
+}

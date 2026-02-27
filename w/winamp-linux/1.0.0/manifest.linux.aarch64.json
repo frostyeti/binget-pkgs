@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "winamp-linux"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "winamp-linux"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "winamp-linux"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "winamp-linux"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "winamp-linux"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "winamp-linux"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "winamp-linux"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "winamp-linux"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "winamp-linux"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "winamp-linux"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "winamp-linux"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "winamp-linux"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "winamp-linux"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "winamp-linux"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "winamp-linux"
       }
     ]

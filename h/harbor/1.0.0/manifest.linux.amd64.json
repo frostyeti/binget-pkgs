@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "harbor"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "harbor"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "harbor"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "harbor"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "harbor"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "harbor"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "harbor"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "harbor"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "harbor"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "harbor"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "harbor"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "harbor"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "harbor"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "harbor"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "harbor"
       }
     ]

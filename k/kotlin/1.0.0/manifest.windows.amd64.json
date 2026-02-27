@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "kotlin"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "kotlin"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "kotlin"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "kotlin"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "kotlin"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "kotlin"
+      }
+    ]
+  }
+}

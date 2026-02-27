@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "clamav"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "clamav"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "clamav"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "clamav"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "clamav"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "clamav"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "clamav"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "clamav"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "clamav"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "clamav"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "clamav"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "clamav"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "clamav"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "clamav"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "clamav"
       }
     ]

@@ -1,0 +1,83 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (bombardier-linux-arm)",
+        "url": "https://github.com/codesenberg/bombardier/releases/download/v2.0/bombardier-linux-arm",
+        "type": "raw",
+        "bin": [
+          "bombardier"
+        ]
+      },
+      {
+        "name": "Direct Download (bombardier-linux-arm64)",
+        "url": "https://github.com/codesenberg/bombardier/releases/download/v2.0/bombardier-linux-arm64",
+        "type": "raw",
+        "bin": [
+          "bombardier"
+        ]
+      },
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "bombardier"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "bombardier"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "bombardier"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "bombardier"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "bombardier"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (bombardier-linux-arm)",
+        "url": "https://github.com/codesenberg/bombardier/releases/download/v2.0/bombardier-linux-arm",
+        "type": "raw",
+        "bin": [
+          "bombardier"
+        ]
+      },
+      {
+        "name": "Direct Download (bombardier-linux-arm64)",
+        "url": "https://github.com/codesenberg/bombardier/releases/download/v2.0/bombardier-linux-arm64",
+        "type": "raw",
+        "bin": [
+          "bombardier"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (bombardier-linux-arm)",
+        "url": "https://github.com/codesenberg/bombardier/releases/download/v2.0/bombardier-linux-arm",
+        "type": "raw",
+        "bin": [
+          "bombardier"
+        ]
+      },
+      {
+        "name": "Direct Download (bombardier-linux-arm64)",
+        "url": "https://github.com/codesenberg/bombardier/releases/download/v2.0/bombardier-linux-arm64",
+        "type": "raw",
+        "bin": [
+          "bombardier"
+        ]
+      }
+    ]
+  }
+}

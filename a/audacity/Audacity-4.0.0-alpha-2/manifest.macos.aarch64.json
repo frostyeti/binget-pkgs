@@ -1,0 +1,42 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (Audacity-4.0.0.253031629.f3e3e3b.dmg)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.0-alpha-2/Audacity-4.0.0.253031629.f3e3e3b.dmg",
+        "type": "archive",
+        "format": "dmg",
+        "bin": [
+          "audacity"
+        ]
+      },
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "audacity"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (Audacity-4.0.0.253031629.f3e3e3b.dmg)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.0-alpha-2/Audacity-4.0.0.253031629.f3e3e3b.dmg",
+        "type": "archive",
+        "format": "dmg",
+        "bin": [
+          "audacity"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (Audacity-4.0.0.253031629.f3e3e3b.dmg)",
+        "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.0-alpha-2/Audacity-4.0.0.253031629.f3e3e3b.dmg",
+        "type": "archive",
+        "format": "dmg",
+        "bin": [
+          "audacity"
+        ]
+      }
+    ]
+  }
+}

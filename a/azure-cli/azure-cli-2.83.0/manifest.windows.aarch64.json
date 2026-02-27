@@ -1,0 +1,80 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (azure-cli-2.83.0-x64.msi)",
+        "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.83.0/azure-cli-2.83.0-x64.msi",
+        "type": "installer",
+        "format": "msi"
+      },
+      {
+        "name": "Direct Download (azure-cli-2.83.0-x64.zip)",
+        "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.83.0/azure-cli-2.83.0-x64.zip",
+        "type": "archive",
+        "bin": [
+          "azure-cli.exe"
+        ]
+      },
+      {
+        "name": "Direct Download (azure-cli-2.83.0.msi)",
+        "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.83.0/azure-cli-2.83.0.msi",
+        "type": "installer",
+        "format": "msi"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "azure-cli"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "azure-cli"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (azure-cli-2.83.0-x64.msi)",
+        "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.83.0/azure-cli-2.83.0-x64.msi",
+        "type": "installer",
+        "format": "msi"
+      },
+      {
+        "name": "Direct Download (azure-cli-2.83.0-x64.zip)",
+        "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.83.0/azure-cli-2.83.0-x64.zip",
+        "type": "archive",
+        "bin": [
+          "azure-cli.exe"
+        ]
+      },
+      {
+        "name": "Direct Download (azure-cli-2.83.0.msi)",
+        "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.83.0/azure-cli-2.83.0.msi",
+        "type": "installer",
+        "format": "msi"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (azure-cli-2.83.0-x64.msi)",
+        "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.83.0/azure-cli-2.83.0-x64.msi",
+        "type": "installer",
+        "format": "msi"
+      },
+      {
+        "name": "Direct Download (azure-cli-2.83.0-x64.zip)",
+        "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.83.0/azure-cli-2.83.0-x64.zip",
+        "type": "archive",
+        "bin": [
+          "azure-cli.exe"
+        ]
+      },
+      {
+        "name": "Direct Download (azure-cli-2.83.0.msi)",
+        "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.83.0/azure-cli-2.83.0.msi",
+        "type": "installer",
+        "format": "msi"
+      }
+    ]
+  }
+}

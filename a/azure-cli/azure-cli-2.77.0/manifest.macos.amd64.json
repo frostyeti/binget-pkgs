@@ -1,0 +1,39 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (azure-cli-2.77.0-x64.zip)",
+        "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.77.0/azure-cli-2.77.0-x64.zip",
+        "type": "archive",
+        "bin": [
+          "azure-cli"
+        ]
+      },
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "azure-cli"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (azure-cli-2.77.0-x64.zip)",
+        "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.77.0/azure-cli-2.77.0-x64.zip",
+        "type": "archive",
+        "bin": [
+          "azure-cli"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (azure-cli-2.77.0-x64.zip)",
+        "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.77.0/azure-cli-2.77.0-x64.zip",
+        "type": "archive",
+        "bin": [
+          "azure-cli"
+        ]
+      }
+    ]
+  }
+}

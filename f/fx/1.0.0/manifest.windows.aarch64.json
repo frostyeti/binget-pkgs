@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "fx"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "fx"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "fx"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "fx"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "fx"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "fx"
+      }
+    ]
+  }
+}

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "sigui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sigui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sigui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sigui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "sigui"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "sigui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sigui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sigui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sigui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "sigui"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "sigui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sigui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sigui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sigui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "sigui"
       }
     ]

@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "audacity"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "audacity"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "audacity"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "audacity"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "audacity"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "audacity"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "audacity"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "audacity"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "audacity"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "audacity"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "audacity"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "audacity"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "audacity"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "audacity"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "audacity"
+      }
+    ]
+  }
+}

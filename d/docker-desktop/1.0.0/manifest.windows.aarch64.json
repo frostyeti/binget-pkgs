@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "docker-desktop"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "docker-desktop"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "docker-desktop"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "docker-desktop"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "docker-desktop"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "docker-desktop"
+      }
+    ]
+  }
+}

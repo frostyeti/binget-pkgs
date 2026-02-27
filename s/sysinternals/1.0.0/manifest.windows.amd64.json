@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "sysinternals"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "sysinternals"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "sysinternals"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "sysinternals"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "sysinternals"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "sysinternals"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (chess-tui-2.1.1-x86_64-pc-windows-msvc.tar.gz)",
+        "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.1.1/chess-tui-2.1.1-x86_64-pc-windows-msvc.tar.gz",
+        "type": "archive",
+        "bin": [
+          "chess-tui.exe"
+        ]
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "chess-tui"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "chess-tui"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (chess-tui-2.1.1-x86_64-pc-windows-msvc.tar.gz)",
+        "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.1.1/chess-tui-2.1.1-x86_64-pc-windows-msvc.tar.gz",
+        "type": "archive",
+        "bin": [
+          "chess-tui.exe"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (chess-tui-2.1.1-x86_64-pc-windows-msvc.tar.gz)",
+        "url": "https://github.com/thomas-mauran/chess-tui/releases/download/2.1.1/chess-tui-2.1.1-x86_64-pc-windows-msvc.tar.gz",
+        "type": "archive",
+        "bin": [
+          "chess-tui.exe"
+        ]
+      }
+    ]
+  }
+}

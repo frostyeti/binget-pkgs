@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "rustnet"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "rustnet"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "rustnet"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "rustnet"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "rustnet"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "rustnet"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "rustnet"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "rustnet"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "rustnet"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "rustnet"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "rustnet"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "rustnet"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "rustnet"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "rustnet"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "rustnet"
       }
     ]

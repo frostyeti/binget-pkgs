@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "dtop"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dtop"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dtop"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dtop"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "dtop"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "dtop"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dtop"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dtop"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dtop"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "dtop"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "dtop"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dtop"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dtop"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dtop"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "dtop"
       }
     ]

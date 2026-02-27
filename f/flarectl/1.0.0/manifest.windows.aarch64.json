@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "flarectl"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "flarectl"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "flarectl"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "flarectl"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "flarectl"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "flarectl"
+      }
+    ]
+  }
+}

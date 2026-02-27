@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "k9s"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "k9s"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "k9s"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "k9s"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "k9s"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "k9s"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "k9s"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "k9s"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "k9s"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "k9s"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "k9s"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "k9s"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "k9s"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "k9s"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "k9s"
       }
     ]

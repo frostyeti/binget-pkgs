@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "falco"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "falco"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "falco"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "falco"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "falco"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "falco"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "falco"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "falco"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "falco"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "falco"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "falco"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "falco"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "falco"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "falco"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "falco"
       }
     ]

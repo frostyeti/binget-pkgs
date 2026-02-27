@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "ncdu"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "ncdu"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "ncdu"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "ncdu"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "ncdu"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "ncdu"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "ncdu"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "ncdu"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "ncdu"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "ncdu"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "ncdu"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "ncdu"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "ncdu"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "ncdu"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "ncdu"
       }
     ]

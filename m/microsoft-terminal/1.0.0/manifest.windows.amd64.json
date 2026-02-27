@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "microsoft-terminal"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "microsoft-terminal"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "microsoft-terminal"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "microsoft-terminal"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "microsoft-terminal"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "microsoft-terminal"
+      }
+    ]
+  }
+}

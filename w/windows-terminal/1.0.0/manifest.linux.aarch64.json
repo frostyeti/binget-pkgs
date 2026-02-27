@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "windows-terminal"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "windows-terminal"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "windows-terminal"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "windows-terminal"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "windows-terminal"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "windows-terminal"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "windows-terminal"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "windows-terminal"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "windows-terminal"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "windows-terminal"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "windows-terminal"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "windows-terminal"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "windows-terminal"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "windows-terminal"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "windows-terminal"
       }
     ]

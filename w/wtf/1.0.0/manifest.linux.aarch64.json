@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "wtf"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wtf"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wtf"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wtf"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "wtf"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "wtf"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wtf"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wtf"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wtf"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "wtf"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "wtf"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "wtf"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "wtf"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "wtf"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "wtf"
       }
     ]

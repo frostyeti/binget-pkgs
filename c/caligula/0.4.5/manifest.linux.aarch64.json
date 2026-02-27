@@ -1,0 +1,59 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (caligula-aarch64-linux)",
+        "url": "https://github.com/ifd3f/caligula/releases/download/v0.4.5/caligula-aarch64-linux",
+        "type": "raw",
+        "bin": [
+          "caligula"
+        ]
+      },
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "caligula"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "caligula"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "caligula"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "caligula"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "caligula"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (caligula-aarch64-linux)",
+        "url": "https://github.com/ifd3f/caligula/releases/download/v0.4.5/caligula-aarch64-linux",
+        "type": "raw",
+        "bin": [
+          "caligula"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (caligula-aarch64-linux)",
+        "url": "https://github.com/ifd3f/caligula/releases/download/v0.4.5/caligula-aarch64-linux",
+        "type": "raw",
+        "bin": [
+          "caligula"
+        ]
+      }
+    ]
+  }
+}

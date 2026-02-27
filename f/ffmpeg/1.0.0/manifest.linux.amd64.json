@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "ffmpeg"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "ffmpeg"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "ffmpeg"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "ffmpeg"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "ffmpeg"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "ffmpeg"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "ffmpeg"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "ffmpeg"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "ffmpeg"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "ffmpeg"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "ffmpeg"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "ffmpeg"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "ffmpeg"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "ffmpeg"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "ffmpeg"
       }
     ]

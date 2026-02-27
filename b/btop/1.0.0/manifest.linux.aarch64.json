@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "btop"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "btop"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "btop"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "btop"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "btop"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "btop"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "btop"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "btop"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "btop"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "btop"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "btop"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "btop"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "btop"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "btop"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "btop"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (caligula-x86_64-darwin)",
+        "url": "https://github.com/ifd3f/caligula/releases/download/v0.4.8/caligula-x86_64-darwin",
+        "type": "raw",
+        "bin": [
+          "caligula"
+        ]
+      },
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "caligula"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (caligula-x86_64-darwin)",
+        "url": "https://github.com/ifd3f/caligula/releases/download/v0.4.8/caligula-x86_64-darwin",
+        "type": "raw",
+        "bin": [
+          "caligula"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (caligula-x86_64-darwin)",
+        "url": "https://github.com/ifd3f/caligula/releases/download/v0.4.8/caligula-x86_64-darwin",
+        "type": "raw",
+        "bin": [
+          "caligula"
+        ]
+      }
+    ]
+  }
+}

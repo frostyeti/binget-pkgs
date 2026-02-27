@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "dbeaver"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dbeaver"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dbeaver"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dbeaver"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "dbeaver"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "dbeaver"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dbeaver"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dbeaver"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dbeaver"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "dbeaver"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "dbeaver"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dbeaver"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dbeaver"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dbeaver"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "dbeaver"
       }
     ]

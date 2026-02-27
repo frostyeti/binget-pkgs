@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "dropbox"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dropbox"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dropbox"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dropbox"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "dropbox"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "dropbox"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dropbox"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dropbox"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dropbox"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "dropbox"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "dropbox"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "dropbox"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "dropbox"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "dropbox"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "dropbox"
       }
     ]

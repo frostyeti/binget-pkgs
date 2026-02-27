@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "psmux"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "psmux"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "psmux"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "psmux"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "psmux"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "psmux"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "psmux"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "psmux"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "psmux"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "psmux"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "psmux"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "psmux"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "psmux"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "psmux"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "psmux"
+      }
+    ]
+  }
+}

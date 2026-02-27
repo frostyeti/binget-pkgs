@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "openapi-tui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "openapi-tui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "openapi-tui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "openapi-tui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "openapi-tui"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "openapi-tui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "openapi-tui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "openapi-tui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "openapi-tui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "openapi-tui"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "openapi-tui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "openapi-tui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "openapi-tui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "openapi-tui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "openapi-tui"
       }
     ]

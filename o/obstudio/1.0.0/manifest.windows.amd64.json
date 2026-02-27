@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "obstudio"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "obstudio"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "obstudio"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "obstudio"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "obstudio"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "obstudio"
+      }
+    ]
+  }
+}

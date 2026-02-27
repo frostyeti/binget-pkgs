@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "localstack"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "localstack"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "localstack"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "localstack"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "localstack"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "localstack"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "localstack"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "localstack"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "localstack"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "localstack"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "localstack"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "localstack"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "localstack"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "localstack"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "localstack"
       }
     ]

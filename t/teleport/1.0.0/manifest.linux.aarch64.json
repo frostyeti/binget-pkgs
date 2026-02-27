@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "teleport"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "teleport"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "teleport"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "teleport"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "teleport"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "teleport"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "teleport"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "teleport"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "teleport"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "teleport"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "teleport"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "teleport"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "teleport"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "teleport"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "teleport"
       }
     ]

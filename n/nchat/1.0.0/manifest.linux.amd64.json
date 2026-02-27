@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "nchat"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "nchat"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "nchat"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "nchat"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "nchat"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "nchat"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "nchat"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "nchat"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "nchat"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "nchat"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "nchat"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "nchat"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "nchat"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "nchat"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "nchat"
       }
     ]

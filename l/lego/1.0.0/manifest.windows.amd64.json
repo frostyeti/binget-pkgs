@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "lego"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "lego"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "lego"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "lego"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "lego"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "lego"
+      }
+    ]
+  }
+}

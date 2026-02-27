@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "oxker"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "oxker"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "oxker"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "oxker"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "oxker"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "oxker"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "oxker"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "oxker"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "oxker"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "oxker"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "oxker"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "oxker"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "oxker"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "oxker"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "oxker"
       }
     ]

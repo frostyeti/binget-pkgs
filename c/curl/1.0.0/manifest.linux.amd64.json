@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "curl"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "curl"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "curl"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "curl"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "curl"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "curl"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "curl"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "curl"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "curl"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "curl"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "curl"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "curl"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "curl"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "curl"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "curl"
       }
     ]

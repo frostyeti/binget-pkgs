@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "cointop"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "cointop"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "cointop"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "cointop"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "cointop"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "cointop"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "cointop"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "cointop"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "cointop"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "cointop"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "cointop"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "cointop"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "cointop"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "cointop"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "cointop"
       }
     ]

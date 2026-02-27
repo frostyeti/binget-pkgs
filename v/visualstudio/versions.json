@@ -1,6 +1,9 @@
 {
-  "latest": "2022",
+  "latest": "1.0.0",
   "versions": [
-    { "version": "2022", "status": "stable" }
+    {
+      "version": "1.0.0",
+      "status": "stable"
+    }
   ]
 }

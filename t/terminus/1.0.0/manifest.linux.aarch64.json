@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "terminus"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "terminus"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "terminus"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "terminus"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "terminus"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "terminus"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "terminus"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "terminus"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "terminus"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "terminus"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "terminus"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "terminus"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "terminus"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "terminus"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "terminus"
       }
     ]

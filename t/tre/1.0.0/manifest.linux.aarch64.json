@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "tre"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "tre"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "tre"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "tre"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "tre"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "tre"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "tre"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "tre"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "tre"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "tre"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "tre"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "tre"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "tre"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "tre"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "tre"
       }
     ]

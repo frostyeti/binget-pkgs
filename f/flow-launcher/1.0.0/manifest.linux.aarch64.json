@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "flow-launcher"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "flow-launcher"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "flow-launcher"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "flow-launcher"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "flow-launcher"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "flow-launcher"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "flow-launcher"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "flow-launcher"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "flow-launcher"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "flow-launcher"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "flow-launcher"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "flow-launcher"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "flow-launcher"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "flow-launcher"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "flow-launcher"
+      }
+    ]
+  }
+}

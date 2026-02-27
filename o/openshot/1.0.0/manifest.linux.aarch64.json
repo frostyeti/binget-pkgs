@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "openshot"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "openshot"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "openshot"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "openshot"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "openshot"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "openshot"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "openshot"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "openshot"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "openshot"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "openshot"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "openshot"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "openshot"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "openshot"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "openshot"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "openshot"
       }
     ]

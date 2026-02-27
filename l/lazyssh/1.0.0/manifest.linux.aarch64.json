@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "lazyssh"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "lazyssh"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "lazyssh"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "lazyssh"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "lazyssh"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "lazyssh"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "lazyssh"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "lazyssh"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "lazyssh"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "lazyssh"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "lazyssh"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "lazyssh"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "lazyssh"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "lazyssh"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "lazyssh"
       }
     ]

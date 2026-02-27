@@ -1,0 +1,39 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Direct Download (brows-x64-0.57.0.56.zip)",
+        "url": "https://github.com/brows-app/brows/releases/download/v0.57.0.56/brows-x64-0.57.0.56.zip",
+        "type": "archive",
+        "bin": [
+          "brows"
+        ]
+      },
+      {
+        "name": "Homebrew",
+        "type": "brew",
+        "package": "brows"
+      }
+    ],
+    "user": [
+      {
+        "name": "Direct Download (brows-x64-0.57.0.56.zip)",
+        "url": "https://github.com/brows-app/brows/releases/download/v0.57.0.56/brows-x64-0.57.0.56.zip",
+        "type": "archive",
+        "bin": [
+          "brows"
+        ]
+      }
+    ],
+    "shim": [
+      {
+        "name": "Direct Download (brows-x64-0.57.0.56.zip)",
+        "url": "https://github.com/brows-app/brows/releases/download/v0.57.0.56/brows-x64-0.57.0.56.zip",
+        "type": "archive",
+        "bin": [
+          "brows"
+        ]
+      }
+    ]
+  }
+}

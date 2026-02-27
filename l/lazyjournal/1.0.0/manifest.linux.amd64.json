@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "lazyjournal"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "lazyjournal"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "lazyjournal"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "lazyjournal"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "lazyjournal"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "lazyjournal"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "lazyjournal"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "lazyjournal"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "lazyjournal"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "lazyjournal"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "lazyjournal"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "lazyjournal"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "lazyjournal"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "lazyjournal"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "lazyjournal"
       }
     ]

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "orange"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "orange"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "orange"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "orange"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "orange"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "orange"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "orange"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "orange"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "orange"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "orange"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "orange"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "orange"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "orange"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "orange"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "orange"
       }
     ]

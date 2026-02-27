@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "pagerduty-tui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "pagerduty-tui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "pagerduty-tui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "pagerduty-tui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "pagerduty-tui"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "pagerduty-tui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "pagerduty-tui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "pagerduty-tui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "pagerduty-tui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "pagerduty-tui"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "pagerduty-tui"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "pagerduty-tui"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "pagerduty-tui"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "pagerduty-tui"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "pagerduty-tui"
       }
     ]

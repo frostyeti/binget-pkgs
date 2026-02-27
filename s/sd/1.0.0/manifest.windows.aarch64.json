@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "sd"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "sd"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "sd"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "sd"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "sd"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "sd"
+      }
+    ]
+  }
+}

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "helm"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "helm"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "helm"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "helm"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "helm"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "helm"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "helm"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "helm"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "helm"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "helm"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "helm"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "helm"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "helm"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "helm"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "helm"
       }
     ]

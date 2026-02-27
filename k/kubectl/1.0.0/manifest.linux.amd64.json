@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "kubectl"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "kubectl"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "kubectl"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "kubectl"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "kubectl"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "kubectl"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "kubectl"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "kubectl"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "kubectl"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "kubectl"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "kubectl"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "kubectl"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "kubectl"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "kubectl"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "kubectl"
       }
     ]

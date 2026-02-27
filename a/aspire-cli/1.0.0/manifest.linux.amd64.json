@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "aspire-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "aspire-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "aspire-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "aspire-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "aspire-cli"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "aspire-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "aspire-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "aspire-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "aspire-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "aspire-cli"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "aspire-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "aspire-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "aspire-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "aspire-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "aspire-cli"
       }
     ]

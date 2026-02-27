@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "lego"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "lego"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "lego"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "lego"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "lego"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "lego"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "lego"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "lego"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "lego"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "lego"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "lego"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "lego"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "lego"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "lego"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "lego"
+      }
+    ]
+  }
+}

@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "adobe-acrobat-reader"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "adobe-acrobat-reader"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "adobe-acrobat-reader"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "adobe-acrobat-reader"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "adobe-acrobat-reader"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "adobe-acrobat-reader"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "adobe-acrobat-reader"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "adobe-acrobat-reader"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "adobe-acrobat-reader"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "adobe-acrobat-reader"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "adobe-acrobat-reader"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "adobe-acrobat-reader"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "adobe-acrobat-reader"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "adobe-acrobat-reader"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "adobe-acrobat-reader"
       }
     ]

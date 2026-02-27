@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "nmap"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "nmap"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "nmap"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "nmap"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "nmap"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "nmap"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "nmap"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "nmap"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "nmap"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "nmap"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "nmap"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "nmap"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "nmap"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "nmap"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "nmap"
       }
     ]

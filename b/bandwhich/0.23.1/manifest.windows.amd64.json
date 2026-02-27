@@ -1,36 +1,43 @@
 {
   "install_modes": {
-    "shim": [
+    "global": [
       {
-        "name": "Official GitHub Release",
-        "type": "archive",
+        "name": "Direct Download (bandwhich-v0.23.1-x86_64-pc-windows-msvc.zip)",
         "url": "https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-x86_64-pc-windows-msvc.zip",
+        "type": "archive",
         "bin": [
           "bandwhich.exe"
-        ],
-        "format": "zip"
+        ]
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "bandwhich"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "bandwhich"
       }
     ],
     "user": [
       {
-        "name": "Official GitHub Release",
-        "type": "archive",
+        "name": "Direct Download (bandwhich-v0.23.1-x86_64-pc-windows-msvc.zip)",
         "url": "https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-x86_64-pc-windows-msvc.zip",
+        "type": "archive",
         "bin": [
           "bandwhich.exe"
-        ],
-        "format": "zip"
+        ]
       }
     ],
-    "global": [
+    "shim": [
       {
-        "name": "Official GitHub Release",
-        "type": "archive",
+        "name": "Direct Download (bandwhich-v0.23.1-x86_64-pc-windows-msvc.zip)",
         "url": "https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-x86_64-pc-windows-msvc.zip",
+        "type": "archive",
         "bin": [
           "bandwhich.exe"
-        ],
-        "format": "zip"
+        ]
       }
     ]
   }

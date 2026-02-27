@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "tig"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "tig"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "tig"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "tig"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "tig"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "tig"
+      }
+    ]
+  }
+}

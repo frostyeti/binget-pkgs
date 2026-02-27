@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "ripgrep"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "ripgrep"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "ripgrep"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "ripgrep"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "ripgrep"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "ripgrep"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "ripgrep"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "ripgrep"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "ripgrep"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "ripgrep"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "ripgrep"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "ripgrep"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "ripgrep"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "ripgrep"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "ripgrep"
+      }
+    ]
+  }
+}

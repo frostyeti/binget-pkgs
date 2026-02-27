@@ -1,0 +1,40 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "ripgrep"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "ripgrep"
+      }
+    ],
+    "user": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "ripgrep"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "ripgrep"
+      }
+    ],
+    "shim": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "ripgrep"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "ripgrep"
+      }
+    ]
+  }
+}

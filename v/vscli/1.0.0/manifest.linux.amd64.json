@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "vscli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "vscli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "vscli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "vscli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "vscli"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "vscli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "vscli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "vscli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "vscli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "vscli"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "vscli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "vscli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "vscli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "vscli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "vscli"
+      }
+    ]
+  }
+}

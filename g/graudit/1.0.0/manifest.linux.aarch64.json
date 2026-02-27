@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "graudit"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "graudit"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "graudit"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "graudit"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "graudit"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "graudit"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "graudit"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "graudit"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "graudit"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "graudit"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "graudit"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "graudit"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "graudit"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "graudit"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "graudit"
       }
     ]

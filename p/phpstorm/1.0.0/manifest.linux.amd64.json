@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "phpstorm"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "phpstorm"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "phpstorm"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "phpstorm"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "phpstorm"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "phpstorm"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "phpstorm"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "phpstorm"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "phpstorm"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "phpstorm"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "phpstorm"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "phpstorm"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "phpstorm"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "phpstorm"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "phpstorm"
       }
     ]

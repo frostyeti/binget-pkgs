@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "fastfetch"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "fastfetch"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "fastfetch"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "fastfetch"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "fastfetch"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "fastfetch"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "fastfetch"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "fastfetch"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "fastfetch"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "fastfetch"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "fastfetch"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "fastfetch"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "fastfetch"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "fastfetch"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "fastfetch"
+      }
+    ]
+  }
+}

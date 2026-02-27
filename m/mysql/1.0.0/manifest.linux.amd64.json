@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "mysql"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "mysql"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "mysql"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "mysql"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "mysql"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "mysql"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "mysql"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "mysql"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "mysql"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "mysql"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "mysql"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "mysql"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "mysql"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "mysql"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "mysql"
       }
     ]

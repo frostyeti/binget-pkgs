@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "openssl"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "openssl"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "openssl"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "openssl"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "openssl"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "openssl"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "openssl"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "openssl"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "openssl"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "openssl"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "openssl"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "openssl"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "openssl"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "openssl"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "openssl"
       }
     ]

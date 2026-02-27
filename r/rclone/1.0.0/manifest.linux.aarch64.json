@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "rclone"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "rclone"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "rclone"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "rclone"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "rclone"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "rclone"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "rclone"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "rclone"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "rclone"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "rclone"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "rclone"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "rclone"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "rclone"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "rclone"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "rclone"
       }
     ]

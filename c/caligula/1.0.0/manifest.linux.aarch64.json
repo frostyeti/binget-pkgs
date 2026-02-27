@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "caligula"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "caligula"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "caligula"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "caligula"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "caligula"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "caligula"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "caligula"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "caligula"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "caligula"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "caligula"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "caligula"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "caligula"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "caligula"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "caligula"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "caligula"
       }
     ]

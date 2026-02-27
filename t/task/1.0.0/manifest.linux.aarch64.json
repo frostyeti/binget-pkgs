@@ -1,0 +1,85 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "task"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "task"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "task"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "task"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "task"
+      }
+    ],
+    "user": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "task"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "task"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "task"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "task"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "task"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "task"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "task"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "task"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "task"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "task"
+      }
+    ]
+  }
+}

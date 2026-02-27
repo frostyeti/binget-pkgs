@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "sonarqube"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sonarqube"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sonarqube"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sonarqube"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "sonarqube"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "sonarqube"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sonarqube"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sonarqube"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sonarqube"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "sonarqube"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "sonarqube"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "sonarqube"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "sonarqube"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "sonarqube"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "sonarqube"
       }
     ]

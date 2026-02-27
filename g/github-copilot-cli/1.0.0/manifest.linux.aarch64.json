@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "github-copilot-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "github-copilot-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "github-copilot-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "github-copilot-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "github-copilot-cli"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "github-copilot-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "github-copilot-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "github-copilot-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "github-copilot-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "github-copilot-cli"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "github-copilot-cli"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "github-copilot-cli"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "github-copilot-cli"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "github-copilot-cli"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "github-copilot-cli"
       }
     ]

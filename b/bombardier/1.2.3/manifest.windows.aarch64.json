@@ -1,0 +1,18 @@
+{
+  "install_modes": {
+    "global": [
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "bombardier"
+      },
+      {
+        "name": "Chocolatey",
+        "type": "choco",
+        "package": "bombardier"
+      }
+    ],
+    "user": [],
+    "shim": []
+  }
+}

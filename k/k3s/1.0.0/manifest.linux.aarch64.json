@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "k3s"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "k3s"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "k3s"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "k3s"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "k3s"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "k3s"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "k3s"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "k3s"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "k3s"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "k3s"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "k3s"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "k3s"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "k3s"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "k3s"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "k3s"
       }
     ]

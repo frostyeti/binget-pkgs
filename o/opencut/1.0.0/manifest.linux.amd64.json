@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "opencut"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "opencut"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "opencut"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "opencut"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "opencut"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "opencut"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "opencut"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "opencut"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "opencut"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "opencut"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "opencut"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "opencut"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "opencut"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "opencut"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "opencut"
       }
     ]

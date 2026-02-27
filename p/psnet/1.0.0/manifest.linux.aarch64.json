@@ -2,15 +2,82 @@
   "install_modes": {
     "global": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "psnet"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "psnet"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "psnet"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "psnet"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "psnet"
       }
     ],
     "user": [
       {
-        "name": "System Package Manager",
+        "name": "APT",
         "type": "apt",
+        "package": "psnet"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "psnet"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "psnet"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "psnet"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
+        "package": "psnet"
+      }
+    ],
+    "shim": [
+      {
+        "name": "APT",
+        "type": "apt",
+        "package": "psnet"
+      },
+      {
+        "name": "Pacman",
+        "type": "pacman",
+        "package": "psnet"
+      },
+      {
+        "name": "AUR",
+        "type": "aur",
+        "package": "psnet"
+      },
+      {
+        "name": "RPM",
+        "type": "rpm",
+        "package": "psnet"
+      },
+      {
+        "name": "Flatpak",
+        "type": "flatpak",
         "package": "psnet"
       }
     ]
