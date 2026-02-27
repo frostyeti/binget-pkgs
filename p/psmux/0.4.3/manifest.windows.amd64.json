@@ -1,0 +1,31 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official Zip Archive",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://github.com/marlocarlo/psmux/releases/download/v0.4.3/psmux-v0.4.3-windows-x64.zip",
+        "bin": ["psmux.exe", "pmux.exe", "tmux.exe"]
+      }
+    ],
+    "user": [
+      {
+        "name": "Official Zip Archive",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://github.com/marlocarlo/psmux/releases/download/v0.4.3/psmux-v0.4.3-windows-x64.zip",
+        "bin": ["psmux.exe", "pmux.exe", "tmux.exe"]
+      }
+    ],
+    "global": [
+      {
+        "name": "Official Zip Archive",
+        "type": "archive",
+        "format": "zip",
+        "url": "https://github.com/marlocarlo/psmux/releases/download/v0.4.3/psmux-v0.4.3-windows-x64.zip",
+        "bin": ["psmux.exe", "pmux.exe", "tmux.exe"]
+      }
+    ]
+  }
+}
