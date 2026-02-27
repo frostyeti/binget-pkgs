@@ -1,0 +1,42 @@
+{
+  "install_modes": {
+    "shim": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/zed-industries/zed/releases/download/v0.225.9/zed-windows-x86_64.zip",
+        "bin": [
+          "zed.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "user": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/zed-industries/zed/releases/download/v0.225.9/zed-windows-x86_64.zip",
+        "bin": [
+          "zed.exe"
+        ],
+        "format": "zip"
+      }
+    ],
+    "global": [
+      {
+        "name": "Official GitHub Release",
+        "type": "archive",
+        "url": "https://github.com/zed-industries/zed/releases/download/v0.225.9/zed-windows-x86_64.zip",
+        "bin": [
+          "zed.exe"
+        ],
+        "format": "zip"
+      },
+      {
+        "name": "Winget",
+        "type": "winget",
+        "package": "Zed.Zed"
+      }
+    ]
+  }
+}
