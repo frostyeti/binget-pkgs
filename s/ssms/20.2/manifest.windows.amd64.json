@@ -3,8 +3,11 @@
     "global": [
       {
         "name": "Official Installer",
-        "type": "raw",
-        "url": "https://aka.ms/ssmsfullsetup"
+        "type": "installer",
+        "format": "exe",
+        "url": "https://aka.ms/ssmsfullsetup",
+        "silent_args": ["/Quiet", "/NoRestart"],
+        "valid_exit_codes": [0, 3010]
       },
       {
         "name": "Winget",

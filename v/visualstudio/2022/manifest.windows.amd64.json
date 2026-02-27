@@ -3,8 +3,11 @@
     "global": [
       {
         "name": "Official Installer (Community)",
-        "type": "raw",
-        "url": "https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2022"
+        "type": "installer",
+        "format": "exe",
+        "url": "https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2022",
+        "silent_args": ["--quiet", "--wait", "--norestart"],
+        "valid_exit_codes": [0, 3010]
       },
       {
         "name": "Winget (Community)",
